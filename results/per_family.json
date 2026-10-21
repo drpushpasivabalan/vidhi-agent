@@ -1,0 +1,1566 @@
+{
+ "standard": {
+  "VIDHI (full)": {
+   "courier": {
+    "label": 1,
+    "n": 50,
+    "fraud": 0.94,
+    "legit": 0.0,
+    "abstain": 0.06,
+    "correct": 0.94
+   },
+   "ed": {
+    "label": 1,
+    "n": 50,
+    "fraud": 0.76,
+    "legit": 0.0,
+    "abstain": 0.24,
+    "correct": 0.76
+   },
+   "trai": {
+    "label": 1,
+    "n": 50,
+    "fraud": 0.86,
+    "legit": 0.0,
+    "abstain": 0.14,
+    "correct": 0.86
+   },
+   "fake_esummons": {
+    "label": 1,
+    "n": 50,
+    "fraud": 0.92,
+    "legit": 0.0,
+    "abstain": 0.08,
+    "correct": 0.92
+   },
+   "tax_scam": {
+    "label": 1,
+    "n": 50,
+    "fraud": 1.0,
+    "legit": 0.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "s35_whatsapp": {
+    "label": 1,
+    "n": 50,
+    "fraud": 0.74,
+    "legit": 0.0,
+    "abstain": 0.26,
+    "correct": 0.74
+   },
+   "mimic": {
+    "label": 1,
+    "n": 50,
+    "fraud": 0.82,
+    "legit": 0.14,
+    "abstain": 0.04,
+    "correct": 0.82
+   },
+   "voice_only": {
+    "label": 1,
+    "n": 50,
+    "fraud": 0.74,
+    "legit": 0.0,
+    "abstain": 0.26,
+    "correct": 0.74
+   },
+   "court_esummons": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 1.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "ed_valid": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 0.0,
+    "abstain": 1.0,
+    "correct": 0.0
+   },
+   "it_valid": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 1.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "s35_lawful": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 0.0,
+    "abstain": 1.0,
+    "correct": 0.0
+   },
+   "produce_docs": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 1.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "bank_alert": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.02,
+    "legit": 0.0,
+    "abstain": 0.98,
+    "correct": 0.0
+   },
+   "court_vc": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 1.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "news_chat": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.02,
+    "legit": 0.0,
+    "abstain": 0.98,
+    "correct": 0.0
+   }
+  },
+  "VIDHI + oracle claims (analysis)": {
+   "courier": {
+    "label": 1,
+    "n": 50,
+    "fraud": 1.0,
+    "legit": 0.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "ed": {
+    "label": 1,
+    "n": 50,
+    "fraud": 1.0,
+    "legit": 0.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "trai": {
+    "label": 1,
+    "n": 50,
+    "fraud": 1.0,
+    "legit": 0.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "fake_esummons": {
+    "label": 1,
+    "n": 50,
+    "fraud": 1.0,
+    "legit": 0.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "tax_scam": {
+    "label": 1,
+    "n": 50,
+    "fraud": 1.0,
+    "legit": 0.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "s35_whatsapp": {
+    "label": 1,
+    "n": 50,
+    "fraud": 0.88,
+    "legit": 0.0,
+    "abstain": 0.12,
+    "correct": 0.88
+   },
+   "mimic": {
+    "label": 1,
+    "n": 50,
+    "fraud": 0.92,
+    "legit": 0.08,
+    "abstain": 0.0,
+    "correct": 0.92
+   },
+   "voice_only": {
+    "label": 1,
+    "n": 50,
+    "fraud": 0.96,
+    "legit": 0.0,
+    "abstain": 0.04,
+    "correct": 0.96
+   },
+   "court_esummons": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 1.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "ed_valid": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 0.8,
+    "abstain": 0.2,
+    "correct": 0.8
+   },
+   "it_valid": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 1.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "s35_lawful": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 0.0,
+    "abstain": 1.0,
+    "correct": 0.0
+   },
+   "produce_docs": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 1.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "bank_alert": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.02,
+    "legit": 0.0,
+    "abstain": 0.98,
+    "correct": 0.0
+   },
+   "court_vc": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 1.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "news_chat": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.02,
+    "legit": 0.0,
+    "abstain": 0.98,
+    "correct": 0.0
+   }
+  },
+  "Artifact forensics only (mmflag)": {
+   "courier": {
+    "label": 1,
+    "n": 50,
+    "fraud": 0.84,
+    "legit": 0.16,
+    "abstain": 0.0,
+    "correct": 0.84
+   },
+   "ed": {
+    "label": 1,
+    "n": 50,
+    "fraud": 0.6,
+    "legit": 0.4,
+    "abstain": 0.0,
+    "correct": 0.6
+   },
+   "trai": {
+    "label": 1,
+    "n": 50,
+    "fraud": 0.64,
+    "legit": 0.36,
+    "abstain": 0.0,
+    "correct": 0.64
+   },
+   "fake_esummons": {
+    "label": 1,
+    "n": 50,
+    "fraud": 0.6,
+    "legit": 0.4,
+    "abstain": 0.0,
+    "correct": 0.6
+   },
+   "tax_scam": {
+    "label": 1,
+    "n": 50,
+    "fraud": 0.6,
+    "legit": 0.4,
+    "abstain": 0.0,
+    "correct": 0.6
+   },
+   "s35_whatsapp": {
+    "label": 1,
+    "n": 50,
+    "fraud": 0.62,
+    "legit": 0.38,
+    "abstain": 0.0,
+    "correct": 0.62
+   },
+   "mimic": {
+    "label": 1,
+    "n": 50,
+    "fraud": 0.88,
+    "legit": 0.12,
+    "abstain": 0.0,
+    "correct": 0.88
+   },
+   "voice_only": {
+    "label": 1,
+    "n": 50,
+    "fraud": 0.56,
+    "legit": 0.44,
+    "abstain": 0.0,
+    "correct": 0.56
+   },
+   "court_esummons": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 1.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "ed_valid": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 1.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "it_valid": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 1.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "s35_lawful": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 1.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "produce_docs": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 1.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "bank_alert": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.04,
+    "legit": 0.96,
+    "abstain": 0.0,
+    "correct": 0.96
+   },
+   "court_vc": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 1.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "news_chat": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.08,
+    "legit": 0.92,
+    "abstain": 0.0,
+    "correct": 0.92
+   }
+  },
+  "TF-IDF + logistic regression": {
+   "courier": {
+    "label": 1,
+    "n": 50,
+    "fraud": 1.0,
+    "legit": 0.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "ed": {
+    "label": 1,
+    "n": 50,
+    "fraud": 1.0,
+    "legit": 0.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "trai": {
+    "label": 1,
+    "n": 50,
+    "fraud": 1.0,
+    "legit": 0.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "fake_esummons": {
+    "label": 1,
+    "n": 50,
+    "fraud": 1.0,
+    "legit": 0.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "tax_scam": {
+    "label": 1,
+    "n": 50,
+    "fraud": 1.0,
+    "legit": 0.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "s35_whatsapp": {
+    "label": 1,
+    "n": 50,
+    "fraud": 1.0,
+    "legit": 0.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "mimic": {
+    "label": 1,
+    "n": 50,
+    "fraud": 1.0,
+    "legit": 0.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "voice_only": {
+    "label": 1,
+    "n": 50,
+    "fraud": 1.0,
+    "legit": 0.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "court_esummons": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 1.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "ed_valid": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 1.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "it_valid": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 1.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "s35_lawful": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 1.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "produce_docs": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 1.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "bank_alert": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 1.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "court_vc": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 1.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "news_chat": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 1.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   }
+  },
+  "CCS context only (at decision time)": {
+   "courier": {
+    "label": 1,
+    "n": 50,
+    "fraud": 0.62,
+    "legit": 0.38,
+    "abstain": 0.0,
+    "correct": 0.62
+   },
+   "ed": {
+    "label": 1,
+    "n": 50,
+    "fraud": 0.72,
+    "legit": 0.28,
+    "abstain": 0.0,
+    "correct": 0.72
+   },
+   "trai": {
+    "label": 1,
+    "n": 50,
+    "fraud": 0.46,
+    "legit": 0.54,
+    "abstain": 0.0,
+    "correct": 0.46
+   },
+   "fake_esummons": {
+    "label": 1,
+    "n": 50,
+    "fraud": 0.76,
+    "legit": 0.24,
+    "abstain": 0.0,
+    "correct": 0.76
+   },
+   "tax_scam": {
+    "label": 1,
+    "n": 50,
+    "fraud": 0.82,
+    "legit": 0.18,
+    "abstain": 0.0,
+    "correct": 0.82
+   },
+   "s35_whatsapp": {
+    "label": 1,
+    "n": 50,
+    "fraud": 0.8,
+    "legit": 0.2,
+    "abstain": 0.0,
+    "correct": 0.8
+   },
+   "mimic": {
+    "label": 1,
+    "n": 50,
+    "fraud": 0.7,
+    "legit": 0.3,
+    "abstain": 0.0,
+    "correct": 0.7
+   },
+   "voice_only": {
+    "label": 1,
+    "n": 50,
+    "fraud": 0.08,
+    "legit": 0.92,
+    "abstain": 0.0,
+    "correct": 0.08
+   },
+   "court_esummons": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.38,
+    "legit": 0.62,
+    "abstain": 0.0,
+    "correct": 0.62
+   },
+   "ed_valid": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.46,
+    "legit": 0.54,
+    "abstain": 0.0,
+    "correct": 0.54
+   },
+   "it_valid": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.06,
+    "legit": 0.94,
+    "abstain": 0.0,
+    "correct": 0.94
+   },
+   "s35_lawful": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.16,
+    "legit": 0.84,
+    "abstain": 0.0,
+    "correct": 0.84
+   },
+   "produce_docs": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.5,
+    "legit": 0.5,
+    "abstain": 0.0,
+    "correct": 0.5
+   },
+   "bank_alert": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.04,
+    "legit": 0.96,
+    "abstain": 0.0,
+    "correct": 0.96
+   },
+   "court_vc": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.66,
+    "legit": 0.34,
+    "abstain": 0.0,
+    "correct": 0.34
+   },
+   "news_chat": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 1.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   }
+  },
+  "Procedure only": {
+   "courier": {
+    "label": 1,
+    "n": 50,
+    "fraud": 0.54,
+    "legit": 0.0,
+    "abstain": 0.46,
+    "correct": 0.54
+   },
+   "ed": {
+    "label": 1,
+    "n": 50,
+    "fraud": 0.34,
+    "legit": 0.0,
+    "abstain": 0.66,
+    "correct": 0.34
+   },
+   "trai": {
+    "label": 1,
+    "n": 50,
+    "fraud": 0.76,
+    "legit": 0.0,
+    "abstain": 0.24,
+    "correct": 0.76
+   },
+   "fake_esummons": {
+    "label": 1,
+    "n": 50,
+    "fraud": 0.76,
+    "legit": 0.0,
+    "abstain": 0.24,
+    "correct": 0.76
+   },
+   "tax_scam": {
+    "label": 1,
+    "n": 50,
+    "fraud": 1.0,
+    "legit": 0.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "s35_whatsapp": {
+    "label": 1,
+    "n": 50,
+    "fraud": 0.44,
+    "legit": 0.0,
+    "abstain": 0.56,
+    "correct": 0.44
+   },
+   "mimic": {
+    "label": 1,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 1.0,
+    "abstain": 0.0,
+    "correct": 0.0
+   },
+   "voice_only": {
+    "label": 1,
+    "n": 50,
+    "fraud": 0.48,
+    "legit": 0.0,
+    "abstain": 0.52,
+    "correct": 0.48
+   },
+   "court_esummons": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 1.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "ed_valid": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 0.0,
+    "abstain": 1.0,
+    "correct": 0.0
+   },
+   "it_valid": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 1.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "s35_lawful": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 0.0,
+    "abstain": 1.0,
+    "correct": 0.0
+   },
+   "produce_docs": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 1.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "bank_alert": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 0.0,
+    "abstain": 1.0,
+    "correct": 0.0
+   },
+   "court_vc": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 1.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "news_chat": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 0.0,
+    "abstain": 1.0,
+    "correct": 0.0
+   }
+  }
+ },
+ "perfect": {
+  "VIDHI (full)": {
+   "courier": {
+    "label": 1,
+    "n": 50,
+    "fraud": 0.6,
+    "legit": 0.04,
+    "abstain": 0.36,
+    "correct": 0.6
+   },
+   "ed": {
+    "label": 1,
+    "n": 50,
+    "fraud": 0.36,
+    "legit": 0.04,
+    "abstain": 0.6,
+    "correct": 0.36
+   },
+   "trai": {
+    "label": 1,
+    "n": 50,
+    "fraud": 0.76,
+    "legit": 0.0,
+    "abstain": 0.24,
+    "correct": 0.76
+   },
+   "fake_esummons": {
+    "label": 1,
+    "n": 50,
+    "fraud": 0.76,
+    "legit": 0.0,
+    "abstain": 0.24,
+    "correct": 0.76
+   },
+   "tax_scam": {
+    "label": 1,
+    "n": 50,
+    "fraud": 1.0,
+    "legit": 0.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "s35_whatsapp": {
+    "label": 1,
+    "n": 50,
+    "fraud": 0.44,
+    "legit": 0.0,
+    "abstain": 0.56,
+    "correct": 0.44
+   },
+   "mimic": {
+    "label": 1,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 0.96,
+    "abstain": 0.04,
+    "correct": 0.0
+   },
+   "voice_only": {
+    "label": 1,
+    "n": 50,
+    "fraud": 0.5,
+    "legit": 0.0,
+    "abstain": 0.5,
+    "correct": 0.5
+   },
+   "court_esummons": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 1.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "ed_valid": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 0.0,
+    "abstain": 1.0,
+    "correct": 0.0
+   },
+   "it_valid": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 1.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "s35_lawful": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 0.0,
+    "abstain": 1.0,
+    "correct": 0.0
+   },
+   "produce_docs": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 1.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "bank_alert": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.02,
+    "legit": 0.0,
+    "abstain": 0.98,
+    "correct": 0.0
+   },
+   "court_vc": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 1.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "news_chat": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.02,
+    "legit": 0.0,
+    "abstain": 0.98,
+    "correct": 0.0
+   }
+  },
+  "VIDHI + oracle claims (analysis)": {
+   "courier": {
+    "label": 1,
+    "n": 50,
+    "fraud": 1.0,
+    "legit": 0.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "ed": {
+    "label": 1,
+    "n": 50,
+    "fraud": 1.0,
+    "legit": 0.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "trai": {
+    "label": 1,
+    "n": 50,
+    "fraud": 1.0,
+    "legit": 0.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "fake_esummons": {
+    "label": 1,
+    "n": 50,
+    "fraud": 1.0,
+    "legit": 0.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "tax_scam": {
+    "label": 1,
+    "n": 50,
+    "fraud": 1.0,
+    "legit": 0.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "s35_whatsapp": {
+    "label": 1,
+    "n": 50,
+    "fraud": 0.82,
+    "legit": 0.0,
+    "abstain": 0.18,
+    "correct": 0.82
+   },
+   "mimic": {
+    "label": 1,
+    "n": 50,
+    "fraud": 0.58,
+    "legit": 0.42,
+    "abstain": 0.0,
+    "correct": 0.58
+   },
+   "voice_only": {
+    "label": 1,
+    "n": 50,
+    "fraud": 0.94,
+    "legit": 0.0,
+    "abstain": 0.06,
+    "correct": 0.94
+   },
+   "court_esummons": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 1.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "ed_valid": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 0.8,
+    "abstain": 0.2,
+    "correct": 0.8
+   },
+   "it_valid": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 1.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "s35_lawful": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 0.0,
+    "abstain": 1.0,
+    "correct": 0.0
+   },
+   "produce_docs": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 1.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "bank_alert": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.02,
+    "legit": 0.0,
+    "abstain": 0.98,
+    "correct": 0.0
+   },
+   "court_vc": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 1.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "news_chat": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.02,
+    "legit": 0.0,
+    "abstain": 0.98,
+    "correct": 0.0
+   }
+  },
+  "Artifact forensics only (mmflag)": {
+   "courier": {
+    "label": 1,
+    "n": 50,
+    "fraud": 0.08,
+    "legit": 0.92,
+    "abstain": 0.0,
+    "correct": 0.08
+   },
+   "ed": {
+    "label": 1,
+    "n": 50,
+    "fraud": 0.06,
+    "legit": 0.94,
+    "abstain": 0.0,
+    "correct": 0.06
+   },
+   "trai": {
+    "label": 1,
+    "n": 50,
+    "fraud": 0.08,
+    "legit": 0.92,
+    "abstain": 0.0,
+    "correct": 0.08
+   },
+   "fake_esummons": {
+    "label": 1,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 1.0,
+    "abstain": 0.0,
+    "correct": 0.0
+   },
+   "tax_scam": {
+    "label": 1,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 1.0,
+    "abstain": 0.0,
+    "correct": 0.0
+   },
+   "s35_whatsapp": {
+    "label": 1,
+    "n": 50,
+    "fraud": 0.04,
+    "legit": 0.96,
+    "abstain": 0.0,
+    "correct": 0.04
+   },
+   "mimic": {
+    "label": 1,
+    "n": 50,
+    "fraud": 0.1,
+    "legit": 0.9,
+    "abstain": 0.0,
+    "correct": 0.1
+   },
+   "voice_only": {
+    "label": 1,
+    "n": 50,
+    "fraud": 0.08,
+    "legit": 0.92,
+    "abstain": 0.0,
+    "correct": 0.08
+   },
+   "court_esummons": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 1.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "ed_valid": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 1.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "it_valid": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 1.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "s35_lawful": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 1.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "produce_docs": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 1.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "bank_alert": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.04,
+    "legit": 0.96,
+    "abstain": 0.0,
+    "correct": 0.96
+   },
+   "court_vc": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 1.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "news_chat": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.08,
+    "legit": 0.92,
+    "abstain": 0.0,
+    "correct": 0.92
+   }
+  },
+  "TF-IDF + logistic regression": {
+   "courier": {
+    "label": 1,
+    "n": 50,
+    "fraud": 1.0,
+    "legit": 0.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "ed": {
+    "label": 1,
+    "n": 50,
+    "fraud": 1.0,
+    "legit": 0.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "trai": {
+    "label": 1,
+    "n": 50,
+    "fraud": 1.0,
+    "legit": 0.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "fake_esummons": {
+    "label": 1,
+    "n": 50,
+    "fraud": 1.0,
+    "legit": 0.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "tax_scam": {
+    "label": 1,
+    "n": 50,
+    "fraud": 1.0,
+    "legit": 0.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "s35_whatsapp": {
+    "label": 1,
+    "n": 50,
+    "fraud": 1.0,
+    "legit": 0.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "mimic": {
+    "label": 1,
+    "n": 50,
+    "fraud": 1.0,
+    "legit": 0.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "voice_only": {
+    "label": 1,
+    "n": 50,
+    "fraud": 1.0,
+    "legit": 0.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "court_esummons": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 1.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "ed_valid": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 1.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "it_valid": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 1.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "s35_lawful": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 1.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "produce_docs": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 1.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "bank_alert": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 1.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "court_vc": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 1.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "news_chat": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 1.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   }
+  },
+  "CCS context only (at decision time)": {
+   "courier": {
+    "label": 1,
+    "n": 50,
+    "fraud": 0.62,
+    "legit": 0.38,
+    "abstain": 0.0,
+    "correct": 0.62
+   },
+   "ed": {
+    "label": 1,
+    "n": 50,
+    "fraud": 0.72,
+    "legit": 0.28,
+    "abstain": 0.0,
+    "correct": 0.72
+   },
+   "trai": {
+    "label": 1,
+    "n": 50,
+    "fraud": 0.46,
+    "legit": 0.54,
+    "abstain": 0.0,
+    "correct": 0.46
+   },
+   "fake_esummons": {
+    "label": 1,
+    "n": 50,
+    "fraud": 0.76,
+    "legit": 0.24,
+    "abstain": 0.0,
+    "correct": 0.76
+   },
+   "tax_scam": {
+    "label": 1,
+    "n": 50,
+    "fraud": 0.82,
+    "legit": 0.18,
+    "abstain": 0.0,
+    "correct": 0.82
+   },
+   "s35_whatsapp": {
+    "label": 1,
+    "n": 50,
+    "fraud": 0.8,
+    "legit": 0.2,
+    "abstain": 0.0,
+    "correct": 0.8
+   },
+   "mimic": {
+    "label": 1,
+    "n": 50,
+    "fraud": 0.7,
+    "legit": 0.3,
+    "abstain": 0.0,
+    "correct": 0.7
+   },
+   "voice_only": {
+    "label": 1,
+    "n": 50,
+    "fraud": 0.08,
+    "legit": 0.92,
+    "abstain": 0.0,
+    "correct": 0.08
+   },
+   "court_esummons": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.38,
+    "legit": 0.62,
+    "abstain": 0.0,
+    "correct": 0.62
+   },
+   "ed_valid": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.46,
+    "legit": 0.54,
+    "abstain": 0.0,
+    "correct": 0.54
+   },
+   "it_valid": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.06,
+    "legit": 0.94,
+    "abstain": 0.0,
+    "correct": 0.94
+   },
+   "s35_lawful": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.16,
+    "legit": 0.84,
+    "abstain": 0.0,
+    "correct": 0.84
+   },
+   "produce_docs": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.5,
+    "legit": 0.5,
+    "abstain": 0.0,
+    "correct": 0.5
+   },
+   "bank_alert": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.04,
+    "legit": 0.96,
+    "abstain": 0.0,
+    "correct": 0.96
+   },
+   "court_vc": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.66,
+    "legit": 0.34,
+    "abstain": 0.0,
+    "correct": 0.34
+   },
+   "news_chat": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 1.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   }
+  },
+  "Procedure only": {
+   "courier": {
+    "label": 1,
+    "n": 50,
+    "fraud": 0.54,
+    "legit": 0.0,
+    "abstain": 0.46,
+    "correct": 0.54
+   },
+   "ed": {
+    "label": 1,
+    "n": 50,
+    "fraud": 0.34,
+    "legit": 0.0,
+    "abstain": 0.66,
+    "correct": 0.34
+   },
+   "trai": {
+    "label": 1,
+    "n": 50,
+    "fraud": 0.76,
+    "legit": 0.0,
+    "abstain": 0.24,
+    "correct": 0.76
+   },
+   "fake_esummons": {
+    "label": 1,
+    "n": 50,
+    "fraud": 0.76,
+    "legit": 0.0,
+    "abstain": 0.24,
+    "correct": 0.76
+   },
+   "tax_scam": {
+    "label": 1,
+    "n": 50,
+    "fraud": 1.0,
+    "legit": 0.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "s35_whatsapp": {
+    "label": 1,
+    "n": 50,
+    "fraud": 0.44,
+    "legit": 0.0,
+    "abstain": 0.56,
+    "correct": 0.44
+   },
+   "mimic": {
+    "label": 1,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 1.0,
+    "abstain": 0.0,
+    "correct": 0.0
+   },
+   "voice_only": {
+    "label": 1,
+    "n": 50,
+    "fraud": 0.48,
+    "legit": 0.0,
+    "abstain": 0.52,
+    "correct": 0.48
+   },
+   "court_esummons": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 1.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "ed_valid": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 0.0,
+    "abstain": 1.0,
+    "correct": 0.0
+   },
+   "it_valid": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 1.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "s35_lawful": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 0.0,
+    "abstain": 1.0,
+    "correct": 0.0
+   },
+   "produce_docs": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 1.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "bank_alert": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 0.0,
+    "abstain": 1.0,
+    "correct": 0.0
+   },
+   "court_vc": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 1.0,
+    "abstain": 0.0,
+    "correct": 1.0
+   },
+   "news_chat": {
+    "label": 0,
+    "n": 50,
+    "fraud": 0.0,
+    "legit": 0.0,
+    "abstain": 1.0,
+    "correct": 0.0
+   }
+  }
+ }
+}

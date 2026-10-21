@@ -1,0 +1,168 @@
+{
+ "standard|qwen2.5:3b": {
+  "vidhiD": {
+   "fraud_flagged": 0.945,
+   "fraud_verify": 0.055,
+   "fraud_cleared": 0.0,
+   "lawful_cleared": 0.575,
+   "lawful_verify": 0.285,
+   "lawful_flagged": 0.14,
+   "auc": 0.9432125,
+   "n": 400
+  },
+  "same_as_vidhi": 0,
+  "lawful_ff_vidhi_vs_llmonly": [
+   18,
+   65,
+   2.1054542433593656e-07
+  ],
+  "fraud_flag_vidhi_vs_llmonly": [
+   57,
+   11,
+   1.2750032374450517e-08
+  ],
+  "lawful_ff_vidhi_llm_vs_rules": [
+   26,
+   0,
+   2.9802322387695312e-08
+  ],
+  "fraud_flag_vidhi_llm_vs_rules": [
+   21,
+   1,
+   1.0967254638671875e-05
+  ]
+ },
+ "standard|llama3.2:3b": {
+  "vidhiD": {
+   "fraud_flagged": 0.95,
+   "fraud_verify": 0.035,
+   "fraud_cleared": 0.015,
+   "lawful_cleared": 0.615,
+   "lawful_verify": 0.275,
+   "lawful_flagged": 0.11,
+   "auc": 0.94195,
+   "n": 400
+  },
+  "same_as_vidhi": 0,
+  "lawful_ff_vidhi_vs_llmonly": [
+   19,
+   82,
+   1.6587715917767935e-10
+  ],
+  "fraud_flag_vidhi_vs_llmonly": [
+   14,
+   9,
+   0.4048728942871094
+  ],
+  "lawful_ff_vidhi_llm_vs_rules": [
+   20,
+   0,
+   1.9073486328125e-06
+  ],
+  "fraud_flag_vidhi_llm_vs_rules": [
+   23,
+   2,
+   1.9431114196777344e-05
+  ]
+ },
+ "perfect|qwen2.5:3b": {
+  "vidhiD": {
+   "fraud_flagged": 0.895,
+   "fraud_verify": 0.095,
+   "fraud_cleared": 0.01,
+   "lawful_cleared": 0.575,
+   "lawful_verify": 0.285,
+   "lawful_flagged": 0.14,
+   "auc": 0.9325625000000001,
+   "n": 400
+  },
+  "same_as_vidhi": 0,
+  "lawful_ff_vidhi_vs_llmonly": [
+   18,
+   65,
+   2.1054542433593656e-07
+  ],
+  "fraud_flag_vidhi_vs_llmonly": [
+   52,
+   16,
+   1.4074155775977473e-05
+  ],
+  "lawful_ff_vidhi_llm_vs_rules": [
+   26,
+   0,
+   2.9802322387695312e-08
+  ],
+  "fraud_flag_vidhi_llm_vs_rules": [
+   74,
+   3,
+   1.0078897978938123e-18
+  ]
+ },
+ "perfect|llama3.2:3b": {
+  "vidhiD": {
+   "fraud_flagged": 0.86,
+   "fraud_verify": 0.04,
+   "fraud_cleared": 0.1,
+   "lawful_cleared": 0.615,
+   "lawful_verify": 0.275,
+   "lawful_flagged": 0.11,
+   "auc": 0.8710249999999999,
+   "n": 400
+  },
+  "same_as_vidhi": 0,
+  "lawful_ff_vidhi_vs_llmonly": [
+   19,
+   82,
+   1.6587715917767935e-10
+  ],
+  "fraud_flag_vidhi_vs_llmonly": [
+   7,
+   20,
+   0.0191572904586792
+  ],
+  "lawful_ff_vidhi_llm_vs_rules": [
+   20,
+   0,
+   1.9073486328125e-06
+  ],
+  "fraud_flag_vidhi_llm_vs_rules": [
+   67,
+   3,
+   9.694461487914918e-17
+  ]
+ },
+ "real|qwen2.5:3b": {
+  "lawful_ff_vs_llmonly": [
+   2,
+   9,
+   0.0654296875
+  ],
+  "fraud_flag_vs_llmonly": [
+   1,
+   15,
+   0.000518798828125
+  ],
+  "fraud_flag_vs_rules": [
+   16,
+   3,
+   0.004425048828125
+  ]
+ },
+ "real|llama3.2:3b": {
+  "lawful_ff_vs_llmonly": [
+   2,
+   6,
+   0.2890625
+  ],
+  "fraud_flag_vs_llmonly": [
+   0,
+   3,
+   0.25
+  ],
+  "fraud_flag_vs_rules": [
+   25,
+   0,
+   5.960464477539063e-08
+  ]
+ }
+}

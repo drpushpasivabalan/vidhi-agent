@@ -1,0 +1,206 @@
+{
+ "fraud_unseen": {
+  "standard": {
+   "courier": {
+    "lr_flag": 1.0,
+    "knn_flag": 1.0,
+    "vidhi_flag": 0.94,
+    "vidhi_clear": 0.0
+   },
+   "ed": {
+    "lr_flag": 1.0,
+    "knn_flag": 0.06,
+    "vidhi_flag": 0.76,
+    "vidhi_clear": 0.0
+   },
+   "trai": {
+    "lr_flag": 1.0,
+    "knn_flag": 1.0,
+    "vidhi_flag": 0.86,
+    "vidhi_clear": 0.0
+   },
+   "fake_esummons": {
+    "lr_flag": 1.0,
+    "knn_flag": 1.0,
+    "vidhi_flag": 0.92,
+    "vidhi_clear": 0.0
+   },
+   "tax_scam": {
+    "lr_flag": 0.94,
+    "knn_flag": 0.0,
+    "vidhi_flag": 1.0,
+    "vidhi_clear": 0.0
+   },
+   "s35_whatsapp": {
+    "lr_flag": 0.5,
+    "knn_flag": 0.0,
+    "vidhi_flag": 0.74,
+    "vidhi_clear": 0.0
+   },
+   "mimic": {
+    "lr_flag": 0.0,
+    "knn_flag": 0.0,
+    "vidhi_flag": 0.82,
+    "vidhi_clear": 0.14
+   },
+   "voice_only": {
+    "lr_flag": 1.0,
+    "knn_flag": 1.0,
+    "vidhi_flag": 0.74,
+    "vidhi_clear": 0.0
+   }
+  },
+  "perfect": {
+   "courier": {
+    "lr_flag": 1.0,
+    "knn_flag": 1.0,
+    "vidhi_flag": 0.6,
+    "vidhi_clear": 0.04
+   },
+   "ed": {
+    "lr_flag": 1.0,
+    "knn_flag": 0.06,
+    "vidhi_flag": 0.36,
+    "vidhi_clear": 0.04
+   },
+   "trai": {
+    "lr_flag": 1.0,
+    "knn_flag": 1.0,
+    "vidhi_flag": 0.76,
+    "vidhi_clear": 0.0
+   },
+   "fake_esummons": {
+    "lr_flag": 1.0,
+    "knn_flag": 1.0,
+    "vidhi_flag": 0.76,
+    "vidhi_clear": 0.0
+   },
+   "tax_scam": {
+    "lr_flag": 0.94,
+    "knn_flag": 0.0,
+    "vidhi_flag": 1.0,
+    "vidhi_clear": 0.0
+   },
+   "s35_whatsapp": {
+    "lr_flag": 0.5,
+    "knn_flag": 0.0,
+    "vidhi_flag": 0.44,
+    "vidhi_clear": 0.0
+   },
+   "mimic": {
+    "lr_flag": 0.0,
+    "knn_flag": 0.0,
+    "vidhi_flag": 0.0,
+    "vidhi_clear": 0.96
+   },
+   "voice_only": {
+    "lr_flag": 1.0,
+    "knn_flag": 1.0,
+    "vidhi_flag": 0.5,
+    "vidhi_clear": 0.0
+   }
+  }
+ },
+ "legit_unseen": {
+  "standard": {
+   "court_esummons": {
+    "lr_flag": 0.0,
+    "knn_flag": 0.0,
+    "vidhi_flag": 0.0,
+    "vidhi_clear": 1.0
+   },
+   "ed_valid": {
+    "lr_flag": 1.0,
+    "knn_flag": 1.0,
+    "vidhi_flag": 0.0,
+    "vidhi_clear": 0.0
+   },
+   "it_valid": {
+    "lr_flag": 1.0,
+    "knn_flag": 1.0,
+    "vidhi_flag": 0.0,
+    "vidhi_clear": 1.0
+   },
+   "s35_lawful": {
+    "lr_flag": 1.0,
+    "knn_flag": 1.0,
+    "vidhi_flag": 0.0,
+    "vidhi_clear": 0.0
+   },
+   "produce_docs": {
+    "lr_flag": 0.0,
+    "knn_flag": 0.0,
+    "vidhi_flag": 0.0,
+    "vidhi_clear": 1.0
+   },
+   "bank_alert": {
+    "lr_flag": 1.0,
+    "knn_flag": 1.0,
+    "vidhi_flag": 0.02,
+    "vidhi_clear": 0.0
+   },
+   "court_vc": {
+    "lr_flag": 1.0,
+    "knn_flag": 0.66,
+    "vidhi_flag": 0.0,
+    "vidhi_clear": 1.0
+   },
+   "news_chat": {
+    "lr_flag": 1.0,
+    "knn_flag": 1.0,
+    "vidhi_flag": 0.02,
+    "vidhi_clear": 0.0
+   }
+  },
+  "perfect": {
+   "court_esummons": {
+    "lr_flag": 0.0,
+    "knn_flag": 0.0,
+    "vidhi_flag": 0.0,
+    "vidhi_clear": 1.0
+   },
+   "ed_valid": {
+    "lr_flag": 1.0,
+    "knn_flag": 1.0,
+    "vidhi_flag": 0.0,
+    "vidhi_clear": 0.0
+   },
+   "it_valid": {
+    "lr_flag": 1.0,
+    "knn_flag": 1.0,
+    "vidhi_flag": 0.0,
+    "vidhi_clear": 1.0
+   },
+   "s35_lawful": {
+    "lr_flag": 1.0,
+    "knn_flag": 1.0,
+    "vidhi_flag": 0.0,
+    "vidhi_clear": 0.0
+   },
+   "produce_docs": {
+    "lr_flag": 0.0,
+    "knn_flag": 0.0,
+    "vidhi_flag": 0.0,
+    "vidhi_clear": 1.0
+   },
+   "bank_alert": {
+    "lr_flag": 1.0,
+    "knn_flag": 1.0,
+    "vidhi_flag": 0.02,
+    "vidhi_clear": 0.0
+   },
+   "court_vc": {
+    "lr_flag": 1.0,
+    "knn_flag": 0.66,
+    "vidhi_flag": 0.0,
+    "vidhi_clear": 1.0
+   },
+   "news_chat": {
+    "lr_flag": 1.0,
+    "knn_flag": 1.0,
+    "vidhi_flag": 0.02,
+    "vidhi_clear": 0.0
+   }
+  }
+ }
+}

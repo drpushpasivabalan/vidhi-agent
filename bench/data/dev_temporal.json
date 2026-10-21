@@ -1,0 +1,2262 @@
+[
+{
+"probe": "T1_s35_electronic",
+"rule": "P2",
+"should_fire": false,
+"channel": "whatsapp",
+"date": "2025-01-13",
+"text": "Sending you a notice under Section 35 BNSS on WhatsApp, you must join the video call for questioning.",
+"gold": {
+"agencies": [
+"police"
+],
+"instruments": [
+"notice_s35"
+],
+"demands": [],
+"payee": "none"
+},
+"doc": {
+"header": "Office of the Station House Officer\nSample Police Station",
+"title": "NOTICE UNDER SECTION 35(3) BNSS",
+"ref": "REF/802/2025/8211",
+"date": "13-01-2025",
+"to": "Mr. V. Rao",
+"body": [
+"You are directed to appear at the police station on the date mentioned below."
+],
+"seal": true,
+"seal_label": "SHO"
+},
+"audio": null,
+"video": false,
+"ccs": "b_delivery",
+"label": 0,
+"id": "dev-tp-T1_s35_electronic-0",
+"family": "T1_s35_electronic",
+"split": "dev_temporal",
+"ccs_seed": 2920846642
+},
+{
+"probe": "T2_ed_no_qr",
+"rule": "R3",
+"should_fire": false,
+"channel": "email",
+"date": "2024-08-13",
+"text": "I am an Assistant Director, Enforcement Directorate. You are required to appear in person at the office on the date mentioned with the documents.",
+"gold": {
+"agencies": [
+"ed"
+],
+"instruments": [],
+"demands": [
+"appear_in_person"
+],
+"payee": "none"
+},
+"doc": {
+"header": "Enforcement Directorate\nZonal Office",
+"title": "SUMMONS UNDER SECTION 50 PMLA, 2002",
+"ref": "REF/442/2024/8255",
+"date": "13-08-2024",
+"to": "Mr. R. Menon",
+"body": [
+"You are required to appear in person at the office on the date mentioned with the documents."
+],
+"seal": true,
+"seal_label": "ED",
+"signatory": "Assistant Director"
+},
+"audio": null,
+"video": false,
+"ccs": "b_delivery",
+"label": 0,
+"id": "dev-tp-T2_ed_no_qr-1",
+"family": "T2_ed_no_qr",
+"split": "dev_temporal",
+"ccs_seed": 3642729892
+},
+{
+"probe": "T3_it_no_din",
+"rule": "R1",
+"should_fire": false,
+"channel": "email",
+"date": "2019-04-06",
+"text": "Please respond on the e-filing portal within thirty days.",
+"gold": {
+"agencies": [
+"income_tax"
+],
+"instruments": [],
+"demands": [],
+"payee": "none"
+},
+"doc": {
+"header": "Income Tax Department\nOffice of the Assessing Officer",
+"title": "NOTICE UNDER SECTION 143(2)",
+"ref": "REF/167/2019/6384",
+"date": "06-04-2019",
+"to": "Mr. J. Thomas",
+"body": [
+"Please furnish your response within the time allowed."
+],
+"seal": false,
+"signatory": "Assessing Officer"
+},
+"audio": null,
+"video": false,
+"ccs": "b_delivery",
+"label": 0,
+"id": "dev-tp-T3_it_no_din-2",
+"family": "T3_it_no_din",
+"split": "dev_temporal",
+"ccs_seed": 1075246110
+},
+{
+"probe": "T1_s35_electronic",
+"rule": "P2",
+"should_fire": true,
+"channel": "whatsapp",
+"date": "2025-08-25",
+"text": "Sending you a notice under Section 35 BNSS on WhatsApp, you must join the video call for questioning.",
+"gold": {
+"agencies": [
+"police"
+],
+"instruments": [
+"notice_s35"
+],
+"demands": [],
+"payee": "none"
+},
+"doc": {
+"header": "Office of the Station House Officer\nSample Police Station",
+"title": "NOTICE UNDER SECTION 35(3) BNSS",
+"ref": "REF/860/2025/3850",
+"date": "25-08-2025",
+"to": "Mr. A. Kumar",
+"body": [
+"You are directed to appear at the police station on the date mentioned below."
+],
+"seal": true,
+"seal_label": "SHO"
+},
+"audio": null,
+"video": false,
+"ccs": "b_delivery",
+"label": 1,
+"id": "dev-tp-T1_s35_electronic-3",
+"family": "T1_s35_electronic",
+"split": "dev_temporal",
+"ccs_seed": 923911304
+},
+{
+"probe": "T2_ed_no_qr",
+"rule": "R3",
+"should_fire": true,
+"channel": "email",
+"date": "2026-06-26",
+"text": "I am an Assistant Director, Enforcement Directorate. You are required to appear in person at the office on the date mentioned with the documents.",
+"gold": {
+"agencies": [
+"ed"
+],
+"instruments": [],
+"demands": [
+"appear_in_person"
+],
+"payee": "none"
+},
+"doc": {
+"header": "Enforcement Directorate\nZonal Office",
+"title": "SUMMONS UNDER SECTION 50 PMLA, 2002",
+"ref": "REF/760/2026/9780",
+"date": "26-06-2026",
+"to": "Mr. A. Kumar",
+"body": [
+"You are required to appear in person at the office on the date mentioned with the documents."
+],
+"seal": true,
+"seal_label": "ED",
+"signatory": "Assistant Director"
+},
+"audio": null,
+"video": false,
+"ccs": "b_delivery",
+"label": 1,
+"id": "dev-tp-T2_ed_no_qr-4",
+"family": "T2_ed_no_qr",
+"split": "dev_temporal",
+"ccs_seed": 2843037995
+},
+{
+"probe": "T3_it_no_din",
+"rule": "R1",
+"should_fire": true,
+"channel": "email",
+"date": "2020-06-18",
+"text": "Please respond on the e-filing portal within thirty days.",
+"gold": {
+"agencies": [
+"income_tax"
+],
+"instruments": [],
+"demands": [],
+"payee": "none"
+},
+"doc": {
+"header": "Income Tax Department\nOffice of the Assessing Officer",
+"title": "NOTICE UNDER SECTION 143(2)",
+"ref": "REF/884/2020/8029",
+"date": "18-06-2020",
+"to": "Mr. A. Kumar",
+"body": [
+"Please furnish your response within the time allowed."
+],
+"seal": false,
+"signatory": "Assessing Officer"
+},
+"audio": null,
+"video": false,
+"ccs": "b_delivery",
+"label": 1,
+"id": "dev-tp-T3_it_no_din-5",
+"family": "T3_it_no_din",
+"split": "dev_temporal",
+"ccs_seed": 3732038077
+},
+{
+"probe": "T1_s35_electronic",
+"rule": "P2",
+"should_fire": false,
+"channel": "whatsapp",
+"date": "2024-10-30",
+"text": "Sending you a notice under Section 35 BNSS on WhatsApp, you must join the video call for questioning.",
+"gold": {
+"agencies": [
+"police"
+],
+"instruments": [
+"notice_s35"
+],
+"demands": [],
+"payee": "none"
+},
+"doc": {
+"header": "Office of the Station House Officer\nSample Police Station",
+"title": "NOTICE UNDER SECTION 35(3) BNSS",
+"ref": "REF/846/2024/9145",
+"date": "30-10-2024",
+"to": "Ms. K. Lakshmi",
+"body": [
+"You are directed to appear at the police station on the date mentioned below."
+],
+"seal": true,
+"seal_label": "SHO"
+},
+"audio": null,
+"video": false,
+"ccs": "b_delivery",
+"label": 0,
+"id": "dev-tp-T1_s35_electronic-6",
+"family": "T1_s35_electronic",
+"split": "dev_temporal",
+"ccs_seed": 1199255559
+},
+{
+"probe": "T2_ed_no_qr",
+"rule": "R3",
+"should_fire": false,
+"channel": "email",
+"date": "2024-10-26",
+"text": "I am an Assistant Director, Enforcement Directorate. You are required to appear in person at the office on the date mentioned with the documents.",
+"gold": {
+"agencies": [
+"ed"
+],
+"instruments": [],
+"demands": [
+"appear_in_person"
+],
+"payee": "none"
+},
+"doc": {
+"header": "Enforcement Directorate\nZonal Office",
+"title": "SUMMONS UNDER SECTION 50 PMLA, 2002",
+"ref": "REF/119/2024/9877",
+"date": "26-10-2024",
+"to": "Ms. K. Lakshmi",
+"body": [
+"You are required to appear in person at the office on the date mentioned with the documents."
+],
+"seal": true,
+"seal_label": "ED",
+"signatory": "Assistant Director"
+},
+"audio": null,
+"video": false,
+"ccs": "b_delivery",
+"label": 0,
+"id": "dev-tp-T2_ed_no_qr-7",
+"family": "T2_ed_no_qr",
+"split": "dev_temporal",
+"ccs_seed": 813432977
+},
+{
+"probe": "T3_it_no_din",
+"rule": "R1",
+"should_fire": false,
+"channel": "email",
+"date": "2018-07-18",
+"text": "Please respond on the e-filing portal within thirty days.",
+"gold": {
+"agencies": [
+"income_tax"
+],
+"instruments": [],
+"demands": [],
+"payee": "none"
+},
+"doc": {
+"header": "Income Tax Department\nOffice of the Assessing Officer",
+"title": "NOTICE UNDER SECTION 143(2)",
+"ref": "REF/746/2018/8972",
+"date": "18-07-2018",
+"to": "Ms. S. Priya",
+"body": [
+"Please furnish your response within the time allowed."
+],
+"seal": false,
+"signatory": "Assessing Officer"
+},
+"audio": null,
+"video": false,
+"ccs": "b_delivery",
+"label": 0,
+"id": "dev-tp-T3_it_no_din-8",
+"family": "T3_it_no_din",
+"split": "dev_temporal",
+"ccs_seed": 2697141504
+},
+{
+"probe": "T1_s35_electronic",
+"rule": "P2",
+"should_fire": true,
+"channel": "whatsapp",
+"date": "2026-05-27",
+"text": "Sending you a notice under Section 35 BNSS on WhatsApp, you must join the video call for questioning.",
+"gold": {
+"agencies": [
+"police"
+],
+"instruments": [
+"notice_s35"
+],
+"demands": [],
+"payee": "none"
+},
+"doc": {
+"header": "Office of the Station House Officer\nSample Police Station",
+"title": "NOTICE UNDER SECTION 35(3) BNSS",
+"ref": "REF/178/2026/3456",
+"date": "27-05-2026",
+"to": "Mr. A. Kumar",
+"body": [
+"You are directed to appear at the police station on the date mentioned below."
+],
+"seal": true,
+"seal_label": "SHO"
+},
+"audio": null,
+"video": false,
+"ccs": "b_delivery",
+"label": 1,
+"id": "dev-tp-T1_s35_electronic-9",
+"family": "T1_s35_electronic",
+"split": "dev_temporal",
+"ccs_seed": 3619958166
+},
+{
+"probe": "T2_ed_no_qr",
+"rule": "R3",
+"should_fire": true,
+"channel": "email",
+"date": "2025-10-09",
+"text": "I am an Assistant Director, Enforcement Directorate. You are required to appear in person at the office on the date mentioned with the documents.",
+"gold": {
+"agencies": [
+"ed"
+],
+"instruments": [],
+"demands": [
+"appear_in_person"
+],
+"payee": "none"
+},
+"doc": {
+"header": "Enforcement Directorate\nZonal Office",
+"title": "SUMMONS UNDER SECTION 50 PMLA, 2002",
+"ref": "REF/804/2025/6309",
+"date": "09-10-2025",
+"to": "Mr. A. Kumar",
+"body": [
+"You are required to appear in person at the office on the date mentioned with the documents."
+],
+"seal": true,
+"seal_label": "ED",
+"signatory": "Assistant Director"
+},
+"audio": null,
+"video": false,
+"ccs": "b_delivery",
+"label": 1,
+"id": "dev-tp-T2_ed_no_qr-10",
+"family": "T2_ed_no_qr",
+"split": "dev_temporal",
+"ccs_seed": 632924021
+},
+{
+"probe": "T3_it_no_din",
+"rule": "R1",
+"should_fire": true,
+"channel": "email",
+"date": "2023-12-18",
+"text": "Please respond on the e-filing portal within thirty days.",
+"gold": {
+"agencies": [
+"income_tax"
+],
+"instruments": [],
+"demands": [],
+"payee": "none"
+},
+"doc": {
+"header": "Income Tax Department\nOffice of the Assessing Officer",
+"title": "NOTICE UNDER SECTION 143(2)",
+"ref": "REF/239/2023/2923",
+"date": "18-12-2023",
+"to": "Ms. K. Lakshmi",
+"body": [
+"Please furnish your response within the time allowed."
+],
+"seal": false,
+"signatory": "Assessing Officer"
+},
+"audio": null,
+"video": false,
+"ccs": "b_delivery",
+"label": 1,
+"id": "dev-tp-T3_it_no_din-11",
+"family": "T3_it_no_din",
+"split": "dev_temporal",
+"ccs_seed": 1388222435
+},
+{
+"probe": "T1_s35_electronic",
+"rule": "P2",
+"should_fire": false,
+"channel": "whatsapp",
+"date": "2024-08-08",
+"text": "Sending you a notice under Section 35 BNSS on WhatsApp, you must join the video call for questioning.",
+"gold": {
+"agencies": [
+"police"
+],
+"instruments": [
+"notice_s35"
+],
+"demands": [],
+"payee": "none"
+},
+"doc": {
+"header": "Office of the Station House Officer\nSample Police Station",
+"title": "NOTICE UNDER SECTION 35(3) BNSS",
+"ref": "REF/665/2024/7374",
+"date": "08-08-2024",
+"to": "Mr. A. Kumar",
+"body": [
+"You are directed to appear at the police station on the date mentioned below."
+],
+"seal": true,
+"seal_label": "SHO"
+},
+"audio": null,
+"video": false,
+"ccs": "b_delivery",
+"label": 0,
+"id": "dev-tp-T1_s35_electronic-12",
+"family": "T1_s35_electronic",
+"split": "dev_temporal",
+"ccs_seed": 3417818713
+},
+{
+"probe": "T2_ed_no_qr",
+"rule": "R3",
+"should_fire": false,
+"channel": "email",
+"date": "2024-05-26",
+"text": "I am an Assistant Director, Enforcement Directorate. You are required to appear in person at the office on the date mentioned with the documents.",
+"gold": {
+"agencies": [
+"ed"
+],
+"instruments": [],
+"demands": [
+"appear_in_person"
+],
+"payee": "none"
+},
+"doc": {
+"header": "Enforcement Directorate\nZonal Office",
+"title": "SUMMONS UNDER SECTION 50 PMLA, 2002",
+"ref": "REF/216/2024/9428",
+"date": "26-05-2024",
+"to": "Ms. K. Lakshmi",
+"body": [
+"You are required to appear in person at the office on the date mentioned with the documents."
+],
+"seal": true,
+"seal_label": "ED",
+"signatory": "Assistant Director"
+},
+"audio": null,
+"video": false,
+"ccs": "b_delivery",
+"label": 0,
+"id": "dev-tp-T2_ed_no_qr-13",
+"family": "T2_ed_no_qr",
+"split": "dev_temporal",
+"ccs_seed": 3165714127
+},
+{
+"probe": "T3_it_no_din",
+"rule": "R1",
+"should_fire": false,
+"channel": "email",
+"date": "2018-09-19",
+"text": "Please respond on the e-filing portal within thirty days.",
+"gold": {
+"agencies": [
+"income_tax"
+],
+"instruments": [],
+"demands": [],
+"payee": "none"
+},
+"doc": {
+"header": "Income Tax Department\nOffice of the Assessing Officer",
+"title": "NOTICE UNDER SECTION 143(2)",
+"ref": "REF/405/2018/8097",
+"date": "19-09-2018",
+"to": "Mr. J. Thomas",
+"body": [
+"Please furnish your response within the time allowed."
+],
+"seal": false,
+"signatory": "Assessing Officer"
+},
+"audio": null,
+"video": false,
+"ccs": "b_delivery",
+"label": 0,
+"id": "dev-tp-T3_it_no_din-14",
+"family": "T3_it_no_din",
+"split": "dev_temporal",
+"ccs_seed": 584344428
+},
+{
+"probe": "T1_s35_electronic",
+"rule": "P2",
+"should_fire": true,
+"channel": "whatsapp",
+"date": "2026-10-08",
+"text": "Sending you a notice under Section 35 BNSS on WhatsApp, you must join the video call for questioning.",
+"gold": {
+"agencies": [
+"police"
+],
+"instruments": [
+"notice_s35"
+],
+"demands": [],
+"payee": "none"
+},
+"doc": {
+"header": "Office of the Station House Officer\nSample Police Station",
+"title": "NOTICE UNDER SECTION 35(3) BNSS",
+"ref": "REF/939/2026/9740",
+"date": "08-10-2026",
+"to": "Mr. R. Menon",
+"body": [
+"You are directed to appear at the police station on the date mentioned below."
+],
+"seal": true,
+"seal_label": "SHO"
+},
+"audio": null,
+"video": false,
+"ccs": "b_delivery",
+"label": 1,
+"id": "dev-tp-T1_s35_electronic-15",
+"family": "T1_s35_electronic",
+"split": "dev_temporal",
+"ccs_seed": 1439912954
+},
+{
+"probe": "T2_ed_no_qr",
+"rule": "R3",
+"should_fire": true,
+"channel": "email",
+"date": "2026-05-11",
+"text": "I am an Assistant Director, Enforcement Directorate. You are required to appear in person at the office on the date mentioned with the documents.",
+"gold": {
+"agencies": [
+"ed"
+],
+"instruments": [],
+"demands": [
+"appear_in_person"
+],
+"payee": "none"
+},
+"doc": {
+"header": "Enforcement Directorate\nZonal Office",
+"title": "SUMMONS UNDER SECTION 50 PMLA, 2002",
+"ref": "REF/483/2026/6416",
+"date": "11-05-2026",
+"to": "Mr. V. Rao",
+"body": [
+"You are required to appear in person at the office on the date mentioned with the documents."
+],
+"seal": true,
+"seal_label": "ED",
+"signatory": "Assistant Director"
+},
+"audio": null,
+"video": false,
+"ccs": "b_delivery",
+"label": 1,
+"id": "dev-tp-T2_ed_no_qr-16",
+"family": "T2_ed_no_qr",
+"split": "dev_temporal",
+"ccs_seed": 3436839488
+},
+{
+"probe": "T3_it_no_din",
+"rule": "R1",
+"should_fire": true,
+"channel": "email",
+"date": "2024-05-30",
+"text": "Please respond on the e-filing portal within thirty days.",
+"gold": {
+"agencies": [
+"income_tax"
+],
+"instruments": [],
+"demands": [],
+"payee": "none"
+},
+"doc": {
+"header": "Income Tax Department\nOffice of the Assessing Officer",
+"title": "NOTICE UNDER SECTION 143(2)",
+"ref": "REF/900/2024/6631",
+"date": "30-05-2024",
+"to": "Ms. S. Priya",
+"body": [
+"Please furnish your response within the time allowed."
+],
+"seal": false,
+"signatory": "Assessing Officer"
+},
+"audio": null,
+"video": false,
+"ccs": "b_delivery",
+"label": 1,
+"id": "dev-tp-T3_it_no_din-17",
+"family": "T3_it_no_din",
+"split": "dev_temporal",
+"ccs_seed": 3151835862
+},
+{
+"probe": "T1_s35_electronic",
+"rule": "P2",
+"should_fire": false,
+"channel": "whatsapp",
+"date": "2025-01-10",
+"text": "Sending you a notice under Section 35 BNSS on WhatsApp, you must join the video call for questioning.",
+"gold": {
+"agencies": [
+"police"
+],
+"instruments": [
+"notice_s35"
+],
+"demands": [],
+"payee": "none"
+},
+"doc": {
+"header": "Office of the Station House Officer\nSample Police Station",
+"title": "NOTICE UNDER SECTION 35(3) BNSS",
+"ref": "REF/110/2025/5113",
+"date": "10-01-2025",
+"to": "Ms. S. Priya",
+"body": [
+"You are directed to appear at the police station on the date mentioned below."
+],
+"seal": true,
+"seal_label": "SHO"
+},
+"audio": null,
+"video": false,
+"ccs": "b_delivery",
+"label": 0,
+"id": "dev-tp-T1_s35_electronic-18",
+"family": "T1_s35_electronic",
+"split": "dev_temporal",
+"ccs_seed": 727854919
+},
+{
+"probe": "T2_ed_no_qr",
+"rule": "R3",
+"should_fire": false,
+"channel": "email",
+"date": "2025-04-19",
+"text": "I am an Assistant Director, Enforcement Directorate. You are required to appear in person at the office on the date mentioned with the documents.",
+"gold": {
+"agencies": [
+"ed"
+],
+"instruments": [],
+"demands": [
+"appear_in_person"
+],
+"payee": "none"
+},
+"doc": {
+"header": "Enforcement Directorate\nZonal Office",
+"title": "SUMMONS UNDER SECTION 50 PMLA, 2002",
+"ref": "REF/691/2025/4267",
+"date": "19-04-2025",
+"to": "Ms. K. Lakshmi",
+"body": [
+"You are required to appear in person at the office on the date mentioned with the documents."
+],
+"seal": true,
+"seal_label": "ED",
+"signatory": "Assistant Director"
+},
+"audio": null,
+"video": false,
+"ccs": "b_delivery",
+"label": 0,
+"id": "dev-tp-T2_ed_no_qr-19",
+"family": "T2_ed_no_qr",
+"split": "dev_temporal",
+"ccs_seed": 1550131153
+},
+{
+"probe": "T3_it_no_din",
+"rule": "R1",
+"should_fire": false,
+"channel": "email",
+"date": "2018-03-01",
+"text": "Please respond on the e-filing portal within thirty days.",
+"gold": {
+"agencies": [
+"income_tax"
+],
+"instruments": [],
+"demands": [],
+"payee": "none"
+},
+"doc": {
+"header": "Income Tax Department\nOffice of the Assessing Officer",
+"title": "NOTICE UNDER SECTION 143(2)",
+"ref": "REF/541/2018/6904",
+"date": "01-03-2018",
+"to": "Mr. V. Rao",
+"body": [
+"Please furnish your response within the time allowed."
+],
+"seal": false,
+"signatory": "Assessing Officer"
+},
+"audio": null,
+"video": false,
+"ccs": "b_delivery",
+"label": 0,
+"id": "dev-tp-T3_it_no_din-20",
+"family": "T3_it_no_din",
+"split": "dev_temporal",
+"ccs_seed": 244642998
+},
+{
+"probe": "T1_s35_electronic",
+"rule": "P2",
+"should_fire": true,
+"channel": "whatsapp",
+"date": "2025-01-21",
+"text": "Sending you a notice under Section 35 BNSS on WhatsApp, you must join the video call for questioning.",
+"gold": {
+"agencies": [
+"police"
+],
+"instruments": [
+"notice_s35"
+],
+"demands": [],
+"payee": "none"
+},
+"doc": {
+"header": "Office of the Station House Officer\nSample Police Station",
+"title": "NOTICE UNDER SECTION 35(3) BNSS",
+"ref": "REF/528/2025/8666",
+"date": "21-01-2025",
+"to": "Ms. K. Lakshmi",
+"body": [
+"You are directed to appear at the police station on the date mentioned below."
+],
+"seal": true,
+"seal_label": "SHO"
+},
+"audio": null,
+"video": false,
+"ccs": "b_delivery",
+"label": 1,
+"id": "dev-tp-T1_s35_electronic-21",
+"family": "T1_s35_electronic",
+"split": "dev_temporal",
+"ccs_seed": 2039727136
+},
+{
+"probe": "T2_ed_no_qr",
+"rule": "R3",
+"should_fire": true,
+"channel": "email",
+"date": "2026-08-23",
+"text": "I am an Assistant Director, Enforcement Directorate. You are required to appear in person at the office on the date mentioned with the documents.",
+"gold": {
+"agencies": [
+"ed"
+],
+"instruments": [],
+"demands": [
+"appear_in_person"
+],
+"payee": "none"
+},
+"doc": {
+"header": "Enforcement Directorate\nZonal Office",
+"title": "SUMMONS UNDER SECTION 50 PMLA, 2002",
+"ref": "REF/875/2026/9599",
+"date": "23-08-2026",
+"to": "Ms. S. Priya",
+"body": [
+"You are required to appear in person at the office on the date mentioned with the documents."
+],
+"seal": true,
+"seal_label": "ED",
+"signatory": "Assistant Director"
+},
+"audio": null,
+"video": false,
+"ccs": "b_delivery",
+"label": 1,
+"id": "dev-tp-T2_ed_no_qr-22",
+"family": "T2_ed_no_qr",
+"split": "dev_temporal",
+"ccs_seed": 3768227226
+},
+{
+"probe": "T3_it_no_din",
+"rule": "R1",
+"should_fire": true,
+"channel": "email",
+"date": "2020-07-21",
+"text": "Please respond on the e-filing portal within thirty days.",
+"gold": {
+"agencies": [
+"income_tax"
+],
+"instruments": [],
+"demands": [],
+"payee": "none"
+},
+"doc": {
+"header": "Income Tax Department\nOffice of the Assessing Officer",
+"title": "NOTICE UNDER SECTION 143(2)",
+"ref": "REF/824/2020/5436",
+"date": "21-07-2020",
+"to": "Mr. J. Thomas",
+"body": [
+"Please furnish your response within the time allowed."
+],
+"seal": false,
+"signatory": "Assessing Officer"
+},
+"audio": null,
+"video": false,
+"ccs": "b_delivery",
+"label": 1,
+"id": "dev-tp-T3_it_no_din-23",
+"family": "T3_it_no_din",
+"split": "dev_temporal",
+"ccs_seed": 2543691020
+},
+{
+"probe": "T1_s35_electronic",
+"rule": "P2",
+"should_fire": false,
+"channel": "whatsapp",
+"date": "2024-11-19",
+"text": "Sending you a notice under Section 35 BNSS on WhatsApp, you must join the video call for questioning.",
+"gold": {
+"agencies": [
+"police"
+],
+"instruments": [
+"notice_s35"
+],
+"demands": [],
+"payee": "none"
+},
+"doc": {
+"header": "Office of the Station House Officer\nSample Police Station",
+"title": "NOTICE UNDER SECTION 35(3) BNSS",
+"ref": "REF/728/2024/4383",
+"date": "19-11-2024",
+"to": "Mr. J. Thomas",
+"body": [
+"You are directed to appear at the police station on the date mentioned below."
+],
+"seal": true,
+"seal_label": "SHO"
+},
+"audio": null,
+"video": false,
+"ccs": "b_delivery",
+"label": 0,
+"id": "dev-tp-T1_s35_electronic-24",
+"family": "T1_s35_electronic",
+"split": "dev_temporal",
+"ccs_seed": 167325871
+},
+{
+"probe": "T2_ed_no_qr",
+"rule": "R3",
+"should_fire": false,
+"channel": "email",
+"date": "2025-06-03",
+"text": "I am an Assistant Director, Enforcement Directorate. You are required to appear in person at the office on the date mentioned with the documents.",
+"gold": {
+"agencies": [
+"ed"
+],
+"instruments": [],
+"demands": [
+"appear_in_person"
+],
+"payee": "none"
+},
+"doc": {
+"header": "Enforcement Directorate\nZonal Office",
+"title": "SUMMONS UNDER SECTION 50 PMLA, 2002",
+"ref": "REF/180/2025/9727",
+"date": "03-06-2025",
+"to": "Ms. S. Priya",
+"body": [
+"You are required to appear in person at the office on the date mentioned with the documents."
+],
+"seal": true,
+"seal_label": "ED",
+"signatory": "Assistant Director"
+},
+"audio": null,
+"video": false,
+"ccs": "b_delivery",
+"label": 0,
+"id": "dev-tp-T2_ed_no_qr-25",
+"family": "T2_ed_no_qr",
+"split": "dev_temporal",
+"ccs_seed": 2130575417
+},
+{
+"probe": "T3_it_no_din",
+"rule": "R1",
+"should_fire": false,
+"channel": "email",
+"date": "2019-08-08",
+"text": "Please respond on the e-filing portal within thirty days.",
+"gold": {
+"agencies": [
+"income_tax"
+],
+"instruments": [],
+"demands": [],
+"payee": "none"
+},
+"doc": {
+"header": "Income Tax Department\nOffice of the Assessing Officer",
+"title": "NOTICE UNDER SECTION 143(2)",
+"ref": "REF/307/2019/6079",
+"date": "08-08-2019",
+"to": "Ms. K. Lakshmi",
+"body": [
+"Please furnish your response within the time allowed."
+],
+"seal": false,
+"signatory": "Assessing Officer"
+},
+"audio": null,
+"video": false,
+"ccs": "b_delivery",
+"label": 0,
+"id": "dev-tp-T3_it_no_din-26",
+"family": "T3_it_no_din",
+"split": "dev_temporal",
+"ccs_seed": 3891745155
+},
+{
+"probe": "T1_s35_electronic",
+"rule": "P2",
+"should_fire": true,
+"channel": "whatsapp",
+"date": "2025-12-09",
+"text": "Sending you a notice under Section 35 BNSS on WhatsApp, you must join the video call for questioning.",
+"gold": {
+"agencies": [
+"police"
+],
+"instruments": [
+"notice_s35"
+],
+"demands": [],
+"payee": "none"
+},
+"doc": {
+"header": "Office of the Station House Officer\nSample Police Station",
+"title": "NOTICE UNDER SECTION 35(3) BNSS",
+"ref": "REF/395/2025/3726",
+"date": "09-12-2025",
+"to": "Ms. K. Lakshmi",
+"body": [
+"You are directed to appear at the police station on the date mentioned below."
+],
+"seal": true,
+"seal_label": "SHO"
+},
+"audio": null,
+"video": false,
+"ccs": "b_delivery",
+"label": 1,
+"id": "dev-tp-T1_s35_electronic-27",
+"family": "T1_s35_electronic",
+"split": "dev_temporal",
+"ccs_seed": 2431672597
+},
+{
+"probe": "T2_ed_no_qr",
+"rule": "R3",
+"should_fire": true,
+"channel": "email",
+"date": "2025-12-19",
+"text": "I am an Assistant Director, Enforcement Directorate. You are required to appear in person at the office on the date mentioned with the documents.",
+"gold": {
+"agencies": [
+"ed"
+],
+"instruments": [],
+"demands": [
+"appear_in_person"
+],
+"payee": "none"
+},
+"doc": {
+"header": "Enforcement Directorate\nZonal Office",
+"title": "SUMMONS UNDER SECTION 50 PMLA, 2002",
+"ref": "REF/495/2025/8058",
+"date": "19-12-2025",
+"to": "Mr. V. Rao",
+"body": [
+"You are required to appear in person at the office on the date mentioned with the documents."
+],
+"seal": true,
+"seal_label": "ED",
+"signatory": "Assistant Director"
+},
+"audio": null,
+"video": false,
+"ccs": "b_delivery",
+"label": 1,
+"id": "dev-tp-T2_ed_no_qr-28",
+"family": "T2_ed_no_qr",
+"split": "dev_temporal",
+"ccs_seed": 5209220
+},
+{
+"probe": "T3_it_no_din",
+"rule": "R1",
+"should_fire": true,
+"channel": "email",
+"date": "2020-03-03",
+"text": "Please respond on the e-filing portal within thirty days.",
+"gold": {
+"agencies": [
+"income_tax"
+],
+"instruments": [],
+"demands": [],
+"payee": "none"
+},
+"doc": {
+"header": "Income Tax Department\nOffice of the Assessing Officer",
+"title": "NOTICE UNDER SECTION 143(2)",
+"ref": "REF/558/2020/8771",
+"date": "03-03-2020",
+"to": "Mr. J. Thomas",
+"body": [
+"Please furnish your response within the time allowed."
+],
+"seal": false,
+"signatory": "Assessing Officer"
+},
+"audio": null,
+"video": false,
+"ccs": "b_delivery",
+"label": 1,
+"id": "dev-tp-T3_it_no_din-29",
+"family": "T3_it_no_din",
+"split": "dev_temporal",
+"ccs_seed": 2001226770
+},
+{
+"probe": "T1_s35_electronic",
+"rule": "P2",
+"should_fire": false,
+"channel": "whatsapp",
+"date": "2024-09-28",
+"text": "Sending you a notice under Section 35 BNSS on WhatsApp, you must join the video call for questioning.",
+"gold": {
+"agencies": [
+"police"
+],
+"instruments": [
+"notice_s35"
+],
+"demands": [],
+"payee": "none"
+},
+"doc": {
+"header": "Office of the Station House Officer\nSample Police Station",
+"title": "NOTICE UNDER SECTION 35(3) BNSS",
+"ref": "REF/305/2024/6744",
+"date": "28-09-2024",
+"to": "Mr. J. Thomas",
+"body": [
+"You are directed to appear at the police station on the date mentioned below."
+],
+"seal": true,
+"seal_label": "SHO"
+},
+"audio": null,
+"video": false,
+"ccs": "b_delivery",
+"label": 0,
+"id": "dev-tp-T1_s35_electronic-30",
+"family": "T1_s35_electronic",
+"split": "dev_temporal",
+"ccs_seed": 395298295
+},
+{
+"probe": "T2_ed_no_qr",
+"rule": "R3",
+"should_fire": false,
+"channel": "email",
+"date": "2025-05-20",
+"text": "I am an Assistant Director, Enforcement Directorate. You are required to appear in person at the office on the date mentioned with the documents.",
+"gold": {
+"agencies": [
+"ed"
+],
+"instruments": [],
+"demands": [
+"appear_in_person"
+],
+"payee": "none"
+},
+"doc": {
+"header": "Enforcement Directorate\nZonal Office",
+"title": "SUMMONS UNDER SECTION 50 PMLA, 2002",
+"ref": "REF/277/2025/4019",
+"date": "20-05-2025",
+"to": "Mr. J. Thomas",
+"body": [
+"You are required to appear in person at the office on the date mentioned with the documents."
+],
+"seal": true,
+"seal_label": "ED",
+"signatory": "Assistant Director"
+},
+"audio": null,
+"video": false,
+"ccs": "b_delivery",
+"label": 0,
+"id": "dev-tp-T2_ed_no_qr-31",
+"family": "T2_ed_no_qr",
+"split": "dev_temporal",
+"ccs_seed": 1619588449
+},
+{
+"probe": "T3_it_no_din",
+"rule": "R1",
+"should_fire": false,
+"channel": "email",
+"date": "2018-10-29",
+"text": "Please respond on the e-filing portal within thirty days.",
+"gold": {
+"agencies": [
+"income_tax"
+],
+"instruments": [],
+"demands": [],
+"payee": "none"
+},
+"doc": {
+"header": "Income Tax Department\nOffice of the Assessing Officer",
+"title": "NOTICE UNDER SECTION 143(2)",
+"ref": "REF/997/2018/7202",
+"date": "29-10-2018",
+"to": "Mr. V. Rao",
+"body": [
+"Please furnish your response within the time allowed."
+],
+"seal": false,
+"signatory": "Assessing Officer"
+},
+"audio": null,
+"video": false,
+"ccs": "b_delivery",
+"label": 0,
+"id": "dev-tp-T3_it_no_din-32",
+"family": "T3_it_no_din",
+"split": "dev_temporal",
+"ccs_seed": 4186023131
+},
+{
+"probe": "T1_s35_electronic",
+"rule": "P2",
+"should_fire": true,
+"channel": "whatsapp",
+"date": "2025-05-09",
+"text": "Sending you a notice under Section 35 BNSS on WhatsApp, you must join the video call for questioning.",
+"gold": {
+"agencies": [
+"police"
+],
+"instruments": [
+"notice_s35"
+],
+"demands": [],
+"payee": "none"
+},
+"doc": {
+"header": "Office of the Station House Officer\nSample Police Station",
+"title": "NOTICE UNDER SECTION 35(3) BNSS",
+"ref": "REF/750/2025/6478",
+"date": "09-05-2025",
+"to": "Mr. J. Thomas",
+"body": [
+"You are directed to appear at the police station on the date mentioned below."
+],
+"seal": true,
+"seal_label": "SHO"
+},
+"audio": null,
+"video": false,
+"ccs": "b_delivery",
+"label": 1,
+"id": "dev-tp-T1_s35_electronic-33",
+"family": "T1_s35_electronic",
+"split": "dev_temporal",
+"ccs_seed": 2391184461
+},
+{
+"probe": "T2_ed_no_qr",
+"rule": "R3",
+"should_fire": true,
+"channel": "email",
+"date": "2026-05-02",
+"text": "I am an Assistant Director, Enforcement Directorate. You are required to appear in person at the office on the date mentioned with the documents.",
+"gold": {
+"agencies": [
+"ed"
+],
+"instruments": [],
+"demands": [
+"appear_in_person"
+],
+"payee": "none"
+},
+"doc": {
+"header": "Enforcement Directorate\nZonal Office",
+"title": "SUMMONS UNDER SECTION 50 PMLA, 2002",
+"ref": "REF/824/2026/6560",
+"date": "02-05-2026",
+"to": "Ms. S. Priya",
+"body": [
+"You are required to appear in person at the office on the date mentioned with the documents."
+],
+"seal": true,
+"seal_label": "ED",
+"signatory": "Assistant Director"
+},
+"audio": null,
+"video": false,
+"ccs": "b_delivery",
+"label": 1,
+"id": "dev-tp-T2_ed_no_qr-34",
+"family": "T2_ed_no_qr",
+"split": "dev_temporal",
+"ccs_seed": 283247086
+},
+{
+"probe": "T3_it_no_din",
+"rule": "R1",
+"should_fire": true,
+"channel": "email",
+"date": "2022-07-30",
+"text": "Please respond on the e-filing portal within thirty days.",
+"gold": {
+"agencies": [
+"income_tax"
+],
+"instruments": [],
+"demands": [],
+"payee": "none"
+},
+"doc": {
+"header": "Income Tax Department\nOffice of the Assessing Officer",
+"title": "NOTICE UNDER SECTION 143(2)",
+"ref": "REF/630/2022/7222",
+"date": "30-07-2022",
+"to": "Ms. K. Lakshmi",
+"body": [
+"Please furnish your response within the time allowed."
+],
+"seal": false,
+"signatory": "Assessing Officer"
+},
+"audio": null,
+"video": false,
+"ccs": "b_delivery",
+"label": 1,
+"id": "dev-tp-T3_it_no_din-35",
+"family": "T3_it_no_din",
+"split": "dev_temporal",
+"ccs_seed": 1743073656
+},
+{
+"probe": "T1_s35_electronic",
+"rule": "P2",
+"should_fire": false,
+"channel": "whatsapp",
+"date": "2024-08-28",
+"text": "Sending you a notice under Section 35 BNSS on WhatsApp, you must join the video call for questioning.",
+"gold": {
+"agencies": [
+"police"
+],
+"instruments": [
+"notice_s35"
+],
+"demands": [],
+"payee": "none"
+},
+"doc": {
+"header": "Office of the Station House Officer\nSample Police Station",
+"title": "NOTICE UNDER SECTION 35(3) BNSS",
+"ref": "REF/500/2024/1957",
+"date": "28-08-2024",
+"to": "Mr. V. Rao",
+"body": [
+"You are directed to appear at the police station on the date mentioned below."
+],
+"seal": true,
+"seal_label": "SHO"
+},
+"audio": null,
+"video": false,
+"ccs": "b_delivery",
+"label": 0,
+"id": "dev-tp-T1_s35_electronic-36",
+"family": "T1_s35_electronic",
+"split": "dev_temporal",
+"ccs_seed": 4276904130
+},
+{
+"probe": "T2_ed_no_qr",
+"rule": "R3",
+"should_fire": false,
+"channel": "email",
+"date": "2025-07-16",
+"text": "I am an Assistant Director, Enforcement Directorate. You are required to appear in person at the office on the date mentioned with the documents.",
+"gold": {
+"agencies": [
+"ed"
+],
+"instruments": [],
+"demands": [
+"appear_in_person"
+],
+"payee": "none"
+},
+"doc": {
+"header": "Enforcement Directorate\nZonal Office",
+"title": "SUMMONS UNDER SECTION 50 PMLA, 2002",
+"ref": "REF/800/2025/6602",
+"date": "16-07-2025",
+"to": "Ms. S. Priya",
+"body": [
+"You are required to appear in person at the office on the date mentioned with the documents."
+],
+"seal": true,
+"seal_label": "ED",
+"signatory": "Assistant Director"
+},
+"audio": null,
+"video": false,
+"ccs": "b_delivery",
+"label": 0,
+"id": "dev-tp-T2_ed_no_qr-37",
+"family": "T2_ed_no_qr",
+"split": "dev_temporal",
+"ccs_seed": 2313900116
+},
+{
+"probe": "T3_it_no_din",
+"rule": "R1",
+"should_fire": false,
+"channel": "email",
+"date": "2018-05-12",
+"text": "Please respond on the e-filing portal within thirty days.",
+"gold": {
+"agencies": [
+"income_tax"
+],
+"instruments": [],
+"demands": [],
+"payee": "none"
+},
+"doc": {
+"header": "Income Tax Department\nOffice of the Assessing Officer",
+"title": "NOTICE UNDER SECTION 143(2)",
+"ref": "REF/462/2018/6956",
+"date": "12-05-2018",
+"to": "Mr. J. Thomas",
+"body": [
+"Please furnish your response within the time allowed."
+],
+"seal": false,
+"signatory": "Assessing Officer"
+},
+"audio": null,
+"video": false,
+"ccs": "b_delivery",
+"label": 0,
+"id": "dev-tp-T3_it_no_din-38",
+"family": "T3_it_no_din",
+"split": "dev_temporal",
+"ccs_seed": 424955333
+},
+{
+"probe": "T1_s35_electronic",
+"rule": "P2",
+"should_fire": true,
+"channel": "whatsapp",
+"date": "2025-07-23",
+"text": "Sending you a notice under Section 35 BNSS on WhatsApp, you must join the video call for questioning.",
+"gold": {
+"agencies": [
+"police"
+],
+"instruments": [
+"notice_s35"
+],
+"demands": [],
+"payee": "none"
+},
+"doc": {
+"header": "Office of the Station House Officer\nSample Police Station",
+"title": "NOTICE UNDER SECTION 35(3) BNSS",
+"ref": "REF/972/2025/6207",
+"date": "23-07-2025",
+"to": "Mr. R. Menon",
+"body": [
+"You are directed to appear at the police station on the date mentioned below."
+],
+"seal": true,
+"seal_label": "SHO"
+},
+"audio": null,
+"video": false,
+"ccs": "b_delivery",
+"label": 1,
+"id": "dev-tp-T1_s35_electronic-39",
+"family": "T1_s35_electronic",
+"split": "dev_temporal",
+"ccs_seed": 1850965331
+},
+{
+"probe": "T2_ed_no_qr",
+"rule": "R3",
+"should_fire": true,
+"channel": "email",
+"date": "2026-03-20",
+"text": "I am an Assistant Director, Enforcement Directorate. You are required to appear in person at the office on the date mentioned with the documents.",
+"gold": {
+"agencies": [
+"ed"
+],
+"instruments": [],
+"demands": [
+"appear_in_person"
+],
+"payee": "none"
+},
+"doc": {
+"header": "Enforcement Directorate\nZonal Office",
+"title": "SUMMONS UNDER SECTION 50 PMLA, 2002",
+"ref": "REF/279/2026/7346",
+"date": "20-03-2026",
+"to": "Mr. R. Menon",
+"body": [
+"You are required to appear in person at the office on the date mentioned with the documents."
+],
+"seal": true,
+"seal_label": "ED",
+"signatory": "Assistant Director"
+},
+"audio": null,
+"video": false,
+"ccs": "b_delivery",
+"label": 1,
+"id": "dev-tp-T2_ed_no_qr-40",
+"family": "T2_ed_no_qr",
+"split": "dev_temporal",
+"ccs_seed": 1489916720
+},
+{
+"probe": "T3_it_no_din",
+"rule": "R1",
+"should_fire": true,
+"channel": "email",
+"date": "2022-02-19",
+"text": "Please respond on the e-filing portal within thirty days.",
+"gold": {
+"agencies": [
+"income_tax"
+],
+"instruments": [],
+"demands": [],
+"payee": "none"
+},
+"doc": {
+"header": "Income Tax Department\nOffice of the Assessing Officer",
+"title": "NOTICE UNDER SECTION 143(2)",
+"ref": "REF/866/2022/1257",
+"date": "19-02-2022",
+"to": "Mr. J. Thomas",
+"body": [
+"Please furnish your response within the time allowed."
+],
+"seal": false,
+"signatory": "Assessing Officer"
+},
+"audio": null,
+"video": false,
+"ccs": "b_delivery",
+"label": 1,
+"id": "dev-tp-T3_it_no_din-41",
+"family": "T3_it_no_din",
+"split": "dev_temporal",
+"ccs_seed": 801727398
+},
+{
+"probe": "T1_s35_electronic",
+"rule": "P2",
+"should_fire": false,
+"channel": "whatsapp",
+"date": "2024-12-22",
+"text": "Sending you a notice under Section 35 BNSS on WhatsApp, you must join the video call for questioning.",
+"gold": {
+"agencies": [
+"police"
+],
+"instruments": [
+"notice_s35"
+],
+"demands": [],
+"payee": "none"
+},
+"doc": {
+"header": "Office of the Station House Officer\nSample Police Station",
+"title": "NOTICE UNDER SECTION 35(3) BNSS",
+"ref": "REF/284/2024/9816",
+"date": "22-12-2024",
+"to": "Ms. S. Priya",
+"body": [
+"You are directed to appear at the police station on the date mentioned below."
+],
+"seal": true,
+"seal_label": "SHO"
+},
+"audio": null,
+"video": false,
+"ccs": "b_delivery",
+"label": 0,
+"id": "dev-tp-T1_s35_electronic-42",
+"family": "T1_s35_electronic",
+"split": "dev_temporal",
+"ccs_seed": 3066049052
+},
+{
+"probe": "T2_ed_no_qr",
+"rule": "R3",
+"should_fire": false,
+"channel": "email",
+"date": "2025-01-28",
+"text": "I am an Assistant Director, Enforcement Directorate. You are required to appear in person at the office on the date mentioned with the documents.",
+"gold": {
+"agencies": [
+"ed"
+],
+"instruments": [],
+"demands": [
+"appear_in_person"
+],
+"payee": "none"
+},
+"doc": {
+"header": "Enforcement Directorate\nZonal Office",
+"title": "SUMMONS UNDER SECTION 50 PMLA, 2002",
+"ref": "REF/388/2025/3140",
+"date": "28-01-2025",
+"to": "Ms. S. Priya",
+"body": [
+"You are required to appear in person at the office on the date mentioned with the documents."
+],
+"seal": true,
+"seal_label": "ED",
+"signatory": "Assistant Director"
+},
+"audio": null,
+"video": false,
+"ccs": "b_delivery",
+"label": 0,
+"id": "dev-tp-T2_ed_no_qr-43",
+"family": "T2_ed_no_qr",
+"split": "dev_temporal",
+"ccs_seed": 3251045002
+},
+{
+"probe": "T3_it_no_din",
+"rule": "R1",
+"should_fire": false,
+"channel": "email",
+"date": "2018-09-10",
+"text": "Please respond on the e-filing portal within thirty days.",
+"gold": {
+"agencies": [
+"income_tax"
+],
+"instruments": [],
+"demands": [],
+"payee": "none"
+},
+"doc": {
+"header": "Income Tax Department\nOffice of the Assessing Officer",
+"title": "NOTICE UNDER SECTION 143(2)",
+"ref": "REF/621/2018/5205",
+"date": "10-09-2018",
+"to": "Mr. V. Rao",
+"body": [
+"Please furnish your response within the time allowed."
+],
+"seal": false,
+"signatory": "Assessing Officer"
+},
+"audio": null,
+"video": false,
+"ccs": "b_delivery",
+"label": 0,
+"id": "dev-tp-T3_it_no_din-44",
+"family": "T3_it_no_din",
+"split": "dev_temporal",
+"ccs_seed": 1604556585
+},
+{
+"probe": "T1_s35_electronic",
+"rule": "P2",
+"should_fire": true,
+"channel": "whatsapp",
+"date": "2025-10-23",
+"text": "Sending you a notice under Section 35 BNSS on WhatsApp, you must join the video call for questioning.",
+"gold": {
+"agencies": [
+"police"
+],
+"instruments": [
+"notice_s35"
+],
+"demands": [],
+"payee": "none"
+},
+"doc": {
+"header": "Office of the Station House Officer\nSample Police Station",
+"title": "NOTICE UNDER SECTION 35(3) BNSS",
+"ref": "REF/946/2025/1798",
+"date": "23-10-2025",
+"to": "Ms. K. Lakshmi",
+"body": [
+"You are directed to appear at the police station on the date mentioned below."
+],
+"seal": true,
+"seal_label": "SHO"
+},
+"audio": null,
+"video": false,
+"ccs": "b_delivery",
+"label": 1,
+"id": "dev-tp-T1_s35_electronic-45",
+"family": "T1_s35_electronic",
+"split": "dev_temporal",
+"ccs_seed": 681879487
+},
+{
+"probe": "T2_ed_no_qr",
+"rule": "R3",
+"should_fire": true,
+"channel": "email",
+"date": "2026-01-19",
+"text": "I am an Assistant Director, Enforcement Directorate. You are required to appear in person at the office on the date mentioned with the documents.",
+"gold": {
+"agencies": [
+"ed"
+],
+"instruments": [],
+"demands": [
+"appear_in_person"
+],
+"payee": "none"
+},
+"doc": {
+"header": "Enforcement Directorate\nZonal Office",
+"title": "SUMMONS UNDER SECTION 50 PMLA, 2002",
+"ref": "REF/541/2026/1221",
+"date": "19-01-2026",
+"to": "Mr. R. Menon",
+"body": [
+"You are required to appear in person at the office on the date mentioned with the documents."
+],
+"seal": true,
+"seal_label": "ED",
+"signatory": "Assistant Director"
+},
+"audio": null,
+"video": false,
+"ccs": "b_delivery",
+"label": 1,
+"id": "dev-tp-T2_ed_no_qr-46",
+"family": "T2_ed_no_qr",
+"split": "dev_temporal",
+"ccs_seed": 2980967941
+},
+{
+"probe": "T3_it_no_din",
+"rule": "R1",
+"should_fire": true,
+"channel": "email",
+"date": "2026-06-20",
+"text": "Please respond on the e-filing portal within thirty days.",
+"gold": {
+"agencies": [
+"income_tax"
+],
+"instruments": [],
+"demands": [],
+"payee": "none"
+},
+"doc": {
+"header": "Income Tax Department\nOffice of the Assessing Officer",
+"title": "NOTICE UNDER SECTION 143(2)",
+"ref": "REF/241/2026/2421",
+"date": "20-06-2026",
+"to": "Mr. J. Thomas",
+"body": [
+"Please furnish your response within the time allowed."
+],
+"seal": false,
+"signatory": "Assessing Officer"
+},
+"audio": null,
+"video": false,
+"ccs": "b_delivery",
+"label": 1,
+"id": "dev-tp-T3_it_no_din-47",
+"family": "T3_it_no_din",
+"split": "dev_temporal",
+"ccs_seed": 3333080723
+},
+{
+"probe": "T1_s35_electronic",
+"rule": "P2",
+"should_fire": false,
+"channel": "whatsapp",
+"date": "2024-08-25",
+"text": "Sending you a notice under Section 35 BNSS on WhatsApp, you must join the video call for questioning.",
+"gold": {
+"agencies": [
+"police"
+],
+"instruments": [
+"notice_s35"
+],
+"demands": [],
+"payee": "none"
+},
+"doc": {
+"header": "Office of the Station House Officer\nSample Police Station",
+"title": "NOTICE UNDER SECTION 35(3) BNSS",
+"ref": "REF/940/2024/6678",
+"date": "25-08-2024",
+"to": "Mr. V. Rao",
+"body": [
+"You are directed to appear at the police station on the date mentioned below."
+],
+"seal": true,
+"seal_label": "SHO"
+},
+"audio": null,
+"video": false,
+"ccs": "b_delivery",
+"label": 0,
+"id": "dev-tp-T1_s35_electronic-48",
+"family": "T1_s35_electronic",
+"split": "dev_temporal",
+"ccs_seed": 1444272898
+},
+{
+"probe": "T2_ed_no_qr",
+"rule": "R3",
+"should_fire": false,
+"channel": "email",
+"date": "2025-09-11",
+"text": "I am an Assistant Director, Enforcement Directorate. You are required to appear in person at the office on the date mentioned with the documents.",
+"gold": {
+"agencies": [
+"ed"
+],
+"instruments": [],
+"demands": [
+"appear_in_person"
+],
+"payee": "none"
+},
+"doc": {
+"header": "Enforcement Directorate\nZonal Office",
+"title": "SUMMONS UNDER SECTION 50 PMLA, 2002",
+"ref": "REF/139/2025/6574",
+"date": "11-09-2025",
+"to": "Mr. R. Menon",
+"body": [
+"You are required to appear in person at the office on the date mentioned with the documents."
+],
+"seal": true,
+"seal_label": "ED",
+"signatory": "Assistant Director"
+},
+"audio": null,
+"video": false,
+"ccs": "b_delivery",
+"label": 0,
+"id": "dev-tp-T2_ed_no_qr-49",
+"family": "T2_ed_no_qr",
+"split": "dev_temporal",
+"ccs_seed": 554888084
+},
+{
+"probe": "T3_it_no_din",
+"rule": "R1",
+"should_fire": false,
+"channel": "email",
+"date": "2018-08-13",
+"text": "Please respond on the e-filing portal within thirty days.",
+"gold": {
+"agencies": [
+"income_tax"
+],
+"instruments": [],
+"demands": [],
+"payee": "none"
+},
+"doc": {
+"header": "Income Tax Department\nOffice of the Assessing Officer",
+"title": "NOTICE UNDER SECTION 143(2)",
+"ref": "REF/221/2018/7966",
+"date": "13-08-2018",
+"to": "Ms. K. Lakshmi",
+"body": [
+"Please furnish your response within the time allowed."
+],
+"seal": false,
+"signatory": "Assessing Officer"
+},
+"audio": null,
+"video": false,
+"ccs": "b_delivery",
+"label": 0,
+"id": "dev-tp-T3_it_no_din-50",
+"family": "T3_it_no_din",
+"split": "dev_temporal",
+"ccs_seed": 1104503409
+},
+{
+"probe": "T1_s35_electronic",
+"rule": "P2",
+"should_fire": true,
+"channel": "whatsapp",
+"date": "2026-01-02",
+"text": "Sending you a notice under Section 35 BNSS on WhatsApp, you must join the video call for questioning.",
+"gold": {
+"agencies": [
+"police"
+],
+"instruments": [
+"notice_s35"
+],
+"demands": [],
+"payee": "none"
+},
+"doc": {
+"header": "Office of the Station House Officer\nSample Police Station",
+"title": "NOTICE UNDER SECTION 35(3) BNSS",
+"ref": "REF/802/2026/8252",
+"date": "02-01-2026",
+"to": "Ms. K. Lakshmi",
+"body": [
+"You are directed to appear at the police station on the date mentioned below."
+],
+"seal": true,
+"seal_label": "SHO"
+},
+"audio": null,
+"video": false,
+"ccs": "b_delivery",
+"label": 1,
+"id": "dev-tp-T1_s35_electronic-51",
+"family": "T1_s35_electronic",
+"split": "dev_temporal",
+"ccs_seed": 919753447
+},
+{
+"probe": "T2_ed_no_qr",
+"rule": "R3",
+"should_fire": true,
+"channel": "email",
+"date": "2026-07-23",
+"text": "I am an Assistant Director, Enforcement Directorate. You are required to appear in person at the office on the date mentioned with the documents.",
+"gold": {
+"agencies": [
+"ed"
+],
+"instruments": [],
+"demands": [
+"appear_in_person"
+],
+"payee": "none"
+},
+"doc": {
+"header": "Enforcement Directorate\nZonal Office",
+"title": "SUMMONS UNDER SECTION 50 PMLA, 2002",
+"ref": "REF/595/2026/9083",
+"date": "23-07-2026",
+"to": "Mr. A. Kumar",
+"body": [
+"You are required to appear in person at the office on the date mentioned with the documents."
+],
+"seal": true,
+"seal_label": "ED",
+"signatory": "Assistant Director"
+},
+"audio": null,
+"video": false,
+"ccs": "b_delivery",
+"label": 1,
+"id": "dev-tp-T2_ed_no_qr-52",
+"family": "T2_ed_no_qr",
+"split": "dev_temporal",
+"ccs_seed": 2950366045
+},
+{
+"probe": "T3_it_no_din",
+"rule": "R1",
+"should_fire": true,
+"channel": "email",
+"date": "2025-03-19",
+"text": "Please respond on the e-filing portal within thirty days.",
+"gold": {
+"agencies": [
+"income_tax"
+],
+"instruments": [],
+"demands": [],
+"payee": "none"
+},
+"doc": {
+"header": "Income Tax Department\nOffice of the Assessing Officer",
+"title": "NOTICE UNDER SECTION 143(2)",
+"ref": "REF/940/2025/5032",
+"date": "19-03-2025",
+"to": "Mr. R. Menon",
+"body": [
+"Please furnish your response within the time allowed."
+],
+"seal": false,
+"signatory": "Assessing Officer"
+},
+"audio": null,
+"video": false,
+"ccs": "b_delivery",
+"label": 1,
+"id": "dev-tp-T3_it_no_din-53",
+"family": "T3_it_no_din",
+"split": "dev_temporal",
+"ccs_seed": 3638309835
+},
+{
+"probe": "T1_s35_electronic",
+"rule": "P2",
+"should_fire": false,
+"channel": "whatsapp",
+"date": "2024-11-07",
+"text": "Sending you a notice under Section 35 BNSS on WhatsApp, you must join the video call for questioning.",
+"gold": {
+"agencies": [
+"police"
+],
+"instruments": [
+"notice_s35"
+],
+"demands": [],
+"payee": "none"
+},
+"doc": {
+"header": "Office of the Station House Officer\nSample Police Station",
+"title": "NOTICE UNDER SECTION 35(3) BNSS",
+"ref": "REF/948/2024/5011",
+"date": "07-11-2024",
+"to": "Mr. A. Kumar",
+"body": [
+"You are directed to appear at the police station on the date mentioned below."
+],
+"seal": true,
+"seal_label": "SHO"
+},
+"audio": null,
+"video": false,
+"ccs": "b_delivery",
+"label": 0,
+"id": "dev-tp-T1_s35_electronic-54",
+"family": "T1_s35_electronic",
+"split": "dev_temporal",
+"ccs_seed": 1186506344
+},
+{
+"probe": "T2_ed_no_qr",
+"rule": "R3",
+"should_fire": false,
+"channel": "email",
+"date": "2024-06-17",
+"text": "I am an Assistant Director, Enforcement Directorate. You are required to appear in person at the office on the date mentioned with the documents.",
+"gold": {
+"agencies": [
+"ed"
+],
+"instruments": [],
+"demands": [
+"appear_in_person"
+],
+"payee": "none"
+},
+"doc": {
+"header": "Enforcement Directorate\nZonal Office",
+"title": "SUMMONS UNDER SECTION 50 PMLA, 2002",
+"ref": "REF/831/2024/7776",
+"date": "17-06-2024",
+"to": "Mr. V. Rao",
+"body": [
+"You are required to appear in person at the office on the date mentioned with the documents."
+],
+"seal": true,
+"seal_label": "ED",
+"signatory": "Assistant Director"
+},
+"audio": null,
+"video": false,
+"ccs": "b_delivery",
+"label": 0,
+"id": "dev-tp-T2_ed_no_qr-55",
+"family": "T2_ed_no_qr",
+"split": "dev_temporal",
+"ccs_seed": 834639614
+},
+{
+"probe": "T3_it_no_din",
+"rule": "R1",
+"should_fire": false,
+"channel": "email",
+"date": "2019-08-19",
+"text": "Please respond on the e-filing portal within thirty days.",
+"gold": {
+"agencies": [
+"income_tax"
+],
+"instruments": [],
+"demands": [],
+"payee": "none"
+},
+"doc": {
+"header": "Income Tax Department\nOffice of the Assessing Officer",
+"title": "NOTICE UNDER SECTION 143(2)",
+"ref": "REF/475/2019/7590",
+"date": "19-08-2019",
+"to": "Mr. V. Rao",
+"body": [
+"Please furnish your response within the time allowed."
+],
+"seal": false,
+"signatory": "Assessing Officer"
+},
+"audio": null,
+"video": false,
+"ccs": "b_delivery",
+"label": 0,
+"id": "dev-tp-T3_it_no_din-56",
+"family": "T3_it_no_din",
+"split": "dev_temporal",
+"ccs_seed": 2830550852
+},
+{
+"probe": "T1_s35_electronic",
+"rule": "P2",
+"should_fire": true,
+"channel": "whatsapp",
+"date": "2025-12-10",
+"text": "Sending you a notice under Section 35 BNSS on WhatsApp, you must join the video call for questioning.",
+"gold": {
+"agencies": [
+"police"
+],
+"instruments": [
+"notice_s35"
+],
+"demands": [],
+"payee": "none"
+},
+"doc": {
+"header": "Office of the Station House Officer\nSample Police Station",
+"title": "NOTICE UNDER SECTION 35(3) BNSS",
+"ref": "REF/209/2025/1119",
+"date": "10-12-2025",
+"to": "Ms. S. Priya",
+"body": [
+"You are directed to appear at the police station on the date mentioned below."
+],
+"seal": true,
+"seal_label": "SHO"
+},
+"audio": null,
+"video": false,
+"ccs": "b_delivery",
+"label": 1,
+"id": "dev-tp-T1_s35_electronic-57",
+"family": "T1_s35_electronic",
+"split": "dev_temporal",
+"ccs_seed": 3752982482
+},
+{
+"probe": "T2_ed_no_qr",
+"rule": "R3",
+"should_fire": true,
+"channel": "email",
+"date": "2025-10-18",
+"text": "I am an Assistant Director, Enforcement Directorate. You are required to appear in person at the office on the date mentioned with the documents.",
+"gold": {
+"agencies": [
+"ed"
+],
+"instruments": [],
+"demands": [
+"appear_in_person"
+],
+"payee": "none"
+},
+"doc": {
+"header": "Enforcement Directorate\nZonal Office",
+"title": "SUMMONS UNDER SECTION 50 PMLA, 2002",
+"ref": "REF/799/2025/6912",
+"date": "18-10-2025",
+"to": "Mr. V. Rao",
+"body": [
+"You are required to appear in person at the office on the date mentioned with the documents."
+],
+"seal": true,
+"seal_label": "ED",
+"signatory": "Assistant Director"
+},
+"audio": null,
+"video": false,
+"ccs": "b_delivery",
+"label": 1,
+"id": "dev-tp-T2_ed_no_qr-58",
+"family": "T2_ed_no_qr",
+"split": "dev_temporal",
+"ccs_seed": 1326377539
+},
+{
+"probe": "T3_it_no_din",
+"rule": "R1",
+"should_fire": true,
+"channel": "email",
+"date": "2022-10-24",
+"text": "Please respond on the e-filing portal within thirty days.",
+"gold": {
+"agencies": [
+"income_tax"
+],
+"instruments": [],
+"demands": [],
+"payee": "none"
+},
+"doc": {
+"header": "Income Tax Department\nOffice of the Assessing Officer",
+"title": "NOTICE UNDER SECTION 143(2)",
+"ref": "REF/168/2022/4553",
+"date": "24-10-2022",
+"to": "Ms. S. Priya",
+"body": [
+"Please furnish your response within the time allowed."
+],
+"seal": false,
+"signatory": "Assessing Officer"
+},
+"audio": null,
+"video": false,
+"ccs": "b_delivery",
+"label": 1,
+"id": "dev-tp-T3_it_no_din-59",
+"family": "T3_it_no_din",
+"split": "dev_temporal",
+"ccs_seed": 940169941
+}
+]

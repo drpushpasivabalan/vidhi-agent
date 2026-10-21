@@ -1,0 +1,678 @@
+{
+ "audio": {
+  "authentic-0": {
+   "kind": "authentic",
+   "score": 0.1053
+  },
+  "authentic-1": {
+   "kind": "authentic",
+   "score": 0.0647
+  },
+  "authentic-2": {
+   "kind": "authentic",
+   "score": 0.029
+  },
+  "authentic-3": {
+   "kind": "authentic",
+   "score": 0.1935
+  },
+  "authentic-4": {
+   "kind": "authentic",
+   "score": 0.1576
+  },
+  "authentic-5": {
+   "kind": "authentic",
+   "score": 0.8695
+  },
+  "authentic-6": {
+   "kind": "authentic",
+   "score": 0.0519
+  },
+  "authentic-7": {
+   "kind": "authentic",
+   "score": 0.0915
+  },
+  "authentic-8": {
+   "kind": "authentic",
+   "score": 0.0382
+  },
+  "authentic-9": {
+   "kind": "authentic",
+   "score": 0.0578
+  },
+  "authentic-10": {
+   "kind": "authentic",
+   "score": 0.0333
+  },
+  "authentic-11": {
+   "kind": "authentic",
+   "score": 0.0184
+  },
+  "authentic-12": {
+   "kind": "authentic",
+   "score": 0.0133
+  },
+  "authentic-13": {
+   "kind": "authentic",
+   "score": 0.0175
+  },
+  "authentic-14": {
+   "kind": "authentic",
+   "score": 0.2189
+  },
+  "authentic-15": {
+   "kind": "authentic",
+   "score": 0.2177
+  },
+  "authentic-16": {
+   "kind": "authentic",
+   "score": 0.0065
+  },
+  "authentic-17": {
+   "kind": "authentic",
+   "score": 0.0761
+  },
+  "authentic-18": {
+   "kind": "authentic",
+   "score": 0.0176
+  },
+  "authentic-19": {
+   "kind": "authentic",
+   "score": 0.0364
+  },
+  "authentic-20": {
+   "kind": "authentic",
+   "score": 0.2204
+  },
+  "authentic-21": {
+   "kind": "authentic",
+   "score": 0.4123
+  },
+  "authentic-22": {
+   "kind": "authentic",
+   "score": 0.0104
+  },
+  "authentic-23": {
+   "kind": "authentic",
+   "score": 0.1673
+  },
+  "authentic-24": {
+   "kind": "authentic",
+   "score": 0.2449
+  },
+  "authentic-25": {
+   "kind": "authentic",
+   "score": 0.0736
+  },
+  "authentic-26": {
+   "kind": "authentic",
+   "score": 0.2823
+  },
+  "authentic-27": {
+   "kind": "authentic",
+   "score": 0.0901
+  },
+  "authentic-28": {
+   "kind": "authentic",
+   "score": 0.0106
+  },
+  "authentic-29": {
+   "kind": "authentic",
+   "score": 0.0541
+  },
+  "authentic-30": {
+   "kind": "authentic",
+   "score": 0.036
+  },
+  "authentic-31": {
+   "kind": "authentic",
+   "score": 0.0983
+  },
+  "authentic-32": {
+   "kind": "authentic",
+   "score": 0.5393
+  },
+  "authentic-33": {
+   "kind": "authentic",
+   "score": 0.1314
+  },
+  "authentic-34": {
+   "kind": "authentic",
+   "score": 0.2029
+  },
+  "authentic-35": {
+   "kind": "authentic",
+   "score": 0.3017
+  },
+  "authentic-36": {
+   "kind": "authentic",
+   "score": 0.4988
+  },
+  "authentic-37": {
+   "kind": "authentic",
+   "score": 0.0229
+  },
+  "authentic-38": {
+   "kind": "authentic",
+   "score": 0.1281
+  },
+  "authentic-39": {
+   "kind": "authentic",
+   "score": 0.2521
+  },
+  "authentic-40": {
+   "kind": "authentic",
+   "score": 0.1013
+  },
+  "authentic-41": {
+   "kind": "authentic",
+   "score": 0.0626
+  },
+  "authentic-42": {
+   "kind": "authentic",
+   "score": 0.0123
+  },
+  "authentic-43": {
+   "kind": "authentic",
+   "score": 0.6448
+  },
+  "authentic-44": {
+   "kind": "authentic",
+   "score": 0.0185
+  },
+  "authentic-45": {
+   "kind": "authentic",
+   "score": 0.1472
+  },
+  "authentic-46": {
+   "kind": "authentic",
+   "score": 0.0476
+  },
+  "authentic-47": {
+   "kind": "authentic",
+   "score": 0.0357
+  },
+  "authentic-48": {
+   "kind": "authentic",
+   "score": 0.0695
+  },
+  "authentic-49": {
+   "kind": "authentic",
+   "score": 0.2127
+  },
+  "authentic-50": {
+   "kind": "authentic",
+   "score": 0.4963
+  },
+  "authentic-51": {
+   "kind": "authentic",
+   "score": 0.3493
+  },
+  "authentic-52": {
+   "kind": "authentic",
+   "score": 0.0179
+  },
+  "authentic-53": {
+   "kind": "authentic",
+   "score": 0.032
+  },
+  "authentic-54": {
+   "kind": "authentic",
+   "score": 0.0617
+  },
+  "authentic-55": {
+   "kind": "authentic",
+   "score": 0.0188
+  },
+  "authentic-56": {
+   "kind": "authentic",
+   "score": 0.243
+  },
+  "authentic-57": {
+   "kind": "authentic",
+   "score": 0.0792
+  },
+  "authentic-58": {
+   "kind": "authentic",
+   "score": 0.0785
+  },
+  "authentic-59": {
+   "kind": "authentic",
+   "score": 0.0958
+  },
+  "synthetic_voice-0": {
+   "kind": "synthetic_voice",
+   "score": 0.9999
+  },
+  "synthetic_voice-1": {
+   "kind": "synthetic_voice",
+   "score": 0.9989
+  },
+  "synthetic_voice-2": {
+   "kind": "synthetic_voice",
+   "score": 0.9991
+  },
+  "synthetic_voice-3": {
+   "kind": "synthetic_voice",
+   "score": 0.9996
+  },
+  "synthetic_voice-4": {
+   "kind": "synthetic_voice",
+   "score": 0.9999
+  },
+  "synthetic_voice-5": {
+   "kind": "synthetic_voice",
+   "score": 0.9994
+  },
+  "synthetic_voice-6": {
+   "kind": "synthetic_voice",
+   "score": 1.0
+  },
+  "synthetic_voice-7": {
+   "kind": "synthetic_voice",
+   "score": 1.0
+  },
+  "synthetic_voice-8": {
+   "kind": "synthetic_voice",
+   "score": 1.0
+  },
+  "synthetic_voice-9": {
+   "kind": "synthetic_voice",
+   "score": 0.9989
+  },
+  "synthetic_voice-10": {
+   "kind": "synthetic_voice",
+   "score": 0.9992
+  },
+  "synthetic_voice-11": {
+   "kind": "synthetic_voice",
+   "score": 0.9984
+  },
+  "synthetic_voice-12": {
+   "kind": "synthetic_voice",
+   "score": 0.9992
+  },
+  "synthetic_voice-13": {
+   "kind": "synthetic_voice",
+   "score": 0.9991
+  },
+  "synthetic_voice-14": {
+   "kind": "synthetic_voice",
+   "score": 1.0
+  },
+  "synthetic_voice-15": {
+   "kind": "synthetic_voice",
+   "score": 0.9994
+  },
+  "synthetic_voice-16": {
+   "kind": "synthetic_voice",
+   "score": 1.0
+  },
+  "synthetic_voice-17": {
+   "kind": "synthetic_voice",
+   "score": 0.999
+  },
+  "synthetic_voice-18": {
+   "kind": "synthetic_voice",
+   "score": 0.9997
+  },
+  "synthetic_voice-19": {
+   "kind": "synthetic_voice",
+   "score": 0.9996
+  },
+  "synthetic_voice-20": {
+   "kind": "synthetic_voice",
+   "score": 1.0
+  },
+  "synthetic_voice-21": {
+   "kind": "synthetic_voice",
+   "score": 1.0
+  },
+  "synthetic_voice-22": {
+   "kind": "synthetic_voice",
+   "score": 1.0
+  },
+  "synthetic_voice-23": {
+   "kind": "synthetic_voice",
+   "score": 0.999
+  },
+  "synthetic_voice-24": {
+   "kind": "synthetic_voice",
+   "score": 0.9991
+  },
+  "synthetic_voice-25": {
+   "kind": "synthetic_voice",
+   "score": 0.999
+  },
+  "synthetic_voice-26": {
+   "kind": "synthetic_voice",
+   "score": 0.9992
+  },
+  "synthetic_voice-27": {
+   "kind": "synthetic_voice",
+   "score": 0.9984
+  },
+  "synthetic_voice-28": {
+   "kind": "synthetic_voice",
+   "score": 0.9992
+  },
+  "synthetic_voice-29": {
+   "kind": "synthetic_voice",
+   "score": 0.9997
+  },
+  "synthetic_voice-30": {
+   "kind": "synthetic_voice",
+   "score": 0.9994
+  },
+  "synthetic_voice-31": {
+   "kind": "synthetic_voice",
+   "score": 1.0
+  },
+  "synthetic_voice-32": {
+   "kind": "synthetic_voice",
+   "score": 0.9989
+  },
+  "synthetic_voice-33": {
+   "kind": "synthetic_voice",
+   "score": 0.9994
+  },
+  "synthetic_voice-34": {
+   "kind": "synthetic_voice",
+   "score": 0.9984
+  },
+  "synthetic_voice-35": {
+   "kind": "synthetic_voice",
+   "score": 0.9996
+  },
+  "synthetic_voice-36": {
+   "kind": "synthetic_voice",
+   "score": 0.9994
+  },
+  "synthetic_voice-37": {
+   "kind": "synthetic_voice",
+   "score": 0.9993
+  },
+  "synthetic_voice-38": {
+   "kind": "synthetic_voice",
+   "score": 0.9993
+  },
+  "synthetic_voice-39": {
+   "kind": "synthetic_voice",
+   "score": 1.0
+  },
+  "splice-0": {
+   "kind": "splice",
+   "score": 0.9991
+  },
+  "splice-1": {
+   "kind": "splice",
+   "score": 0.6331
+  },
+  "splice-2": {
+   "kind": "splice",
+   "score": 0.3143
+  },
+  "splice-3": {
+   "kind": "splice",
+   "score": 0.9923
+  },
+  "splice-4": {
+   "kind": "splice",
+   "score": 0.065
+  },
+  "splice-5": {
+   "kind": "splice",
+   "score": 0.0524
+  },
+  "splice-6": {
+   "kind": "splice",
+   "score": 0.9992
+  },
+  "splice-7": {
+   "kind": "splice",
+   "score": 0.016
+  },
+  "splice-8": {
+   "kind": "splice",
+   "score": 0.5195
+  },
+  "splice-9": {
+   "kind": "splice",
+   "score": 0.9991
+  },
+  "splice-10": {
+   "kind": "splice",
+   "score": 0.999
+  },
+  "splice-11": {
+   "kind": "splice",
+   "score": 0.3184
+  },
+  "splice-12": {
+   "kind": "splice",
+   "score": 0.9968
+  },
+  "splice-13": {
+   "kind": "splice",
+   "score": 0.8786
+  },
+  "splice-14": {
+   "kind": "splice",
+   "score": 0.9447
+  },
+  "splice-15": {
+   "kind": "splice",
+   "score": 0.9707
+  },
+  "splice-16": {
+   "kind": "splice",
+   "score": 0.0356
+  },
+  "splice-17": {
+   "kind": "splice",
+   "score": 0.8009
+  },
+  "splice-18": {
+   "kind": "splice",
+   "score": 0.0108
+  },
+  "splice-19": {
+   "kind": "splice",
+   "score": 0.008
+  }
+ },
+ "video": {
+  "authentic-0": {
+   "kind": "authentic",
+   "score": 0.6838
+  },
+  "authentic-1": {
+   "kind": "authentic",
+   "score": 0.4037
+  },
+  "authentic-2": {
+   "kind": "authentic",
+   "score": 0.3458
+  },
+  "authentic-3": {
+   "kind": "authentic",
+   "score": 0.1484
+  },
+  "authentic-4": {
+   "kind": "authentic",
+   "score": 0.0407
+  },
+  "authentic-5": {
+   "kind": "authentic",
+   "score": 0.4356
+  },
+  "authentic-6": {
+   "kind": "authentic",
+   "score": 0.0948
+  },
+  "authentic-7": {
+   "kind": "authentic",
+   "score": 0.024
+  },
+  "authentic-8": {
+   "kind": "authentic",
+   "score": 0.0547
+  },
+  "authentic-9": {
+   "kind": "authentic",
+   "score": 0.142
+  },
+  "authentic-10": {
+   "kind": "authentic",
+   "score": 0.0283
+  },
+  "authentic-11": {
+   "kind": "authentic",
+   "score": 0.0635
+  },
+  "authentic-12": {
+   "kind": "authentic",
+   "score": 0.0781
+  },
+  "authentic-13": {
+   "kind": "authentic",
+   "score": 0.3044
+  },
+  "authentic-14": {
+   "kind": "authentic",
+   "score": 0.0482
+  },
+  "authentic-15": {
+   "kind": "authentic",
+   "score": 0.2061
+  },
+  "authentic-16": {
+   "kind": "authentic",
+   "score": 0.2666
+  },
+  "authentic-17": {
+   "kind": "authentic",
+   "score": 0.0524
+  },
+  "authentic-18": {
+   "kind": "authentic",
+   "score": 0.0247
+  },
+  "authentic-19": {
+   "kind": "authentic",
+   "score": 0.0685
+  },
+  "authentic-20": {
+   "kind": "authentic",
+   "score": 0.0395
+  },
+  "authentic-21": {
+   "kind": "authentic",
+   "score": 0.0396
+  },
+  "authentic-22": {
+   "kind": "authentic",
+   "score": 0.0647
+  },
+  "authentic-23": {
+   "kind": "authentic",
+   "score": 0.0274
+  },
+  "face_swap-0": {
+   "kind": "face_swap",
+   "score": 0.999
+  },
+  "face_swap-1": {
+   "kind": "face_swap",
+   "score": 0.999
+  },
+  "face_swap-2": {
+   "kind": "face_swap",
+   "score": 0.9992
+  },
+  "face_swap-3": {
+   "kind": "face_swap",
+   "score": 0.999
+  },
+  "face_swap-4": {
+   "kind": "face_swap",
+   "score": 0.9993
+  },
+  "face_swap-5": {
+   "kind": "face_swap",
+   "score": 0.999
+  },
+  "face_swap-6": {
+   "kind": "face_swap",
+   "score": 0.9993
+  },
+  "face_swap-7": {
+   "kind": "face_swap",
+   "score": 0.9992
+  },
+  "face_swap-8": {
+   "kind": "face_swap",
+   "score": 0.999
+  },
+  "face_swap-9": {
+   "kind": "face_swap",
+   "score": 0.9991
+  },
+  "face_swap-10": {
+   "kind": "face_swap",
+   "score": 0.9991
+  },
+  "face_swap-11": {
+   "kind": "face_swap",
+   "score": 0.9991
+  },
+  "face_swap-12": {
+   "kind": "face_swap",
+   "score": 0.999
+  },
+  "face_swap-13": {
+   "kind": "face_swap",
+   "score": 0.999
+  },
+  "face_swap-14": {
+   "kind": "face_swap",
+   "score": 0.999
+  },
+  "face_swap-15": {
+   "kind": "face_swap",
+   "score": 0.998
+  },
+  "face_swap-16": {
+   "kind": "face_swap",
+   "score": 0.9991
+  },
+  "face_swap-17": {
+   "kind": "face_swap",
+   "score": 0.999
+  },
+  "face_swap-18": {
+   "kind": "face_swap",
+   "score": 0.9993
+  },
+  "face_swap-19": {
+   "kind": "face_swap",
+   "score": 0.999
+  },
+  "face_swap-20": {
+   "kind": "face_swap",
+   "score": 0.9991
+  },
+  "face_swap-21": {
+   "kind": "face_swap",
+   "score": 0.999
+  },
+  "face_swap-22": {
+   "kind": "face_swap",
+   "score": 0.999
+  },
+  "face_swap-23": {
+   "kind": "face_swap",
+   "score": 0.999
+  }
+ }
+}

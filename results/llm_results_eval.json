@@ -1,0 +1,9737 @@
+{
+ "meta": {
+  "machine": "Windows-10-10.0.19045-SP0",
+  "python": "3.13.5",
+  "ollama": "http://127.0.0.1:11434",
+  "started": "Sun Oct 18 20:24:15 2026",
+  "ollama_version": "0.40.6",
+  "finished": "Wed Oct 21 15:29:30 2026"
+ },
+ "parse_stats": {
+  "qwen2.5:3b": {
+   "extract_ok": 477,
+   "extract_n": 478,
+   "detect_ok": 478,
+   "detect_n": 478,
+   "mean_seconds": 55.92978033472803
+  },
+  "llama3.2:3b": {
+   "extract_ok": 478,
+   "extract_n": 478,
+   "detect_ok": 478,
+   "detect_n": 478,
+   "mean_seconds": 13.670020920502091
+  }
+ },
+ "real": {
+  "systems": {
+   "VIDHI (rule extractor)": {
+    "fraud_flagged": 0.325,
+    "fraud_verify": 0.675,
+    "fraud_cleared": 0.0,
+    "lawful_cleared": 0.02631578947368421,
+    "lawful_verify": 0.9473684210526315,
+    "lawful_flagged": 0.02631578947368421,
+    "auc": 0.650986842105263,
+    "n": 78,
+    "fraud_flagged_ci95": [
+     0.1799871794871795,
+     0.47371710526315786
+    ],
+    "lawful_flagged_ci95": [
+     0.0,
+     0.08333333333333333
+    ]
+   },
+   "VIDHI (qwen2.5:3b extractor)": {
+    "fraud_flagged": 0.675,
+    "fraud_verify": 0.325,
+    "fraud_cleared": 0.0,
+    "lawful_cleared": 0.0,
+    "lawful_verify": 0.8947368421052632,
+    "lawful_flagged": 0.10526315789473684,
+    "auc": 0.7792763157894737,
+    "n": 78,
+    "fraud_flagged_ci95": [
+     0.5333333333333333,
+     0.8109352773826457
+    ],
+    "lawful_flagged_ci95": [
+     0.025,
+     0.21951219512195122
+    ]
+   },
+   "VIDHI (qwen2.5:3b + rules)": {
+    "fraud_flagged": 0.75,
+    "fraud_verify": 0.25,
+    "fraud_cleared": 0.0,
+    "lawful_cleared": 0.0,
+    "lawful_verify": 0.8947368421052632,
+    "lawful_flagged": 0.10526315789473684,
+    "auc": 0.8286184210526315,
+    "n": 78,
+    "fraud_flagged_ci95": [
+     0.6060406698564593,
+     0.8809523809523809
+    ],
+    "lawful_flagged_ci95": [
+     0.025,
+     0.21951219512195122
+    ]
+   },
+   "VIDHI (llama3.2:3b extractor)": {
+    "fraud_flagged": 0.975,
+    "fraud_verify": 0.025,
+    "fraud_cleared": 0.0,
+    "lawful_cleared": 0.0,
+    "lawful_verify": 0.8157894736842105,
+    "lawful_flagged": 0.18421052631578946,
+    "auc": 0.9539473684210527,
+    "n": 78,
+    "fraud_flagged_ci95": [
+     0.9130115089514066,
+     1.0
+    ],
+    "lawful_flagged_ci95": [
+     0.07142857142857142,
+     0.3333333333333333
+    ]
+   },
+   "VIDHI (llama3.2:3b + rules)": {
+    "fraud_flagged": 0.975,
+    "fraud_verify": 0.025,
+    "fraud_cleared": 0.0,
+    "lawful_cleared": 0.0,
+    "lawful_verify": 0.8157894736842105,
+    "lawful_flagged": 0.18421052631578946,
+    "auc": 0.9641447368421052,
+    "n": 78,
+    "fraud_flagged_ci95": [
+     0.9130115089514066,
+     1.0
+    ],
+    "lawful_flagged_ci95": [
+     0.07142857142857142,
+     0.3333333333333333
+    ]
+   },
+   "VIDHI (oracle claims, analysis)": {
+    "fraud_flagged": 0.9,
+    "fraud_verify": 0.1,
+    "fraud_cleared": 0.0,
+    "lawful_cleared": 0.02631578947368421,
+    "lawful_verify": 0.8421052631578947,
+    "lawful_flagged": 0.13157894736842105,
+    "auc": 0.9151315789473683,
+    "n": 78,
+    "fraud_flagged_ci95": [
+     0.8,
+     0.9782608695652174
+    ],
+    "lawful_flagged_ci95": [
+     0.029411764705882353,
+     0.24444444444444444
+    ]
+   },
+   "VIDHI-D (rule extractor)": {
+    "fraud_flagged": 0.3,
+    "fraud_verify": 0.7,
+    "fraud_cleared": 0.0,
+    "lawful_cleared": 0.02631578947368421,
+    "lawful_verify": 0.9736842105263158,
+    "lawful_flagged": 0.0,
+    "auc": 0.6592105263157895,
+    "n": 78,
+    "fraud_flagged_ci95": [
+     0.15789473684210525,
+     0.4474342105263157
+    ],
+    "lawful_flagged_ci95": [
+     0.0,
+     0.0
+    ]
+   },
+   "VIDHI-D (qwen2.5:3b extractor)": {
+    "fraud_flagged": 0.625,
+    "fraud_verify": 0.375,
+    "fraud_cleared": 0.0,
+    "lawful_cleared": 0.0,
+    "lawful_verify": 0.9473684210526315,
+    "lawful_flagged": 0.05263157894736842,
+    "auc": 0.7934210526315789,
+    "n": 78,
+    "fraud_flagged_ci95": [
+     0.475,
+     0.7728535353535352
+    ],
+    "lawful_flagged_ci95": [
+     0.0,
+     0.14285714285714285
+    ]
+   },
+   "VIDHI-D (qwen2.5:3b + rules)": {
+    "fraud_flagged": 0.7,
+    "fraud_verify": 0.3,
+    "fraud_cleared": 0.0,
+    "lawful_cleared": 0.0,
+    "lawful_verify": 0.9473684210526315,
+    "lawful_flagged": 0.05263157894736842,
+    "auc": 0.8368421052631579,
+    "n": 78,
+    "fraud_flagged_ci95": [
+     0.5483678955453148,
+     0.8293699186991869
+    ],
+    "lawful_flagged_ci95": [
+     0.0,
+     0.14285714285714285
+    ]
+   },
+   "VIDHI-D (llama3.2:3b extractor)": {
+    "fraud_flagged": 0.925,
+    "fraud_verify": 0.075,
+    "fraud_cleared": 0.0,
+    "lawful_cleared": 0.0,
+    "lawful_verify": 0.9473684210526315,
+    "lawful_flagged": 0.05263157894736842,
+    "auc": 0.9532894736842107,
+    "n": 78,
+    "fraud_flagged_ci95": [
+     0.8292682926829268,
+     1.0
+    ],
+    "lawful_flagged_ci95": [
+     0.0,
+     0.14285714285714285
+    ]
+   },
+   "VIDHI-D (llama3.2:3b + rules)": {
+    "fraud_flagged": 0.925,
+    "fraud_verify": 0.075,
+    "fraud_cleared": 0.0,
+    "lawful_cleared": 0.0,
+    "lawful_verify": 0.9473684210526315,
+    "lawful_flagged": 0.05263157894736842,
+    "auc": 0.9578947368421054,
+    "n": 78,
+    "fraud_flagged_ci95": [
+     0.8292682926829268,
+     1.0
+    ],
+    "lawful_flagged_ci95": [
+     0.0,
+     0.14285714285714285
+    ]
+   },
+   "VIDHI-D (oracle claims, analysis)": {
+    "fraud_flagged": 0.9,
+    "fraud_verify": 0.1,
+    "fraud_cleared": 0.0,
+    "lawful_cleared": 0.02631578947368421,
+    "lawful_verify": 0.9736842105263158,
+    "lawful_flagged": 0.0,
+    "auc": 0.9513157894736841,
+    "n": 78,
+    "fraud_flagged_ci95": [
+     0.8,
+     0.9782608695652174
+    ],
+    "lawful_flagged_ci95": [
+     0.0,
+     0.0
+    ]
+   },
+   "Keyword rule": {
+    "fraud_flagged": 0.9,
+    "fraud_verify": 0.0,
+    "fraud_cleared": 0.1,
+    "lawful_cleared": 0.13157894736842105,
+    "lawful_verify": 0.0,
+    "lawful_flagged": 0.868421052631579,
+    "auc": 0.5157894736842106,
+    "n": 78,
+    "fraud_flagged_ci95": [
+     0.7941176470588235,
+     0.975
+    ],
+    "lawful_flagged_ci95": [
+     0.75,
+     0.9705882352941176
+    ]
+   },
+   "TF-IDF + LR (trained on VIDHI-Bench)": {
+    "fraud_flagged": 1.0,
+    "fraud_verify": 0.0,
+    "fraud_cleared": 0.0,
+    "lawful_cleared": 0.5526315789473685,
+    "lawful_verify": 0.0,
+    "lawful_flagged": 0.4473684210526316,
+    "auc": 0.9276315789473684,
+    "n": 78,
+    "fraud_flagged_ci95": [
+     1.0,
+     1.0
+    ],
+    "lawful_flagged_ci95": [
+     0.29993243243243245,
+     0.6
+    ]
+   },
+   "kNN example retrieval (VIDHI-Bench memory)": {
+    "fraud_flagged": 0.975,
+    "fraud_verify": 0.0,
+    "fraud_cleared": 0.025,
+    "lawful_cleared": 0.6052631578947368,
+    "lawful_verify": 0.0,
+    "lawful_flagged": 0.39473684210526316,
+    "auc": 0.84375,
+    "n": 78,
+    "fraud_flagged_ci95": [
+     0.9166666666666666,
+     1.0
+    ],
+    "lawful_flagged_ci95": [
+     0.2556686046511628,
+     0.5500431034482759
+    ]
+   },
+   "LLM-only detector (qwen2.5:3b)": {
+    "fraud_flagged": 0.975,
+    "fraud_verify": 0.0,
+    "fraud_cleared": 0.025,
+    "lawful_cleared": 0.7631578947368421,
+    "lawful_verify": 0.0,
+    "lawful_flagged": 0.23684210526315788,
+    "auc": 0.7967105263157894,
+    "n": 78,
+    "fraud_flagged_ci95": [
+     0.9188626126126127,
+     1.0
+    ],
+    "lawful_flagged_ci95": [
+     0.11428571428571428,
+     0.3809873949579831
+    ]
+   },
+   "LLM-only detector (llama3.2:3b)": {
+    "fraud_flagged": 1.0,
+    "fraud_verify": 0.0,
+    "fraud_cleared": 0.0,
+    "lawful_cleared": 0.8421052631578947,
+    "lawful_verify": 0.0,
+    "lawful_flagged": 0.15789473684210525,
+    "auc": 0.9615131578947369,
+    "n": 78,
+    "fraud_flagged_ci95": [
+     1.0,
+     1.0
+    ],
+    "lawful_flagged_ci95": [
+     0.05128205128205128,
+     0.28127003205128204
+    ]
+   }
+  },
+  "extraction": {
+   "rules": {
+    "agencies": {
+     "precision": 0.9813084112149533,
+     "recall": 0.8823529411764706,
+     "f1": 0.9292035398230087
+    },
+    "instruments": {
+     "precision": 0.96,
+     "recall": 0.43636363636363634,
+     "f1": 0.6
+    },
+    "demands": {
+     "precision": 0.8888888888888888,
+     "recall": 0.16161616161616163,
+     "f1": 0.27350427350427353
+    },
+    "payee_acc": 0.6282051282051282
+   },
+   "qwen2.5:3b": {
+    "agencies": {
+     "precision": 0.900990099009901,
+     "recall": 0.7647058823529411,
+     "f1": 0.8272727272727274
+    },
+    "instruments": {
+     "precision": 0.5652173913043478,
+     "recall": 0.7090909090909091,
+     "f1": 0.6290322580645161
+    },
+    "demands": {
+     "precision": 0.6836734693877551,
+     "recall": 0.6767676767676768,
+     "f1": 0.6802030456852791
+    },
+    "payee_acc": 0.7307692307692307
+   },
+   "llama3.2:3b": {
+    "agencies": {
+     "precision": 0.9393939393939394,
+     "recall": 0.7815126050420168,
+     "f1": 0.8532110091743119
+    },
+    "instruments": {
+     "precision": 0.362962962962963,
+     "recall": 0.8909090909090909,
+     "f1": 0.5157894736842106
+    },
+    "demands": {
+     "precision": 0.496551724137931,
+     "recall": 0.7272727272727273,
+     "f1": 0.5901639344262296
+    },
+    "payee_acc": 0.8205128205128205
+   }
+  },
+  "by_form": {
+   "VIDHI (rule extractor)": {
+    "excerpts": {
+     "fraud_flagged": 0.2647058823529412,
+     "fraud_verify": 0.7352941176470589,
+     "fraud_cleared": 0.0,
+     "lawful_cleared": 0.027777777777777776,
+     "lawful_verify": 0.9444444444444444,
+     "lawful_flagged": 0.027777777777777776,
+     "auc": 0.6192810457516339,
+     "n": 70
+    },
+    "paraphrase": {
+     "fraud_flagged": 0.6666666666666666,
+     "fraud_verify": 0.3333333333333333,
+     "fraud_cleared": 0.0,
+     "lawful_cleared": 0.0,
+     "lawful_verify": 1.0,
+     "lawful_flagged": 0.0,
+     "auc": 0.8333333333333333,
+     "n": 8
+    }
+   },
+   "VIDHI (qwen2.5:3b extractor)": {
+    "excerpts": {
+     "fraud_flagged": 0.6470588235294118,
+     "fraud_verify": 0.35294117647058826,
+     "fraud_cleared": 0.0,
+     "lawful_cleared": 0.0,
+     "lawful_verify": 0.8888888888888888,
+     "lawful_flagged": 0.1111111111111111,
+     "auc": 0.761437908496732,
+     "n": 70
+    },
+    "paraphrase": {
+     "fraud_flagged": 0.8333333333333334,
+     "fraud_verify": 0.16666666666666666,
+     "fraud_cleared": 0.0,
+     "lawful_cleared": 0.0,
+     "lawful_verify": 1.0,
+     "lawful_flagged": 0.0,
+     "auc": 0.875,
+     "n": 8
+    }
+   },
+   "VIDHI (llama3.2:3b extractor)": {
+    "excerpts": {
+     "fraud_flagged": 0.9705882352941176,
+     "fraud_verify": 0.029411764705882353,
+     "fraud_cleared": 0.0,
+     "lawful_cleared": 0.0,
+     "lawful_verify": 0.8055555555555556,
+     "lawful_flagged": 0.19444444444444445,
+     "auc": 0.9497549019607844,
+     "n": 70
+    },
+    "paraphrase": {
+     "fraud_flagged": 1.0,
+     "fraud_verify": 0.0,
+     "fraud_cleared": 0.0,
+     "lawful_cleared": 0.0,
+     "lawful_verify": 1.0,
+     "lawful_flagged": 0.0,
+     "auc": 1.0,
+     "n": 8
+    }
+   }
+  },
+  "n": 78,
+  "rows": {
+   "VIDHI (rule extractor)": [
+    {
+     "id": "R-S01",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S02",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-S03",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S04",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S05",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S06",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S07",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S08",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S09",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S10",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S11",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S12",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S13",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S14",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S15",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S16",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L01",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L02",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L03",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L04",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S17",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S18",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S19",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-L05",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L06",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L07",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L08",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L09",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L10",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S20",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S21",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S22",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S23",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S24",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S25",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S26",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L11",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.7250000000000001
+    },
+    {
+     "id": "R-L12",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L13",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L14",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L15",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L16",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L17",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L18",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L19",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L20",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L21",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S27",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S28",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S29",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S30",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S31",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S32",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S33",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S34",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S35",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S36",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S37",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S38",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-L22",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L23",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L24",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L25",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.25
+    },
+    {
+     "id": "R-L26",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L27",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L28",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L29",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S39",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S40",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L30",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L31",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L32",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L33",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L34",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L35",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L36",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L37",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L38",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    }
+   ],
+   "VIDHI (qwen2.5:3b extractor)": [
+    {
+     "id": "R-S01",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-S02",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-S03",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-S04",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-S05",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S06",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-S07",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S08",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S09",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S10",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S11",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S12",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S13",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S14",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S15",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S16",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-L01",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.7250000000000001
+    },
+    {
+     "id": "R-L02",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.7250000000000001
+    },
+    {
+     "id": "R-L03",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L04",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S17",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S18",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S19",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-L05",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L06",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.7250000000000001
+    },
+    {
+     "id": "R-L07",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L08",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L09",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L10",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S20",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S21",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S22",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S23",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S24",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S25",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S26",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-L11",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.7250000000000001
+    },
+    {
+     "id": "R-L12",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L13",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L14",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L15",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L16",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L17",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L18",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L19",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L20",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L21",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S27",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S28",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S29",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S30",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S31",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S32",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S33",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S34",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S35",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S36",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S37",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S38",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-L22",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L23",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L24",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L25",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-L26",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-L27",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L28",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L29",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S39",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S40",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-L30",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L31",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L32",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L33",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L34",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L35",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L36",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-L37",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L38",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.7250000000000001
+    }
+   ],
+   "VIDHI (qwen2.5:3b + rules)": [
+    {
+     "id": "R-S01",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-S02",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.99997952
+    },
+    {
+     "id": "R-S03",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-S04",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-S05",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S06",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-S07",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S08",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S09",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S10",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S11",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S12",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S13",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S14",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S15",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S16",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-L01",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.7250000000000001
+    },
+    {
+     "id": "R-L02",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.7250000000000001
+    },
+    {
+     "id": "R-L03",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L04",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S17",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S18",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S19",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-L05",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L06",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.7250000000000001
+    },
+    {
+     "id": "R-L07",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L08",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L09",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L10",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S20",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S21",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S22",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S23",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S24",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S25",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S26",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-L11",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.7250000000000001
+    },
+    {
+     "id": "R-L12",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L13",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L14",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L15",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L16",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L17",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L18",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L19",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L20",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L21",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S27",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S28",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S29",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S30",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S31",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S32",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S33",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S34",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S35",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S36",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S37",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S38",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-L22",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L23",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L24",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L25",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 0.888888888888889
+    },
+    {
+     "id": "R-L26",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-L27",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L28",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L29",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S39",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S40",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-L30",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L31",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L32",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L33",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L34",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L35",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L36",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-L37",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L38",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.7250000000000001
+    }
+   ],
+   "VIDHI (llama3.2:3b extractor)": [
+    {
+     "id": "R-S01",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S02",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-S03",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.99997952
+    },
+    {
+     "id": "R-S04",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-S05",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9999983616
+    },
+    {
+     "id": "R-S06",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-S07",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S08",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.99997952
+    },
+    {
+     "id": "R-S09",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S10",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S11",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S12",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S13",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S14",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S15",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S16",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-L01",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.7250000000000001
+    },
+    {
+     "id": "R-L02",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L03",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L04",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S17",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S18",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-S19",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-L05",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L06",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.7250000000000001
+    },
+    {
+     "id": "R-L07",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L08",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L09",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L10",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S20",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S21",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-S22",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S23",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S24",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S25",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S26",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-L11",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.7250000000000001
+    },
+    {
+     "id": "R-L12",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L13",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L14",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L15",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-L16",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L17",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L18",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L19",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L20",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L21",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S27",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9904610492845787
+    },
+    {
+     "id": "R-S28",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.99997952
+    },
+    {
+     "id": "R-S29",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.99997952
+    },
+    {
+     "id": "R-S30",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S31",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S32",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S33",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-S34",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-S35",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S36",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S37",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-S38",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-L22",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L23",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L24",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L25",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-L26",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-L27",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L28",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L29",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S39",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S40",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-L30",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L31",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L32",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L33",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L34",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L35",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L36",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-L37",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L38",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.7250000000000001
+    }
+   ],
+   "VIDHI (llama3.2:3b + rules)": [
+    {
+     "id": "R-S01",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.99997952
+    },
+    {
+     "id": "R-S02",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.99997952
+    },
+    {
+     "id": "R-S03",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.99997952
+    },
+    {
+     "id": "R-S04",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-S05",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9999983616
+    },
+    {
+     "id": "R-S06",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-S07",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S08",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.99997952
+    },
+    {
+     "id": "R-S09",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S10",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S11",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S12",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S13",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S14",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S15",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S16",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-L01",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.7250000000000001
+    },
+    {
+     "id": "R-L02",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L03",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L04",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S17",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S18",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-S19",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-L05",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L06",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.7250000000000001
+    },
+    {
+     "id": "R-L07",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L08",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L09",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L10",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S20",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S21",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-S22",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S23",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S24",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S25",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S26",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-L11",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.7250000000000001
+    },
+    {
+     "id": "R-L12",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L13",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L14",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L15",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-L16",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L17",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L18",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L19",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L20",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L21",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S27",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.978021978021978
+    },
+    {
+     "id": "R-S28",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.99997952
+    },
+    {
+     "id": "R-S29",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.99997952
+    },
+    {
+     "id": "R-S30",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S31",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-S32",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S33",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9992323930147765
+    },
+    {
+     "id": "R-S34",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-S35",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S36",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S37",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-S38",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-L22",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L23",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L24",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L25",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 0.888888888888889
+    },
+    {
+     "id": "R-L26",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-L27",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L28",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L29",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S39",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S40",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-L30",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L31",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L32",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L33",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L34",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L35",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L36",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-L37",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L38",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.7250000000000001
+    }
+   ],
+   "VIDHI (oracle claims, analysis)": [
+    {
+     "id": "R-S01",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-S02",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-S03",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-S04",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-S05",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S06",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S07",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S08",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S09",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S10",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S11",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S12",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S13",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S14",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S15",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S16",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-L01",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.7250000000000001
+    },
+    {
+     "id": "R-L02",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.7250000000000001
+    },
+    {
+     "id": "R-L03",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L04",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S17",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S18",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S19",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-L05",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L06",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.7250000000000001
+    },
+    {
+     "id": "R-L07",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L08",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L09",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L10",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S20",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S21",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S22",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S23",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S24",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S25",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S26",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-L11",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.7250000000000001
+    },
+    {
+     "id": "R-L12",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L13",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L14",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L15",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-L16",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L17",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L18",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L19",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L20",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L21",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S27",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S28",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S29",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-S30",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S31",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S32",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S33",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S34",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S35",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S36",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-S37",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S38",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-L22",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L23",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L24",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L25",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.25
+    },
+    {
+     "id": "R-L26",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-L27",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L28",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L29",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S39",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S40",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-L30",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L31",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L32",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L33",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L34",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L35",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L36",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-L37",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L38",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.7250000000000001
+    }
+   ],
+   "VIDHI-D (rule extractor)": [
+    {
+     "id": "R-S01",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S02",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-S03",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S04",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S05",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S06",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S07",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S08",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S09",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S10",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S11",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S12",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S13",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S14",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S15",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S16",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L01",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L02",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L03",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L04",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S17",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S18",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S19",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-L05",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L06",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L07",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L08",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L09",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L10",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S20",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S21",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S22",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S23",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S24",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S25",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S26",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L11",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L12",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L13",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L14",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L15",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L16",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L17",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L18",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L19",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L20",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L21",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S27",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S28",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S29",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S30",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S31",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S32",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S33",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S34",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S35",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S36",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S37",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S38",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-L22",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L23",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L24",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L25",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.25
+    },
+    {
+     "id": "R-L26",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L27",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L28",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L29",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S39",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S40",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L30",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L31",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L32",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L33",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L34",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L35",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L36",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L37",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L38",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    }
+   ],
+   "VIDHI-D (qwen2.5:3b extractor)": [
+    {
+     "id": "R-S01",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-S02",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-S03",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-S04",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-S05",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S06",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-S07",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S08",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S09",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S10",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S11",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S12",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S13",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S14",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S15",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S16",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-L01",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L02",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L03",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L04",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S17",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S18",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S19",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-L05",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L06",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L07",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L08",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L09",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L10",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S20",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S21",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S22",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S23",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S24",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S25",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S26",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L11",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L12",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L13",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L14",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L15",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L16",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L17",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L18",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L19",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L20",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L21",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S27",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S28",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S29",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S30",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S31",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S32",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S33",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S34",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S35",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S36",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S37",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S38",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-L22",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L23",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L24",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L25",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-L26",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L27",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L28",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L29",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S39",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S40",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-L30",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L31",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L32",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L33",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L34",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L35",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L36",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-L37",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L38",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    }
+   ],
+   "VIDHI-D (qwen2.5:3b + rules)": [
+    {
+     "id": "R-S01",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-S02",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.99997952
+    },
+    {
+     "id": "R-S03",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-S04",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-S05",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S06",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-S07",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S08",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S09",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S10",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S11",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S12",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S13",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S14",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S15",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S16",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-L01",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L02",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L03",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L04",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S17",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S18",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S19",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-L05",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L06",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L07",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L08",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L09",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L10",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S20",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S21",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S22",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S23",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S24",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S25",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S26",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L11",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L12",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L13",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L14",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L15",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L16",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L17",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L18",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L19",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L20",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L21",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S27",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S28",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S29",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S30",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S31",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S32",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S33",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S34",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S35",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S36",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S37",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S38",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-L22",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L23",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L24",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L25",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 0.888888888888889
+    },
+    {
+     "id": "R-L26",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L27",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L28",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L29",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S39",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S40",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-L30",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L31",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L32",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L33",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L34",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L35",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L36",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-L37",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L38",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    }
+   ],
+   "VIDHI-D (llama3.2:3b extractor)": [
+    {
+     "id": "R-S01",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S02",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-S03",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.99997952
+    },
+    {
+     "id": "R-S04",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-S05",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9999983616
+    },
+    {
+     "id": "R-S06",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-S07",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S08",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.99997952
+    },
+    {
+     "id": "R-S09",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S10",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S11",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S12",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S13",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S14",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S15",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S16",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-L01",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L02",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L03",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L04",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S17",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S18",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-S19",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-L05",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L06",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L07",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L08",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L09",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L10",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S20",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S21",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-S22",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S23",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S24",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S25",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S26",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L11",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L12",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L13",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L14",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L15",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L16",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L17",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L18",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L19",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L20",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L21",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S27",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9904610492845787
+    },
+    {
+     "id": "R-S28",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.99997952
+    },
+    {
+     "id": "R-S29",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.99997952
+    },
+    {
+     "id": "R-S30",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S31",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S32",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S33",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-S34",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-S35",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S36",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S37",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-S38",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-L22",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L23",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L24",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L25",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-L26",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L27",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L28",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L29",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S39",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S40",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-L30",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L31",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L32",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L33",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L34",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L35",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L36",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-L37",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L38",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    }
+   ],
+   "VIDHI-D (llama3.2:3b + rules)": [
+    {
+     "id": "R-S01",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.99997952
+    },
+    {
+     "id": "R-S02",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.99997952
+    },
+    {
+     "id": "R-S03",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.99997952
+    },
+    {
+     "id": "R-S04",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-S05",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9999983616
+    },
+    {
+     "id": "R-S06",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-S07",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S08",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.99997952
+    },
+    {
+     "id": "R-S09",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S10",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S11",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S12",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S13",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S14",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S15",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S16",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-L01",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L02",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L03",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L04",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S17",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S18",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-S19",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-L05",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L06",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L07",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L08",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L09",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L10",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S20",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S21",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-S22",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S23",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S24",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S25",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S26",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L11",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L12",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L13",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L14",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L15",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L16",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L17",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L18",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L19",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L20",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L21",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S27",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.978021978021978
+    },
+    {
+     "id": "R-S28",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.99997952
+    },
+    {
+     "id": "R-S29",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.99997952
+    },
+    {
+     "id": "R-S30",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S31",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-S32",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S33",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9992323930147765
+    },
+    {
+     "id": "R-S34",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-S35",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S36",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S37",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-S38",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-L22",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L23",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L24",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L25",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 0.888888888888889
+    },
+    {
+     "id": "R-L26",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L27",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L28",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L29",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S39",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S40",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-L30",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L31",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L32",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L33",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L34",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L35",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L36",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-L37",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L38",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    }
+   ],
+   "VIDHI-D (oracle claims, analysis)": [
+    {
+     "id": "R-S01",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-S02",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-S03",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-S04",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-S05",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S06",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S07",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S08",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S09",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S10",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S11",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S12",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S13",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S14",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S15",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S16",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-L01",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L02",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L03",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L04",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S17",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S18",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S19",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-L05",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L06",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L07",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L08",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L09",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L10",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S20",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S21",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S22",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S23",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S24",
+     "label": 1,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S25",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S26",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-L11",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L12",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L13",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L14",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L15",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L16",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L17",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L18",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L19",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L20",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L21",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S27",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S28",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S29",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-S30",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S31",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S32",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-S33",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S34",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S35",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S36",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.999744
+    },
+    {
+     "id": "R-S37",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S38",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-L22",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L23",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L24",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L25",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.25
+    },
+    {
+     "id": "R-L26",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L27",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L28",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L29",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-S39",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.96
+    },
+    {
+     "id": "R-S40",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9968
+    },
+    {
+     "id": "R-L30",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L31",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L32",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L33",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L34",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L35",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L36",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L37",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    },
+    {
+     "id": "R-L38",
+     "label": 0,
+     "decision": "ABSTAIN_VERIFY",
+     "p_fraud": 0.5
+    }
+   ],
+   "Keyword rule": [
+    {
+     "id": "R-S01",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S02",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S03",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S04",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S05",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S06",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S07",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S08",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S09",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S10",
+     "label": 1,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.0
+    },
+    {
+     "id": "R-S11",
+     "label": 1,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.0
+    },
+    {
+     "id": "R-S12",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S13",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S14",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S15",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S16",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-L01",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-L02",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-L03",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-L04",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S17",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S18",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S19",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-L05",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-L06",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-L07",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-L08",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-L09",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-L10",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.0
+    },
+    {
+     "id": "R-S20",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S21",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S22",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S23",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S24",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S25",
+     "label": 1,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.0
+    },
+    {
+     "id": "R-S26",
+     "label": 1,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.0
+    },
+    {
+     "id": "R-L11",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-L12",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-L13",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-L14",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-L15",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.0
+    },
+    {
+     "id": "R-L16",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-L17",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-L18",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-L19",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-L20",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-L21",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.0
+    },
+    {
+     "id": "R-S27",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S28",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S29",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S30",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S31",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S32",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S33",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S34",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S35",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S36",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S37",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S38",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-L22",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-L23",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-L24",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-L25",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-L26",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.0
+    },
+    {
+     "id": "R-L27",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-L28",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-L29",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S39",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S40",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-L30",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-L31",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-L32",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-L33",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.0
+    },
+    {
+     "id": "R-L34",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-L35",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-L36",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-L37",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-L38",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    }
+   ],
+   "TF-IDF + LR (trained on VIDHI-Bench)": [
+    {
+     "id": "R-S01",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.7293880472129376
+    },
+    {
+     "id": "R-S02",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.7753635133271884
+    },
+    {
+     "id": "R-S03",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.76662215681029
+    },
+    {
+     "id": "R-S04",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.6228112276331429
+    },
+    {
+     "id": "R-S05",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.8416491144173054
+    },
+    {
+     "id": "R-S06",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.6211816062427314
+    },
+    {
+     "id": "R-S07",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.7826270355053465
+    },
+    {
+     "id": "R-S08",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.8220548584405348
+    },
+    {
+     "id": "R-S09",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.7816036234354029
+    },
+    {
+     "id": "R-S10",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.8351588030333467
+    },
+    {
+     "id": "R-S11",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.7345842599726257
+    },
+    {
+     "id": "R-S12",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.6402220973655215
+    },
+    {
+     "id": "R-S13",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.5897520443505737
+    },
+    {
+     "id": "R-S14",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.7114933335364504
+    },
+    {
+     "id": "R-S15",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.8368507577551081
+    },
+    {
+     "id": "R-S16",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.7556081986982229
+    },
+    {
+     "id": "R-L01",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 0.6160324627592173
+    },
+    {
+     "id": "R-L02",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.2699833870193357
+    },
+    {
+     "id": "R-L03",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.22464073589854852
+    },
+    {
+     "id": "R-L04",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 0.7054063444416474
+    },
+    {
+     "id": "R-S17",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.7724867937835979
+    },
+    {
+     "id": "R-S18",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.8206246533944864
+    },
+    {
+     "id": "R-S19",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.6991916946349912
+    },
+    {
+     "id": "R-L05",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 0.6206491007206221
+    },
+    {
+     "id": "R-L06",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 0.6590406492021699
+    },
+    {
+     "id": "R-L07",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 0.5285782181509326
+    },
+    {
+     "id": "R-L08",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 0.542376661370973
+    },
+    {
+     "id": "R-L09",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.39502416890760866
+    },
+    {
+     "id": "R-L10",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.4104292622232624
+    },
+    {
+     "id": "R-S20",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.6148643242230879
+    },
+    {
+     "id": "R-S21",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.7422184800433128
+    },
+    {
+     "id": "R-S22",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.8088119337670694
+    },
+    {
+     "id": "R-S23",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.6716776941408215
+    },
+    {
+     "id": "R-S24",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.8053163913724845
+    },
+    {
+     "id": "R-S25",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.6807382334688857
+    },
+    {
+     "id": "R-S26",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.6509996220640704
+    },
+    {
+     "id": "R-L11",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 0.7498352981089711
+    },
+    {
+     "id": "R-L12",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.13973144262264506
+    },
+    {
+     "id": "R-L13",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 0.6846774980691296
+    },
+    {
+     "id": "R-L14",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 0.6054318600768501
+    },
+    {
+     "id": "R-L15",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 0.6460966344463513
+    },
+    {
+     "id": "R-L16",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.3388144126796581
+    },
+    {
+     "id": "R-L17",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.3143806487669056
+    },
+    {
+     "id": "R-L18",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.38937189146883183
+    },
+    {
+     "id": "R-L19",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.33881740656554177
+    },
+    {
+     "id": "R-L20",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 0.5236876930255102
+    },
+    {
+     "id": "R-L21",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 0.5167947945414325
+    },
+    {
+     "id": "R-S27",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.7011629179424759
+    },
+    {
+     "id": "R-S28",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.8518196632590164
+    },
+    {
+     "id": "R-S29",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.8159391409796917
+    },
+    {
+     "id": "R-S30",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.7575292004704447
+    },
+    {
+     "id": "R-S31",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.700043837898018
+    },
+    {
+     "id": "R-S32",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.7874140967598688
+    },
+    {
+     "id": "R-S33",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.6013695196552167
+    },
+    {
+     "id": "R-S34",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.5787037892775577
+    },
+    {
+     "id": "R-S35",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.6963603213608504
+    },
+    {
+     "id": "R-S36",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.5895308422338588
+    },
+    {
+     "id": "R-S37",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.705276820589765
+    },
+    {
+     "id": "R-S38",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.7976071658537032
+    },
+    {
+     "id": "R-L22",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 0.6036486808085745
+    },
+    {
+     "id": "R-L23",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.32779988750667655
+    },
+    {
+     "id": "R-L24",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.4417478281767524
+    },
+    {
+     "id": "R-L25",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.4126063814364346
+    },
+    {
+     "id": "R-L26",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 0.5383161667359974
+    },
+    {
+     "id": "R-L27",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.38153724123353017
+    },
+    {
+     "id": "R-L28",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 0.7415202192600162
+    },
+    {
+     "id": "R-L29",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.2790050983084452
+    },
+    {
+     "id": "R-S39",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.7983802984243507
+    },
+    {
+     "id": "R-S40",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.7592468580362768
+    },
+    {
+     "id": "R-L30",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.15836276749941092
+    },
+    {
+     "id": "R-L31",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.14947732508101064
+    },
+    {
+     "id": "R-L32",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.2691766801684542
+    },
+    {
+     "id": "R-L33",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.3385146315597486
+    },
+    {
+     "id": "R-L34",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.361010659254599
+    },
+    {
+     "id": "R-L35",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 0.6580463939154875
+    },
+    {
+     "id": "R-L36",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 0.5704696100902401
+    },
+    {
+     "id": "R-L37",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.2437563866534573
+    },
+    {
+     "id": "R-L38",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.2955767414917962
+    }
+   ],
+   "kNN example retrieval (VIDHI-Bench memory)": [
+    {
+     "id": "R-S01",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S02",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S03",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S04",
+     "label": 1,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.42857142857142855
+    },
+    {
+     "id": "R-S05",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S06",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S07",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.8571428571428571
+    },
+    {
+     "id": "R-S08",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S09",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S10",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S11",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S12",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S13",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S14",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S15",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S16",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-L01",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-L02",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.0
+    },
+    {
+     "id": "R-L03",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.0
+    },
+    {
+     "id": "R-L04",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S17",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S18",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S19",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-L05",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-L06",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 0.5714285714285714
+    },
+    {
+     "id": "R-L07",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 0.5714285714285714
+    },
+    {
+     "id": "R-L08",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-L09",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.0
+    },
+    {
+     "id": "R-L10",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S20",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S21",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S22",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S23",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S24",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S25",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S26",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-L11",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-L12",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.0
+    },
+    {
+     "id": "R-L13",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-L14",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.0
+    },
+    {
+     "id": "R-L15",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-L16",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.0
+    },
+    {
+     "id": "R-L17",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.0
+    },
+    {
+     "id": "R-L18",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 0.8571428571428571
+    },
+    {
+     "id": "R-L19",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.42857142857142855
+    },
+    {
+     "id": "R-L20",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 0.7142857142857143
+    },
+    {
+     "id": "R-L21",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.42857142857142855
+    },
+    {
+     "id": "R-S27",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S28",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S29",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S30",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S31",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S32",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S33",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S34",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S35",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S36",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S37",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S38",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-L22",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-L23",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.0
+    },
+    {
+     "id": "R-L24",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.0
+    },
+    {
+     "id": "R-L25",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.0
+    },
+    {
+     "id": "R-L26",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.42857142857142855
+    },
+    {
+     "id": "R-L27",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.2857142857142857
+    },
+    {
+     "id": "R-L28",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-L29",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.0
+    },
+    {
+     "id": "R-S39",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S40",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-L30",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.0
+    },
+    {
+     "id": "R-L31",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.14285714285714285
+    },
+    {
+     "id": "R-L32",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.0
+    },
+    {
+     "id": "R-L33",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.0
+    },
+    {
+     "id": "R-L34",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.0
+    },
+    {
+     "id": "R-L35",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-L36",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.42857142857142855
+    },
+    {
+     "id": "R-L37",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.0
+    },
+    {
+     "id": "R-L38",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.0
+    }
+   ],
+   "LLM-only detector (qwen2.5:3b)": [
+    {
+     "id": "R-S01",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.975
+    },
+    {
+     "id": "R-S02",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.975
+    },
+    {
+     "id": "R-S03",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.975
+    },
+    {
+     "id": "R-S04",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.975
+    },
+    {
+     "id": "R-S05",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.975
+    },
+    {
+     "id": "R-S06",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S07",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.975
+    },
+    {
+     "id": "R-S08",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S09",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S10",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.975
+    },
+    {
+     "id": "R-S11",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S12",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.975
+    },
+    {
+     "id": "R-S13",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S14",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S15",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.975
+    },
+    {
+     "id": "R-S16",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-L01",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.04999999999999999
+    },
+    {
+     "id": "R-L02",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.025000000000000022
+    },
+    {
+     "id": "R-L03",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.025000000000000022
+    },
+    {
+     "id": "R-L04",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S17",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.975
+    },
+    {
+     "id": "R-S18",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.975
+    },
+    {
+     "id": "R-S19",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.975
+    },
+    {
+     "id": "R-L05",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.04999999999999999
+    },
+    {
+     "id": "R-L06",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.04999999999999999
+    },
+    {
+     "id": "R-L07",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.025000000000000022
+    },
+    {
+     "id": "R-L08",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.025000000000000022
+    },
+    {
+     "id": "R-L09",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.04999999999999999
+    },
+    {
+     "id": "R-L10",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.025000000000000022
+    },
+    {
+     "id": "R-S20",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.975
+    },
+    {
+     "id": "R-S21",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.975
+    },
+    {
+     "id": "R-S22",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S23",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S24",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.975
+    },
+    {
+     "id": "R-S25",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.975
+    },
+    {
+     "id": "R-S26",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-L11",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.04999999999999999
+    },
+    {
+     "id": "R-L12",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.025000000000000022
+    },
+    {
+     "id": "R-L13",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.09999999999999998
+    },
+    {
+     "id": "R-L14",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.025000000000000022
+    },
+    {
+     "id": "R-L15",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.09999999999999998
+    },
+    {
+     "id": "R-L16",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.025000000000000022
+    },
+    {
+     "id": "R-L17",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-L18",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.025000000000000022
+    },
+    {
+     "id": "R-L19",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-L20",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.04999999999999999
+    },
+    {
+     "id": "R-L21",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.025000000000000022
+    },
+    {
+     "id": "R-S27",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.975
+    },
+    {
+     "id": "R-S28",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.975
+    },
+    {
+     "id": "R-S29",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S30",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S31",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.975
+    },
+    {
+     "id": "R-S32",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S33",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S34",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.975
+    },
+    {
+     "id": "R-S35",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-S36",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.975
+    },
+    {
+     "id": "R-S37",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.975
+    },
+    {
+     "id": "R-S38",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-L22",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-L23",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-L24",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.04999999999999999
+    },
+    {
+     "id": "R-L25",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.025000000000000022
+    },
+    {
+     "id": "R-L26",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.025000000000000022
+    },
+    {
+     "id": "R-L27",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-L28",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-L29",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.025000000000000022
+    },
+    {
+     "id": "R-S39",
+     "label": 1,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.025000000000000022
+    },
+    {
+     "id": "R-S40",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.975
+    },
+    {
+     "id": "R-L30",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.025000000000000022
+    },
+    {
+     "id": "R-L31",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.025000000000000022
+    },
+    {
+     "id": "R-L32",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.025000000000000022
+    },
+    {
+     "id": "R-L33",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.04999999999999999
+    },
+    {
+     "id": "R-L34",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-L35",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.04999999999999999
+    },
+    {
+     "id": "R-L36",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.07500000000000001
+    },
+    {
+     "id": "R-L37",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 1.0
+    },
+    {
+     "id": "R-L38",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.09999999999999998
+    }
+   ],
+   "LLM-only detector (llama3.2:3b)": [
+    {
+     "id": "R-S01",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.95
+    },
+    {
+     "id": "R-S02",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.95
+    },
+    {
+     "id": "R-S03",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.95
+    },
+    {
+     "id": "R-S04",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.95
+    },
+    {
+     "id": "R-S05",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.95
+    },
+    {
+     "id": "R-S06",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.95
+    },
+    {
+     "id": "R-S07",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.95
+    },
+    {
+     "id": "R-S08",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.95
+    },
+    {
+     "id": "R-S09",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.95
+    },
+    {
+     "id": "R-S10",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.95
+    },
+    {
+     "id": "R-S11",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.95
+    },
+    {
+     "id": "R-S12",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.95
+    },
+    {
+     "id": "R-S13",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.9
+    },
+    {
+     "id": "R-S14",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.95
+    },
+    {
+     "id": "R-S15",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.95
+    },
+    {
+     "id": "R-S16",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.95
+    },
+    {
+     "id": "R-L01",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.04999999999999999
+    },
+    {
+     "id": "R-L02",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.04999999999999999
+    },
+    {
+     "id": "R-L03",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.04999999999999999
+    },
+    {
+     "id": "R-L04",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 0.9
+    },
+    {
+     "id": "R-S17",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.95
+    },
+    {
+     "id": "R-S18",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.95
+    },
+    {
+     "id": "R-S19",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.95
+    },
+    {
+     "id": "R-L05",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.04999999999999999
+    },
+    {
+     "id": "R-L06",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.04999999999999999
+    },
+    {
+     "id": "R-L07",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.04999999999999999
+    },
+    {
+     "id": "R-L08",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.04999999999999999
+    },
+    {
+     "id": "R-L09",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.04999999999999999
+    },
+    {
+     "id": "R-L10",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.04999999999999999
+    },
+    {
+     "id": "R-S20",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.95
+    },
+    {
+     "id": "R-S21",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.95
+    },
+    {
+     "id": "R-S22",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.95
+    },
+    {
+     "id": "R-S23",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.95
+    },
+    {
+     "id": "R-S24",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.95
+    },
+    {
+     "id": "R-S25",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.95
+    },
+    {
+     "id": "R-S26",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.95
+    },
+    {
+     "id": "R-L11",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.04999999999999999
+    },
+    {
+     "id": "R-L12",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.04999999999999999
+    },
+    {
+     "id": "R-L13",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.04999999999999999
+    },
+    {
+     "id": "R-L14",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.04999999999999999
+    },
+    {
+     "id": "R-L15",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.04999999999999999
+    },
+    {
+     "id": "R-L16",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 0.95
+    },
+    {
+     "id": "R-L17",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 0.95
+    },
+    {
+     "id": "R-L18",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.04999999999999999
+    },
+    {
+     "id": "R-L19",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.0
+    },
+    {
+     "id": "R-L20",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.04999999999999999
+    },
+    {
+     "id": "R-L21",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.04999999999999999
+    },
+    {
+     "id": "R-S27",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.975
+    },
+    {
+     "id": "R-S28",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.975
+    },
+    {
+     "id": "R-S29",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.95
+    },
+    {
+     "id": "R-S30",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.95
+    },
+    {
+     "id": "R-S31",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.95
+    },
+    {
+     "id": "R-S32",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.95
+    },
+    {
+     "id": "R-S33",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.95
+    },
+    {
+     "id": "R-S34",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.95
+    },
+    {
+     "id": "R-S35",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.95
+    },
+    {
+     "id": "R-S36",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.95
+    },
+    {
+     "id": "R-S37",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.975
+    },
+    {
+     "id": "R-S38",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.95
+    },
+    {
+     "id": "R-L22",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.04999999999999999
+    },
+    {
+     "id": "R-L23",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.04999999999999999
+    },
+    {
+     "id": "R-L24",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.04999999999999999
+    },
+    {
+     "id": "R-L25",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.04999999999999999
+    },
+    {
+     "id": "R-L26",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.04999999999999999
+    },
+    {
+     "id": "R-L27",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.04999999999999999
+    },
+    {
+     "id": "R-L28",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.04999999999999999
+    },
+    {
+     "id": "R-L29",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 0.95
+    },
+    {
+     "id": "R-S39",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.95
+    },
+    {
+     "id": "R-S40",
+     "label": 1,
+     "decision": "FRAUD",
+     "p_fraud": 0.95
+    },
+    {
+     "id": "R-L30",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.04999999999999999
+    },
+    {
+     "id": "R-L31",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.04999999999999999
+    },
+    {
+     "id": "R-L32",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.04999999999999999
+    },
+    {
+     "id": "R-L33",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.04999999999999999
+    },
+    {
+     "id": "R-L34",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 0.9
+    },
+    {
+     "id": "R-L35",
+     "label": 0,
+     "decision": "FRAUD",
+     "p_fraud": 0.9
+    },
+    {
+     "id": "R-L36",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.04999999999999999
+    },
+    {
+     "id": "R-L37",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.04999999999999999
+    },
+    {
+     "id": "R-L38",
+     "label": 0,
+     "decision": "LEGITIMATE",
+     "p_fraud": 0.04999999999999999
+    }
+   ]
+  }
+ },
+ "synthetic_subset": {
+  "standard": {
+   "VIDHI (rule extractor)": {
+    "fraud_flagged": 0.845,
+    "fraud_verify": 0.14,
+    "fraud_cleared": 0.015,
+    "lawful_cleared": 0.5,
+    "lawful_verify": 0.49,
+    "lawful_flagged": 0.01,
+    "auc": 0.967975,
+    "n": 400
+   },
+   "VIDHI (qwen2.5:3b extractor)": {
+    "fraud_flagged": 0.945,
+    "fraud_verify": 0.055,
+    "fraud_cleared": 0.0,
+    "lawful_cleared": 0.575,
+    "lawful_verify": 0.285,
+    "lawful_flagged": 0.14,
+    "auc": 0.9433875,
+    "n": 400
+   },
+   "VIDHI (qwen2.5:3b + rules)": {
+    "fraud_flagged": 0.95,
+    "fraud_verify": 0.05,
+    "fraud_cleared": 0.0,
+    "lawful_cleared": 0.575,
+    "lawful_verify": 0.285,
+    "lawful_flagged": 0.14,
+    "auc": 0.94235,
+    "n": 400
+   },
+   "VIDHI (llama3.2:3b extractor)": {
+    "fraud_flagged": 0.95,
+    "fraud_verify": 0.035,
+    "fraud_cleared": 0.015,
+    "lawful_cleared": 0.615,
+    "lawful_verify": 0.275,
+    "lawful_flagged": 0.11,
+    "auc": 0.94195,
+    "n": 400
+   },
+   "VIDHI (llama3.2:3b + rules)": {
+    "fraud_flagged": 0.96,
+    "fraud_verify": 0.025,
+    "fraud_cleared": 0.015,
+    "lawful_cleared": 0.615,
+    "lawful_verify": 0.275,
+    "lawful_flagged": 0.11,
+    "auc": 0.9462625,
+    "n": 400
+   },
+   "VIDHI (oracle claims, analysis)": {
+    "fraud_flagged": 0.96,
+    "fraud_verify": 0.03,
+    "fraud_cleared": 0.01,
+    "lawful_cleared": 0.615,
+    "lawful_verify": 0.375,
+    "lawful_flagged": 0.01,
+    "auc": 0.987675,
+    "n": 400
+   },
+   "Media forensics only": {
+    "fraud_flagged": 0.675,
+    "fraud_verify": 0.0,
+    "fraud_cleared": 0.325,
+    "lawful_cleared": 0.98,
+    "lawful_verify": 0.0,
+    "lawful_flagged": 0.02,
+    "auc": 0.844325,
+    "n": 400
+   },
+   "LLM-only detector (qwen2.5:3b)": {
+    "fraud_flagged": 0.715,
+    "fraud_verify": 0.0,
+    "fraud_cleared": 0.285,
+    "lawful_cleared": 0.625,
+    "lawful_verify": 0.0,
+    "lawful_flagged": 0.375,
+    "auc": 0.7137374999999999,
+    "n": 400
+   },
+   "LLM-only detector (llama3.2:3b)": {
+    "fraud_flagged": 0.925,
+    "fraud_verify": 0.0,
+    "fraud_cleared": 0.075,
+    "lawful_cleared": 0.575,
+    "lawful_verify": 0.0,
+    "lawful_flagged": 0.425,
+    "auc": 0.8434875000000001,
+    "n": 400
+   }
+  },
+  "per_family_standard": {
+   "VIDHI (rule extractor)": {
+    "courier": {
+     "label": 1,
+     "n": 25,
+     "fraud": 0.96,
+     "legit": 0.0,
+     "abstain": 0.04,
+     "correct": 0.96
+    },
+    "ed": {
+     "label": 1,
+     "n": 25,
+     "fraud": 0.84,
+     "legit": 0.0,
+     "abstain": 0.16,
+     "correct": 0.84
+    },
+    "trai": {
+     "label": 1,
+     "n": 25,
+     "fraud": 0.88,
+     "legit": 0.0,
+     "abstain": 0.12,
+     "correct": 0.88
+    },
+    "fake_esummons": {
+     "label": 1,
+     "n": 25,
+     "fraud": 0.92,
+     "legit": 0.0,
+     "abstain": 0.08,
+     "correct": 0.92
+    },
+    "tax_scam": {
+     "label": 1,
+     "n": 25,
+     "fraud": 1.0,
+     "legit": 0.0,
+     "abstain": 0.0,
+     "correct": 1.0
+    },
+    "s35_whatsapp": {
+     "label": 1,
+     "n": 25,
+     "fraud": 0.68,
+     "legit": 0.0,
+     "abstain": 0.32,
+     "correct": 0.68
+    },
+    "mimic": {
+     "label": 1,
+     "n": 25,
+     "fraud": 0.88,
+     "legit": 0.12,
+     "abstain": 0.0,
+     "correct": 0.88
+    },
+    "voice_only": {
+     "label": 1,
+     "n": 25,
+     "fraud": 0.6,
+     "legit": 0.0,
+     "abstain": 0.4,
+     "correct": 0.6
+    },
+    "court_esummons": {
+     "label": 0,
+     "n": 25,
+     "fraud": 0.0,
+     "legit": 1.0,
+     "abstain": 0.0,
+     "correct": 1.0
+    },
+    "ed_valid": {
+     "label": 0,
+     "n": 25,
+     "fraud": 0.0,
+     "legit": 0.0,
+     "abstain": 1.0,
+     "correct": 0.0
+    },
+    "it_valid": {
+     "label": 0,
+     "n": 25,
+     "fraud": 0.0,
+     "legit": 1.0,
+     "abstain": 0.0,
+     "correct": 1.0
+    },
+    "s35_lawful": {
+     "label": 0,
+     "n": 25,
+     "fraud": 0.0,
+     "legit": 0.0,
+     "abstain": 1.0,
+     "correct": 0.0
+    },
+    "produce_docs": {
+     "label": 0,
+     "n": 25,
+     "fraud": 0.0,
+     "legit": 1.0,
+     "abstain": 0.0,
+     "correct": 1.0
+    },
+    "bank_alert": {
+     "label": 0,
+     "n": 25,
+     "fraud": 0.04,
+     "legit": 0.0,
+     "abstain": 0.96,
+     "correct": 0.0
+    },
+    "court_vc": {
+     "label": 0,
+     "n": 25,
+     "fraud": 0.0,
+     "legit": 1.0,
+     "abstain": 0.0,
+     "correct": 1.0
+    },
+    "news_chat": {
+     "label": 0,
+     "n": 25,
+     "fraud": 0.04,
+     "legit": 0.0,
+     "abstain": 0.96,
+     "correct": 0.0
+    }
+   },
+   "VIDHI (qwen2.5:3b extractor)": {
+    "courier": {
+     "label": 1,
+     "n": 25,
+     "fraud": 1.0,
+     "legit": 0.0,
+     "abstain": 0.0,
+     "correct": 1.0
+    },
+    "ed": {
+     "label": 1,
+     "n": 25,
+     "fraud": 1.0,
+     "legit": 0.0,
+     "abstain": 0.0,
+     "correct": 1.0
+    },
+    "trai": {
+     "label": 1,
+     "n": 25,
+     "fraud": 0.96,
+     "legit": 0.0,
+     "abstain": 0.04,
+     "correct": 0.96
+    },
+    "fake_esummons": {
+     "label": 1,
+     "n": 25,
+     "fraud": 0.96,
+     "legit": 0.0,
+     "abstain": 0.04,
+     "correct": 0.96
+    },
+    "tax_scam": {
+     "label": 1,
+     "n": 25,
+     "fraud": 1.0,
+     "legit": 0.0,
+     "abstain": 0.0,
+     "correct": 1.0
+    },
+    "s35_whatsapp": {
+     "label": 1,
+     "n": 25,
+     "fraud": 0.72,
+     "legit": 0.0,
+     "abstain": 0.28,
+     "correct": 0.72
+    },
+    "mimic": {
+     "label": 1,
+     "n": 25,
+     "fraud": 1.0,
+     "legit": 0.0,
+     "abstain": 0.0,
+     "correct": 1.0
+    },
+    "voice_only": {
+     "label": 1,
+     "n": 25,
+     "fraud": 0.92,
+     "legit": 0.0,
+     "abstain": 0.08,
+     "correct": 0.92
+    },
+    "court_esummons": {
+     "label": 0,
+     "n": 25,
+     "fraud": 0.0,
+     "legit": 1.0,
+     "abstain": 0.0,
+     "correct": 1.0
+    },
+    "ed_valid": {
+     "label": 0,
+     "n": 25,
+     "fraud": 0.0,
+     "legit": 0.92,
+     "abstain": 0.08,
+     "correct": 0.92
+    },
+    "it_valid": {
+     "label": 0,
+     "n": 25,
+     "fraud": 0.16,
+     "legit": 0.84,
+     "abstain": 0.0,
+     "correct": 0.84
+    },
+    "s35_lawful": {
+     "label": 0,
+     "n": 25,
+     "fraud": 0.0,
+     "legit": 0.0,
+     "abstain": 1.0,
+     "correct": 0.0
+    },
+    "produce_docs": {
+     "label": 0,
+     "n": 25,
+     "fraud": 0.0,
+     "legit": 1.0,
+     "abstain": 0.0,
+     "correct": 1.0
+    },
+    "bank_alert": {
+     "label": 0,
+     "n": 25,
+     "fraud": 0.68,
+     "legit": 0.0,
+     "abstain": 0.32,
+     "correct": 0.0
+    },
+    "court_vc": {
+     "label": 0,
+     "n": 25,
+     "fraud": 0.16,
+     "legit": 0.84,
+     "abstain": 0.0,
+     "correct": 0.84
+    },
+    "news_chat": {
+     "label": 0,
+     "n": 25,
+     "fraud": 0.12,
+     "legit": 0.0,
+     "abstain": 0.88,
+     "correct": 0.0
+    }
+   },
+   "VIDHI (qwen2.5:3b + rules)": {
+    "courier": {
+     "label": 1,
+     "n": 25,
+     "fraud": 1.0,
+     "legit": 0.0,
+     "abstain": 0.0,
+     "correct": 1.0
+    },
+    "ed": {
+     "label": 1,
+     "n": 25,
+     "fraud": 1.0,
+     "legit": 0.0,
+     "abstain": 0.0,
+     "correct": 1.0
+    },
+    "trai": {
+     "label": 1,
+     "n": 25,
+     "fraud": 0.96,
+     "legit": 0.0,
+     "abstain": 0.04,
+     "correct": 0.96
+    },
+    "fake_esummons": {
+     "label": 1,
+     "n": 25,
+     "fraud": 1.0,
+     "legit": 0.0,
+     "abstain": 0.0,
+     "correct": 1.0
+    },
+    "tax_scam": {
+     "label": 1,
+     "n": 25,
+     "fraud": 1.0,
+     "legit": 0.0,
+     "abstain": 0.0,
+     "correct": 1.0
+    },
+    "s35_whatsapp": {
+     "label": 1,
+     "n": 25,
+     "fraud": 0.72,
+     "legit": 0.0,
+     "abstain": 0.28,
+     "correct": 0.72
+    },
+    "mimic": {
+     "label": 1,
+     "n": 25,
+     "fraud": 1.0,
+     "legit": 0.0,
+     "abstain": 0.0,
+     "correct": 1.0
+    },
+    "voice_only": {
+     "label": 1,
+     "n": 25,
+     "fraud": 0.92,
+     "legit": 0.0,
+     "abstain": 0.08,
+     "correct": 0.92
+    },
+    "court_esummons": {
+     "label": 0,
+     "n": 25,
+     "fraud": 0.0,
+     "legit": 1.0,
+     "abstain": 0.0,
+     "correct": 1.0
+    },
+    "ed_valid": {
+     "label": 0,
+     "n": 25,
+     "fraud": 0.0,
+     "legit": 0.92,
+     "abstain": 0.08,
+     "correct": 0.92
+    },
+    "it_valid": {
+     "label": 0,
+     "n": 25,
+     "fraud": 0.16,
+     "legit": 0.84,
+     "abstain": 0.0,
+     "correct": 0.84
+    },
+    "s35_lawful": {
+     "label": 0,
+     "n": 25,
+     "fraud": 0.0,
+     "legit": 0.0,
+     "abstain": 1.0,
+     "correct": 0.0
+    },
+    "produce_docs": {
+     "label": 0,
+     "n": 25,
+     "fraud": 0.0,
+     "legit": 1.0,
+     "abstain": 0.0,
+     "correct": 1.0
+    },
+    "bank_alert": {
+     "label": 0,
+     "n": 25,
+     "fraud": 0.68,
+     "legit": 0.0,
+     "abstain": 0.32,
+     "correct": 0.0
+    },
+    "court_vc": {
+     "label": 0,
+     "n": 25,
+     "fraud": 0.16,
+     "legit": 0.84,
+     "abstain": 0.0,
+     "correct": 0.84
+    },
+    "news_chat": {
+     "label": 0,
+     "n": 25,
+     "fraud": 0.12,
+     "legit": 0.0,
+     "abstain": 0.88,
+     "correct": 0.0
+    }
+   },
+   "VIDHI (llama3.2:3b extractor)": {
+    "courier": {
+     "label": 1,
+     "n": 25,
+     "fraud": 1.0,
+     "legit": 0.0,
+     "abstain": 0.0,
+     "correct": 1.0
+    },
+    "ed": {
+     "label": 1,
+     "n": 25,
+     "fraud": 1.0,
+     "legit": 0.0,
+     "abstain": 0.0,
+     "correct": 1.0
+    },
+    "trai": {
+     "label": 1,
+     "n": 25,
+     "fraud": 1.0,
+     "legit": 0.0,
+     "abstain": 0.0,
+     "correct": 1.0
+    },
+    "fake_esummons": {
+     "label": 1,
+     "n": 25,
+     "fraud": 0.92,
+     "legit": 0.0,
+     "abstain": 0.08,
+     "correct": 0.92
+    },
+    "tax_scam": {
+     "label": 1,
+     "n": 25,
+     "fraud": 1.0,
+     "legit": 0.0,
+     "abstain": 0.0,
+     "correct": 1.0
+    },
+    "s35_whatsapp": {
+     "label": 1,
+     "n": 25,
+     "fraud": 0.92,
+     "legit": 0.0,
+     "abstain": 0.08,
+     "correct": 0.92
+    },
+    "mimic": {
+     "label": 1,
+     "n": 25,
+     "fraud": 0.88,
+     "legit": 0.12,
+     "abstain": 0.0,
+     "correct": 0.88
+    },
+    "voice_only": {
+     "label": 1,
+     "n": 25,
+     "fraud": 0.88,
+     "legit": 0.0,
+     "abstain": 0.12,
+     "correct": 0.88
+    },
+    "court_esummons": {
+     "label": 0,
+     "n": 25,
+     "fraud": 0.0,
+     "legit": 1.0,
+     "abstain": 0.0,
+     "correct": 1.0
+    },
+    "ed_valid": {
+     "label": 0,
+     "n": 25,
+     "fraud": 0.0,
+     "legit": 0.92,
+     "abstain": 0.08,
+     "correct": 0.92
+    },
+    "it_valid": {
+     "label": 0,
+     "n": 25,
+     "fraud": 0.0,
+     "legit": 1.0,
+     "abstain": 0.0,
+     "correct": 1.0
+    },
+    "s35_lawful": {
+     "label": 0,
+     "n": 25,
+     "fraud": 0.0,
+     "legit": 0.0,
+     "abstain": 1.0,
+     "correct": 0.0
+    },
+    "produce_docs": {
+     "label": 0,
+     "n": 25,
+     "fraud": 0.0,
+     "legit": 1.0,
+     "abstain": 0.0,
+     "correct": 1.0
+    },
+    "bank_alert": {
+     "label": 0,
+     "n": 25,
+     "fraud": 0.04,
+     "legit": 0.0,
+     "abstain": 0.96,
+     "correct": 0.0
+    },
+    "court_vc": {
+     "label": 0,
+     "n": 25,
+     "fraud": 0.0,
+     "legit": 1.0,
+     "abstain": 0.0,
+     "correct": 1.0
+    },
+    "news_chat": {
+     "label": 0,
+     "n": 25,
+     "fraud": 0.84,
+     "legit": 0.0,
+     "abstain": 0.16,
+     "correct": 0.0
+    }
+   },
+   "VIDHI (llama3.2:3b + rules)": {
+    "courier": {
+     "label": 1,
+     "n": 25,
+     "fraud": 1.0,
+     "legit": 0.0,
+     "abstain": 0.0,
+     "correct": 1.0
+    },
+    "ed": {
+     "label": 1,
+     "n": 25,
+     "fraud": 1.0,
+     "legit": 0.0,
+     "abstain": 0.0,
+     "correct": 1.0
+    },
+    "trai": {
+     "label": 1,
+     "n": 25,
+     "fraud": 1.0,
+     "legit": 0.0,
+     "abstain": 0.0,
+     "correct": 1.0
+    },
+    "fake_esummons": {
+     "label": 1,
+     "n": 25,
+     "fraud": 0.96,
+     "legit": 0.0,
+     "abstain": 0.04,
+     "correct": 0.96
+    },
+    "tax_scam": {
+     "label": 1,
+     "n": 25,
+     "fraud": 1.0,
+     "legit": 0.0,
+     "abstain": 0.0,
+     "correct": 1.0
+    },
+    "s35_whatsapp": {
+     "label": 1,
+     "n": 25,
+     "fraud": 0.92,
+     "legit": 0.0,
+     "abstain": 0.08,
+     "correct": 0.92
+    },
+    "mimic": {
+     "label": 1,
+     "n": 25,
+     "fraud": 0.88,
+     "legit": 0.12,
+     "abstain": 0.0,
+     "correct": 0.88
+    },
+    "voice_only": {
+     "label": 1,
+     "n": 25,
+     "fraud": 0.92,
+     "legit": 0.0,
+     "abstain": 0.08,
+     "correct": 0.92
+    },
+    "court_esummons": {
+     "label": 0,
+     "n": 25,
+     "fraud": 0.0,
+     "legit": 1.0,
+     "abstain": 0.0,
+     "correct": 1.0
+    },
+    "ed_valid": {
+     "label": 0,
+     "n": 25,
+     "fraud": 0.0,
+     "legit": 0.92,
+     "abstain": 0.08,
+     "correct": 0.92
+    },
+    "it_valid": {
+     "label": 0,
+     "n": 25,
+     "fraud": 0.0,
+     "legit": 1.0,
+     "abstain": 0.0,
+     "correct": 1.0
+    },
+    "s35_lawful": {
+     "label": 0,
+     "n": 25,
+     "fraud": 0.0,
+     "legit": 0.0,
+     "abstain": 1.0,
+     "correct": 0.0
+    },
+    "produce_docs": {
+     "label": 0,
+     "n": 25,
+     "fraud": 0.0,
+     "legit": 1.0,
+     "abstain": 0.0,
+     "correct": 1.0
+    },
+    "bank_alert": {
+     "label": 0,
+     "n": 25,
+     "fraud": 0.04,
+     "legit": 0.0,
+     "abstain": 0.96,
+     "correct": 0.0
+    },
+    "court_vc": {
+     "label": 0,
+     "n": 25,
+     "fraud": 0.0,
+     "legit": 1.0,
+     "abstain": 0.0,
+     "correct": 1.0
+    },
+    "news_chat": {
+     "label": 0,
+     "n": 25,
+     "fraud": 0.84,
+     "legit": 0.0,
+     "abstain": 0.16,
+     "correct": 0.0
+    }
+   },
+   "VIDHI (oracle claims, analysis)": {
+    "courier": {
+     "label": 1,
+     "n": 25,
+     "fraud": 1.0,
+     "legit": 0.0,
+     "abstain": 0.0,
+     "correct": 1.0
+    },
+    "ed": {
+     "label": 1,
+     "n": 25,
+     "fraud": 1.0,
+     "legit": 0.0,
+     "abstain": 0.0,
+     "correct": 1.0
+    },
+    "trai": {
+     "label": 1,
+     "n": 25,
+     "fraud": 1.0,
+     "legit": 0.0,
+     "abstain": 0.0,
+     "correct": 1.0
+    },
+    "fake_esummons": {
+     "label": 1,
+     "n": 25,
+     "fraud": 1.0,
+     "legit": 0.0,
+     "abstain": 0.0,
+     "correct": 1.0
+    },
+    "tax_scam": {
+     "label": 1,
+     "n": 25,
+     "fraud": 1.0,
+     "legit": 0.0,
+     "abstain": 0.0,
+     "correct": 1.0
+    },
+    "s35_whatsapp": {
+     "label": 1,
+     "n": 25,
+     "fraud": 0.8,
+     "legit": 0.0,
+     "abstain": 0.2,
+     "correct": 0.8
+    },
+    "mimic": {
+     "label": 1,
+     "n": 25,
+     "fraud": 0.92,
+     "legit": 0.08,
+     "abstain": 0.0,
+     "correct": 0.92
+    },
+    "voice_only": {
+     "label": 1,
+     "n": 25,
+     "fraud": 0.96,
+     "legit": 0.0,
+     "abstain": 0.04,
+     "correct": 0.96
+    },
+    "court_esummons": {
+     "label": 0,
+     "n": 25,
+     "fraud": 0.0,
+     "legit": 1.0,
+     "abstain": 0.0,
+     "correct": 1.0
+    },
+    "ed_valid": {
+     "label": 0,
+     "n": 25,
+     "fraud": 0.0,
+     "legit": 0.92,
+     "abstain": 0.08,
+     "correct": 0.92
+    },
+    "it_valid": {
+     "label": 0,
+     "n": 25,
+     "fraud": 0.0,
+     "legit": 1.0,
+     "abstain": 0.0,
+     "correct": 1.0
+    },
+    "s35_lawful": {
+     "label": 0,
+     "n": 25,
+     "fraud": 0.0,
+     "legit": 0.0,
+     "abstain": 1.0,
+     "correct": 0.0
+    },
+    "produce_docs": {
+     "label": 0,
+     "n": 25,
+     "fraud": 0.0,
+     "legit": 1.0,
+     "abstain": 0.0,
+     "correct": 1.0
+    },
+    "bank_alert": {
+     "label": 0,
+     "n": 25,
+     "fraud": 0.04,
+     "legit": 0.0,
+     "abstain": 0.96,
+     "correct": 0.0
+    },
+    "court_vc": {
+     "label": 0,
+     "n": 25,
+     "fraud": 0.0,
+     "legit": 1.0,
+     "abstain": 0.0,
+     "correct": 1.0
+    },
+    "news_chat": {
+     "label": 0,
+     "n": 25,
+     "fraud": 0.04,
+     "legit": 0.0,
+     "abstain": 0.96,
+     "correct": 0.0
+    }
+   },
+   "LLM-only detector (qwen2.5:3b)": {
+    "courier": {
+     "label": 1,
+     "n": 25,
+     "fraud": 1.0,
+     "legit": 0.0,
+     "abstain": 0.0,
+     "correct": 1.0
+    },
+    "ed": {
+     "label": 1,
+     "n": 25,
+     "fraud": 1.0,
+     "legit": 0.0,
+     "abstain": 0.0,
+     "correct": 1.0
+    },
+    "trai": {
+     "label": 1,
+     "n": 25,
+     "fraud": 1.0,
+     "legit": 0.0,
+     "abstain": 0.0,
+     "correct": 1.0
+    },
+    "fake_esummons": {
+     "label": 1,
+     "n": 25,
+     "fraud": 0.16,
+     "legit": 0.84,
+     "abstain": 0.0,
+     "correct": 0.16
+    },
+    "tax_scam": {
+     "label": 1,
+     "n": 25,
+     "fraud": 0.56,
+     "legit": 0.44,
+     "abstain": 0.0,
+     "correct": 0.56
+    },
+    "s35_whatsapp": {
+     "label": 1,
+     "n": 25,
+     "fraud": 1.0,
+     "legit": 0.0,
+     "abstain": 0.0,
+     "correct": 1.0
+    },
+    "mimic": {
+     "label": 1,
+     "n": 25,
+     "fraud": 0.0,
+     "legit": 1.0,
+     "abstain": 0.0,
+     "correct": 0.0
+    },
+    "voice_only": {
+     "label": 1,
+     "n": 25,
+     "fraud": 1.0,
+     "legit": 0.0,
+     "abstain": 0.0,
+     "correct": 1.0
+    },
+    "court_esummons": {
+     "label": 0,
+     "n": 25,
+     "fraud": 0.0,
+     "legit": 1.0,
+     "abstain": 0.0,
+     "correct": 1.0
+    },
+    "ed_valid": {
+     "label": 0,
+     "n": 25,
+     "fraud": 0.92,
+     "legit": 0.08,
+     "abstain": 0.0,
+     "correct": 0.08
+    },
+    "it_valid": {
+     "label": 0,
+     "n": 25,
+     "fraud": 0.0,
+     "legit": 1.0,
+     "abstain": 0.0,
+     "correct": 1.0
+    },
+    "s35_lawful": {
+     "label": 0,
+     "n": 25,
+     "fraud": 0.0,
+     "legit": 1.0,
+     "abstain": 0.0,
+     "correct": 1.0
+    },
+    "produce_docs": {
+     "label": 0,
+     "n": 25,
+     "fraud": 0.96,
+     "legit": 0.04,
+     "abstain": 0.0,
+     "correct": 0.04
+    },
+    "bank_alert": {
+     "label": 0,
+     "n": 25,
+     "fraud": 0.6,
+     "legit": 0.4,
+     "abstain": 0.0,
+     "correct": 0.4
+    },
+    "court_vc": {
+     "label": 0,
+     "n": 25,
+     "fraud": 0.0,
+     "legit": 1.0,
+     "abstain": 0.0,
+     "correct": 1.0
+    },
+    "news_chat": {
+     "label": 0,
+     "n": 25,
+     "fraud": 0.52,
+     "legit": 0.48,
+     "abstain": 0.0,
+     "correct": 0.48
+    }
+   },
+   "LLM-only detector (llama3.2:3b)": {
+    "courier": {
+     "label": 1,
+     "n": 25,
+     "fraud": 1.0,
+     "legit": 0.0,
+     "abstain": 0.0,
+     "correct": 1.0
+    },
+    "ed": {
+     "label": 1,
+     "n": 25,
+     "fraud": 0.96,
+     "legit": 0.04,
+     "abstain": 0.0,
+     "correct": 0.96
+    },
+    "trai": {
+     "label": 1,
+     "n": 25,
+     "fraud": 0.8,
+     "legit": 0.2,
+     "abstain": 0.0,
+     "correct": 0.8
+    },
+    "fake_esummons": {
+     "label": 1,
+     "n": 25,
+     "fraud": 1.0,
+     "legit": 0.0,
+     "abstain": 0.0,
+     "correct": 1.0
+    },
+    "tax_scam": {
+     "label": 1,
+     "n": 25,
+     "fraud": 1.0,
+     "legit": 0.0,
+     "abstain": 0.0,
+     "correct": 1.0
+    },
+    "s35_whatsapp": {
+     "label": 1,
+     "n": 25,
+     "fraud": 1.0,
+     "legit": 0.0,
+     "abstain": 0.0,
+     "correct": 1.0
+    },
+    "mimic": {
+     "label": 1,
+     "n": 25,
+     "fraud": 0.64,
+     "legit": 0.36,
+     "abstain": 0.0,
+     "correct": 0.64
+    },
+    "voice_only": {
+     "label": 1,
+     "n": 25,
+     "fraud": 1.0,
+     "legit": 0.0,
+     "abstain": 0.0,
+     "correct": 1.0
+    },
+    "court_esummons": {
+     "label": 0,
+     "n": 25,
+     "fraud": 1.0,
+     "legit": 0.0,
+     "abstain": 0.0,
+     "correct": 0.0
+    },
+    "ed_valid": {
+     "label": 0,
+     "n": 25,
+     "fraud": 0.52,
+     "legit": 0.48,
+     "abstain": 0.0,
+     "correct": 0.48
+    },
+    "it_valid": {
+     "label": 0,
+     "n": 25,
+     "fraud": 0.04,
+     "legit": 0.96,
+     "abstain": 0.0,
+     "correct": 0.96
+    },
+    "s35_lawful": {
+     "label": 0,
+     "n": 25,
+     "fraud": 0.04,
+     "legit": 0.96,
+     "abstain": 0.0,
+     "correct": 0.96
+    },
+    "produce_docs": {
+     "label": 0,
+     "n": 25,
+     "fraud": 0.0,
+     "legit": 1.0,
+     "abstain": 0.0,
+     "correct": 1.0
+    },
+    "bank_alert": {
+     "label": 0,
+     "n": 25,
+     "fraud": 1.0,
+     "legit": 0.0,
+     "abstain": 0.0,
+     "correct": 0.0
+    },
+    "court_vc": {
+     "label": 0,
+     "n": 25,
+     "fraud": 0.64,
+     "legit": 0.36,
+     "abstain": 0.0,
+     "correct": 0.36
+    },
+    "news_chat": {
+     "label": 0,
+     "n": 25,
+     "fraud": 0.16,
+     "legit": 0.84,
+     "abstain": 0.0,
+     "correct": 0.84
+    }
+   }
+  },
+  "perfect": {
+   "VIDHI (rule extractor)": {
+    "fraud_flagged": 0.54,
+    "fraud_verify": 0.33,
+    "fraud_cleared": 0.13,
+    "lawful_cleared": 0.5,
+    "lawful_verify": 0.49,
+    "lawful_flagged": 0.01,
+    "auc": 0.8252000000000002,
+    "n": 400
+   },
+   "VIDHI (qwen2.5:3b extractor)": {
+    "fraud_flagged": 0.895,
+    "fraud_verify": 0.095,
+    "fraud_cleared": 0.01,
+    "lawful_cleared": 0.575,
+    "lawful_verify": 0.285,
+    "lawful_flagged": 0.14,
+    "auc": 0.9327375,
+    "n": 400
+   },
+   "VIDHI (qwen2.5:3b + rules)": {
+    "fraud_flagged": 0.915,
+    "fraud_verify": 0.075,
+    "fraud_cleared": 0.01,
+    "lawful_cleared": 0.575,
+    "lawful_verify": 0.285,
+    "lawful_flagged": 0.14,
+    "auc": 0.932675,
+    "n": 400
+   },
+   "VIDHI (llama3.2:3b extractor)": {
+    "fraud_flagged": 0.86,
+    "fraud_verify": 0.04,
+    "fraud_cleared": 0.1,
+    "lawful_cleared": 0.615,
+    "lawful_verify": 0.275,
+    "lawful_flagged": 0.11,
+    "auc": 0.8710249999999999,
+    "n": 400
+   },
+   "VIDHI (llama3.2:3b + rules)": {
+    "fraud_flagged": 0.875,
+    "fraud_verify": 0.025,
+    "fraud_cleared": 0.1,
+    "lawful_cleared": 0.615,
+    "lawful_verify": 0.275,
+    "lawful_flagged": 0.11,
+    "auc": 0.8754124999999999,
+    "n": 400
+   },
+   "VIDHI (oracle claims, analysis)": {
+    "fraud_flagged": 0.92,
+    "fraud_verify": 0.03,
+    "fraud_cleared": 0.05,
+    "lawful_cleared": 0.615,
+    "lawful_verify": 0.375,
+    "lawful_flagged": 0.01,
+    "auc": 0.94845,
+    "n": 400
+   },
+   "Media forensics only": {
+    "fraud_flagged": 0.04,
+    "fraud_verify": 0.0,
+    "fraud_cleared": 0.96,
+    "lawful_cleared": 0.98,
+    "lawful_verify": 0.0,
+    "lawful_flagged": 0.02,
+    "auc": 0.6274625,
+    "n": 400
+   },
+   "LLM-only detector (qwen2.5:3b)": {
+    "fraud_flagged": 0.715,
+    "fraud_verify": 0.0,
+    "fraud_cleared": 0.285,
+    "lawful_cleared": 0.625,
+    "lawful_verify": 0.0,
+    "lawful_flagged": 0.375,
+    "auc": 0.7137374999999999,
+    "n": 400
+   },
+   "LLM-only detector (llama3.2:3b)": {
+    "fraud_flagged": 0.925,
+    "fraud_verify": 0.0,
+    "fraud_cleared": 0.075,
+    "lawful_cleared": 0.575,
+    "lawful_verify": 0.0,
+    "lawful_flagged": 0.425,
+    "auc": 0.8434875000000001,
+    "n": 400
+   }
+  },
+  "extraction": {
+   "rules": {
+    "agencies": {
+     "precision": 0.9792027729636048,
+     "recall": 0.9843205574912892,
+     "f1": 0.9817549956559514
+    },
+    "instruments": {
+     "precision": 1.0,
+     "recall": 0.8137931034482758,
+     "f1": 0.8973384030418251
+    },
+    "demands": {
+     "precision": 0.8584070796460177,
+     "recall": 0.20726495726495728,
+     "f1": 0.3339070567986231
+    },
+    "payee_acc": 0.7675
+   },
+   "qwen2.5:3b": {
+    "agencies": {
+     "precision": 0.936734693877551,
+     "recall": 0.7996515679442509,
+     "f1": 0.862781954887218
+    },
+    "instruments": {
+     "precision": 0.8143564356435643,
+     "recall": 0.7563218390804598,
+     "f1": 0.7842669845053636
+    },
+    "demands": {
+     "precision": 0.5034965034965035,
+     "recall": 0.6153846153846154,
+     "f1": 0.5538461538461539
+    },
+    "payee_acc": 0.695
+   },
+   "llama3.2:3b": {
+    "agencies": {
+     "precision": 0.9791666666666666,
+     "recall": 0.818815331010453,
+     "f1": 0.8918406072106262
+    },
+    "instruments": {
+     "precision": 0.7054794520547946,
+     "recall": 0.9471264367816092,
+     "f1": 0.8086359175662414
+    },
+    "demands": {
+     "precision": 0.436986301369863,
+     "recall": 0.6816239316239316,
+     "f1": 0.5325542570951586
+    },
+    "payee_acc": 0.8725
+   }
+  }
+ }
+}

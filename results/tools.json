@@ -1,0 +1,47 @@
+{
+ "perceive_doc_s": 2.421399802833245,
+ "forensic_image_s": 0.5636246484167865,
+ "forensic_audio_s": 0.050748509625123006,
+ "forensic_video_s": 0.7291920888333152,
+ "extract_retrieve_verify_s": 0.002973204400000213,
+ "doc_forensic": {
+  "legit_clean_flag_rate": 0.0,
+  "n_legit": 300,
+  "scam_clean_flag_rate": 0.0,
+  "n_scam": 311,
+  "manip_detect": {
+   "copy_move": 0.9961240310077519,
+   "splice": 0.9433962264150944
+  },
+  "manip_n": {
+   "copy_move": 258,
+   "splice": 53
+  }
+ },
+ "pools": {
+  "audio": {
+   "synthetic_voice": {
+    "n": 40,
+    "flag_rate": 1.0
+   },
+   "splice": {
+    "n": 20,
+    "flag_rate": 0.6
+   },
+   "authentic": {
+    "n": 60,
+    "flag_rate": 0.05
+   }
+  },
+  "video": {
+   "face_swap": {
+    "n": 24,
+    "flag_rate": 1.0
+   },
+   "authentic": {
+    "n": 24,
+    "flag_rate": 0.041666666666666664
+   }
+  }
+ }
+}

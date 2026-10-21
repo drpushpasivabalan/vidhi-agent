@@ -1,0 +1,21 @@
+{
+ "dev_utility": 0.7525,
+ "params": {
+  "tau_f": 0.7,
+  "tau_l": 0.4,
+  "mass": {
+   "forensic_rel": 0.9,
+   "context_rel": 0.7,
+   "consistent": 0.5
+  }
+ },
+ "grid_size": 243,
+ "calib_td": [
+  -0.4641804982549106,
+  3.9199798656444123
+ ],
+ "calib_peak": [
+  -1.2976886163384775,
+  7.096368485147488
+ ]
+}

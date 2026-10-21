@@ -1,0 +1,34 @@
+{
+ "versioned": {
+  "T1_s35_electronic": {
+   "n": 60,
+   "rule_application_acc": 1.0
+  },
+  "T2_ed_no_qr": {
+   "n": 60,
+   "rule_application_acc": 1.0
+  },
+  "T3_it_no_din": {
+   "n": 60,
+   "rule_application_acc": 1.0
+  },
+  "overall": 1.0
+ },
+ "unversioned": {
+  "T1_s35_electronic": {
+   "n": 60,
+   "rule_application_acc": 0.5
+  },
+  "T2_ed_no_qr": {
+   "n": 60,
+   "rule_application_acc": 0.5
+  },
+  "T3_it_no_din": {
+   "n": 60,
+   "rule_application_acc": 0.5
+  },
+  "overall": 0.5
+ },
+ "tfidf_lr_label_acc": 0.5,
+ "knn_label_acc": 0.5
+}

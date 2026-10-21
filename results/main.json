@@ -1,0 +1,634 @@
+{
+ "standard": {
+  "VIDHI (full)": {
+   "n": 800,
+   "acc": 0.8725,
+   "f1": 0.8835616438356164,
+   "tpr": 0.9675,
+   "fpr": 0.2225,
+   "auc": 0.97051875,
+   "coverage": 0.685,
+   "selective_acc": 0.9835766423357665,
+   "errors_when_decided": 9,
+   "acc_ci95": [
+    0.84875,
+    0.895
+   ],
+   "mean_tool_calls": 4.73375
+  },
+  "VIDHI pipeline (all tools)": {
+   "n": 800,
+   "acc": 0.8725,
+   "f1": 0.8835616438356164,
+   "tpr": 0.9675,
+   "fpr": 0.2225,
+   "auc": 0.97156875,
+   "coverage": 0.68875,
+   "selective_acc": 0.9836660617059891,
+   "errors_when_decided": 9,
+   "acc_ci95": [
+    0.84875,
+    0.895
+   ],
+   "mean_tool_calls": 5.9025
+  },
+  "VIDHI eager early stop": {
+   "n": 800,
+   "acc": 0.81875,
+   "f1": 0.8259303721488596,
+   "tpr": 0.86,
+   "fpr": 0.2225,
+   "auc": 0.89655625,
+   "coverage": 0.6875,
+   "selective_acc": 0.9054545454545454,
+   "errors_when_decided": 52,
+   "acc_ci95": [
+    0.7925,
+    0.845
+   ],
+   "mean_tool_calls": 3.9425
+  },
+  "VIDHI + oracle claims (analysis)": {
+   "n": 800,
+   "acc": 0.90875,
+   "f1": 0.9154113557358055,
+   "tpr": 0.9875,
+   "fpr": 0.17,
+   "auc": 0.9899562500000001,
+   "coverage": 0.7925,
+   "selective_acc": 0.9905362776025236,
+   "errors_when_decided": 6,
+   "acc_ci95": [
+    0.8874687499999999,
+    0.9275
+   ],
+   "mean_tool_calls": 3.87875
+  },
+  "w/o procedure RAG": {
+   "n": 800,
+   "acc": 0.69125,
+   "f1": 0.752256770310933,
+   "tpr": 0.9375,
+   "fpr": 0.555,
+   "auc": 0.88675,
+   "coverage": 0.32875,
+   "selective_acc": 0.9847908745247148,
+   "errors_when_decided": 4,
+   "acc_ci95": [
+    0.65875,
+    0.7200312499999999
+   ],
+   "mean_tool_calls": 3.205
+  },
+  "w/o forensics": {
+   "n": 800,
+   "acc": 0.6875,
+   "f1": 0.7368421052631579,
+   "tpr": 0.875,
+   "fpr": 0.5,
+   "auc": 0.875334375,
+   "coverage": 0.5825,
+   "selective_acc": 0.8927038626609443,
+   "errors_when_decided": 50,
+   "acc_ci95": [
+    0.6574687499999999,
+    0.71875
+   ],
+   "mean_tool_calls": 3.8575
+  },
+  "w/o context (CCS)": {
+   "n": 800,
+   "acc": 0.92875,
+   "f1": 0.9245033112582781,
+   "tpr": 0.8725,
+   "fpr": 0.015,
+   "auc": 0.9573875000000001,
+   "coverage": 0.6775,
+   "selective_acc": 0.9833948339483395,
+   "errors_when_decided": 9,
+   "acc_ci95": [
+    0.91,
+    0.94625
+   ],
+   "mean_tool_calls": 4.03375
+  },
+  "w/o temporal versioning": {
+   "n": 800,
+   "acc": 0.86625,
+   "f1": 0.8790960451977402,
+   "tpr": 0.9725,
+   "fpr": 0.24,
+   "auc": 0.974775,
+   "coverage": 0.70875,
+   "selective_acc": 0.9841269841269841,
+   "errors_when_decided": 9,
+   "acc_ci95": [
+    0.84246875,
+    0.88878125
+   ],
+   "mean_tool_calls": 4.60625
+  },
+  "w/o retrieval (all rules)": {
+   "n": 800,
+   "acc": 0.8725,
+   "f1": 0.8835616438356164,
+   "tpr": 0.9675,
+   "fpr": 0.2225,
+   "auc": 0.971325,
+   "coverage": 0.68875,
+   "selective_acc": 0.9836660617059891,
+   "errors_when_decided": 9,
+   "acc_ci95": [
+    0.84875,
+    0.895
+   ],
+   "mean_tool_calls": 4.91625
+  },
+  "w/o abstention": {
+   "n": 800,
+   "acc": 0.8725,
+   "f1": 0.8835616438356164,
+   "tpr": 0.9675,
+   "fpr": 0.2225,
+   "auc": 0.97051875,
+   "coverage": 1.0,
+   "selective_acc": 0.8725,
+   "errors_when_decided": 102,
+   "acc_ci95": [
+    0.84875,
+    0.895
+   ],
+   "mean_tool_calls": 4.73375
+  },
+  "Procedure only": {
+   "n": 800,
+   "acc": 0.78375,
+   "f1": 0.7240829346092504,
+   "tpr": 0.5675,
+   "fpr": 0.0,
+   "auc": 0.8190624999999999,
+   "coverage": 0.5825,
+   "selective_acc": 0.8927038626609443,
+   "errors_when_decided": 50,
+   "acc_ci95": [
+    0.755,
+    0.8125
+   ],
+   "mean_tool_calls": 3.1275
+  },
+  "Artifact forensics only (mmflag)": {
+   "n": 800,
+   "acc": 0.82625,
+   "f1": 0.7934621099554234,
+   "tpr": 0.6675,
+   "fpr": 0.015,
+   "auc": 0.833425,
+   "coverage": 1.0,
+   "selective_acc": 0.82625,
+   "errors_when_decided": 139,
+   "acc_ci95": [
+    0.79875,
+    0.85253125
+   ]
+  },
+  "CCS context only (at decision time)": {
+   "n": 800,
+   "acc": 0.66875,
+   "f1": 0.6517739816031537,
+   "tpr": 0.62,
+   "fpr": 0.2825,
+   "auc": 0.772596875,
+   "coverage": 1.0,
+   "selective_acc": 0.66875,
+   "errors_when_decided": 265,
+   "acc_ci95": [
+    0.63625,
+    0.7
+   ]
+  },
+  "CCS context only (whole session)": {
+   "n": 800,
+   "acc": 0.80875,
+   "f1": 0.809464508094645,
+   "tpr": 0.8125,
+   "fpr": 0.195,
+   "auc": 0.901525,
+   "coverage": 1.0,
+   "selective_acc": 0.80875,
+   "errors_when_decided": 153,
+   "acc_ci95": [
+    0.77875,
+    0.835
+   ]
+  },
+  "Keyword rule": {
+   "n": 800,
+   "acc": 0.57125,
+   "f1": 0.6940231935771634,
+   "tpr": 0.9725,
+   "fpr": 0.83,
+   "auc": 0.57125,
+   "coverage": 1.0,
+   "selective_acc": 0.57125,
+   "errors_when_decided": 343,
+   "acc_ci95": [
+    0.53625,
+    0.60625
+   ]
+  },
+  "TF-IDF + logistic regression": {
+   "n": 800,
+   "acc": 1.0,
+   "f1": 1.0,
+   "tpr": 1.0,
+   "fpr": 0.0,
+   "auc": 1.0,
+   "coverage": 1.0,
+   "selective_acc": 1.0,
+   "errors_when_decided": 0,
+   "acc_ci95": [
+    1.0,
+    1.0
+   ]
+  },
+  "Example retrieval (kNN vote)": {
+   "n": 800,
+   "acc": 1.0,
+   "f1": 1.0,
+   "tpr": 1.0,
+   "fpr": 0.0,
+   "auc": 1.0,
+   "coverage": 1.0,
+   "selective_acc": 1.0,
+   "errors_when_decided": 0,
+   "acc_ci95": [
+    1.0,
+    1.0
+   ]
+  },
+  "_mcnemar_vs_vidhi": {
+   "Artifact forensics only (mmflag)": {
+    "vidhi_only_correct": 121,
+    "baseline_only_correct": 84,
+    "p_value": 0.011740607179709019
+   },
+   "CCS context only (at decision time)": {
+    "vidhi_only_correct": 225,
+    "baseline_only_correct": 62,
+    "p_value": 6.968604132979463e-23
+   },
+   "CCS context only (whole session)": {
+    "vidhi_only_correct": 133,
+    "baseline_only_correct": 82,
+    "p_value": 0.000616388667623266
+   },
+   "Keyword rule": {
+    "vidhi_only_correct": 263,
+    "baseline_only_correct": 22,
+    "p_value": 1.3794550023227555e-53
+   },
+   "TF-IDF + logistic regression": {
+    "vidhi_only_correct": 0,
+    "baseline_only_correct": 102,
+    "p_value": 3.944304526105059e-31
+   },
+   "Example retrieval (kNN vote)": {
+    "vidhi_only_correct": 0,
+    "baseline_only_correct": 102,
+    "p_value": 3.944304526105059e-31
+   }
+  },
+  "_scam_by_media": {
+   "VIDHI (full)": {
+    "manipulated": {
+     "n": 270,
+     "detected": 0.9888888888888889
+    },
+    "clean_media": {
+     "n": 130,
+     "detected": 0.5538461538461539
+    }
+   },
+   "Artifact forensics only (mmflag)": {
+    "manipulated": {
+     "n": 270,
+     "detected": 0.9666666666666667
+    },
+    "clean_media": {
+     "n": 130,
+     "detected": 0.046153846153846156
+    }
+   },
+   "Procedure only": {
+    "manipulated": {
+     "n": 270,
+     "detected": 0.5370370370370371
+    },
+    "clean_media": {
+     "n": 130,
+     "detected": 0.5461538461538461
+    }
+   }
+  }
+ },
+ "perfect": {
+  "VIDHI (full)": {
+   "n": 800,
+   "acc": 0.785,
+   "f1": 0.7866004962779156,
+   "tpr": 0.7925,
+   "fpr": 0.2225,
+   "auc": 0.840084375,
+   "coverage": 0.59375,
+   "selective_acc": 0.8863157894736842,
+   "errors_when_decided": 54,
+   "acc_ci95": [
+    0.7575,
+    0.81125
+   ],
+   "mean_tool_calls": 4.83375
+  },
+  "VIDHI pipeline (all tools)": {
+   "n": 800,
+   "acc": 0.785,
+   "f1": 0.7866004962779156,
+   "tpr": 0.7925,
+   "fpr": 0.2225,
+   "auc": 0.842065625,
+   "coverage": 0.60125,
+   "selective_acc": 0.8877338877338877,
+   "errors_when_decided": 54,
+   "acc_ci95": [
+    0.7575,
+    0.81125
+   ],
+   "mean_tool_calls": 5.9025
+  },
+  "VIDHI eager early stop": {
+   "n": 800,
+   "acc": 0.7825,
+   "f1": 0.7835820895522387,
+   "tpr": 0.7875,
+   "fpr": 0.2225,
+   "auc": 0.8568406249999999,
+   "coverage": 0.59625,
+   "selective_acc": 0.8825995807127882,
+   "errors_when_decided": 56,
+   "acc_ci95": [
+    0.755,
+    0.8087812499999999
+   ],
+   "mean_tool_calls": 3.98375
+  },
+  "VIDHI + oracle claims (analysis)": {
+   "n": 800,
+   "acc": 0.8875,
+   "f1": 0.8936170212765957,
+   "tpr": 0.945,
+   "fpr": 0.17,
+   "auc": 0.9495312499999999,
+   "coverage": 0.7875,
+   "selective_acc": 0.9634920634920635,
+   "errors_when_decided": 23,
+   "acc_ci95": [
+    0.865,
+    0.90625
+   ],
+   "mean_tool_calls": 3.90625
+  },
+  "w/o procedure RAG": {
+   "n": 800,
+   "acc": 0.5775,
+   "f1": 0.6269315673289183,
+   "tpr": 0.71,
+   "fpr": 0.555,
+   "auc": 0.57699375,
+   "coverage": 0.03,
+   "selective_acc": 0.4583333333333333,
+   "errors_when_decided": 13,
+   "acc_ci95": [
+    0.54375,
+    0.61
+   ],
+   "mean_tool_calls": 3.36
+  },
+  "w/o forensics": {
+   "n": 800,
+   "acc": 0.6875,
+   "f1": 0.7368421052631579,
+   "tpr": 0.875,
+   "fpr": 0.5,
+   "auc": 0.875334375,
+   "coverage": 0.5825,
+   "selective_acc": 0.8927038626609443,
+   "errors_when_decided": 50,
+   "acc_ci95": [
+    0.6574687499999999,
+    0.71875
+   ],
+   "mean_tool_calls": 3.8575
+  },
+  "w/o context (CCS)": {
+   "n": 800,
+   "acc": 0.78625,
+   "f1": 0.7332293291731669,
+   "tpr": 0.5875,
+   "fpr": 0.015,
+   "auc": 0.8020750000000001,
+   "coverage": 0.58875,
+   "selective_acc": 0.89171974522293,
+   "errors_when_decided": 51,
+   "acc_ci95": [
+    0.7575,
+    0.81375
+   ],
+   "mean_tool_calls": 4.10625
+  },
+  "w/o temporal versioning": {
+   "n": 800,
+   "acc": 0.79125,
+   "f1": 0.7975757575757576,
+   "tpr": 0.8225,
+   "fpr": 0.24,
+   "auc": 0.8585812500000001,
+   "coverage": 0.645,
+   "selective_acc": 0.8992248062015504,
+   "errors_when_decided": 52,
+   "acc_ci95": [
+    0.76375,
+    0.8175
+   ],
+   "mean_tool_calls": 4.7
+  },
+  "w/o retrieval (all rules)": {
+   "n": 800,
+   "acc": 0.785,
+   "f1": 0.7866004962779156,
+   "tpr": 0.7925,
+   "fpr": 0.2225,
+   "auc": 0.8420968750000001,
+   "coverage": 0.6025,
+   "selective_acc": 0.8879668049792531,
+   "errors_when_decided": 54,
+   "acc_ci95": [
+    0.7575,
+    0.81125
+   ],
+   "mean_tool_calls": 5.015
+  },
+  "w/o abstention": {
+   "n": 800,
+   "acc": 0.785,
+   "f1": 0.7866004962779156,
+   "tpr": 0.7925,
+   "fpr": 0.2225,
+   "auc": 0.840084375,
+   "coverage": 1.0,
+   "selective_acc": 0.785,
+   "errors_when_decided": 172,
+   "acc_ci95": [
+    0.7575,
+    0.81125
+   ],
+   "mean_tool_calls": 4.83375
+  },
+  "Procedure only": {
+   "n": 800,
+   "acc": 0.78375,
+   "f1": 0.7240829346092504,
+   "tpr": 0.5675,
+   "fpr": 0.0,
+   "auc": 0.8190624999999999,
+   "coverage": 0.5825,
+   "selective_acc": 0.8927038626609443,
+   "errors_when_decided": 50,
+   "acc_ci95": [
+    0.755,
+    0.8125
+   ],
+   "mean_tool_calls": 3.1275
+  },
+  "Artifact forensics only (mmflag)": {
+   "n": 800,
+   "acc": 0.52,
+   "f1": 0.10280373831775699,
+   "tpr": 0.055,
+   "fpr": 0.015,
+   "auc": 0.6334281249999998,
+   "coverage": 1.0,
+   "selective_acc": 0.52,
+   "errors_when_decided": 384,
+   "acc_ci95": [
+    0.48625,
+    0.55628125
+   ]
+  },
+  "CCS context only (at decision time)": {
+   "n": 800,
+   "acc": 0.66875,
+   "f1": 0.6517739816031537,
+   "tpr": 0.62,
+   "fpr": 0.2825,
+   "auc": 0.772596875,
+   "coverage": 1.0,
+   "selective_acc": 0.66875,
+   "errors_when_decided": 265,
+   "acc_ci95": [
+    0.63625,
+    0.7
+   ]
+  },
+  "CCS context only (whole session)": {
+   "n": 800,
+   "acc": 0.80875,
+   "f1": 0.809464508094645,
+   "tpr": 0.8125,
+   "fpr": 0.195,
+   "auc": 0.901525,
+   "coverage": 1.0,
+   "selective_acc": 0.80875,
+   "errors_when_decided": 153,
+   "acc_ci95": [
+    0.77875,
+    0.835
+   ]
+  },
+  "Keyword rule": {
+   "n": 800,
+   "acc": 0.57125,
+   "f1": 0.6940231935771634,
+   "tpr": 0.9725,
+   "fpr": 0.83,
+   "auc": 0.57125,
+   "coverage": 1.0,
+   "selective_acc": 0.57125,
+   "errors_when_decided": 343,
+   "acc_ci95": [
+    0.53625,
+    0.60625
+   ]
+  },
+  "TF-IDF + logistic regression": {
+   "n": 800,
+   "acc": 1.0,
+   "f1": 1.0,
+   "tpr": 1.0,
+   "fpr": 0.0,
+   "auc": 1.0,
+   "coverage": 1.0,
+   "selective_acc": 1.0,
+   "errors_when_decided": 0,
+   "acc_ci95": [
+    1.0,
+    1.0
+   ]
+  },
+  "Example retrieval (kNN vote)": {
+   "n": 800,
+   "acc": 1.0,
+   "f1": 1.0,
+   "tpr": 1.0,
+   "fpr": 0.0,
+   "auc": 1.0,
+   "coverage": 1.0,
+   "selective_acc": 1.0,
+   "errors_when_decided": 0,
+   "acc_ci95": [
+    1.0,
+    1.0
+   ]
+  },
+  "_mcnemar_vs_vidhi": {
+   "Artifact forensics only (mmflag)": {
+    "vidhi_only_correct": 298,
+    "baseline_only_correct": 86,
+    "p_value": 1.7374603042564537e-28
+   },
+   "CCS context only (at decision time)": {
+    "vidhi_only_correct": 201,
+    "baseline_only_correct": 108,
+    "p_value": 1.3479989284825865e-07
+   },
+   "CCS context only (whole session)": {
+    "vidhi_only_correct": 122,
+    "baseline_only_correct": 141,
+    "p_value": 0.2669957728187132
+   },
+   "Keyword rule": {
+    "vidhi_only_correct": 263,
+    "baseline_only_correct": 92,
+    "p_value": 3.293375127335199e-20
+   },
+   "TF-IDF + logistic regression": {
+    "vidhi_only_correct": 0,
+    "baseline_only_correct": 172,
+    "p_value": 3.3409558876152446e-52
+   },
+   "Example retrieval (kNN vote)": {
+    "vidhi_only_correct": 0,
+    "baseline_only_correct": 172,
+    "p_value": 3.3409558876152446e-52
+   }
+  }
+ }
+}

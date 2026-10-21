@@ -1,0 +1,9 @@
+{
+ "ccs_threshold_5pct_fpr": 0.2733694079409478,
+ "n": 275,
+ "vidhi_alert_before_payment": 0.84,
+ "ccs_alert_before_payment": 0.08727272727272728,
+ "vidhi_median_lead_min": 81.53089683322037,
+ "ccs_median_lead_min": -0.4631318295766391,
+ "ccs_never_alerted": 100
+}

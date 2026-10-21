@@ -1,0 +1,536 @@
+{
+ "_meta": {
+  "name": "VIDHI legal-procedural knowledge base",
+  "version": "1.0 (snapshot 2026-10-15)",
+  "note": "Each entry paraphrases a primary or authoritative source. 'kind' is prohibitive (an impossibility a genuine authority cannot commit), requirement (a feature a genuine instrument must carry), permissive (a lawful practice that must NOT be treated as fraud), or verification (an official out-of-band verification channel). 'strength' is hard or soft. 'effective_from' is the date from which the rule binds (ISO); null = no known start within the system's horizon. Predicates are evaluated over the claim graph by vidhi/procedure.py. Not legal advice; validate with a legal expert before deployment. 'effective_from' is set only where the rule itself began on a date (a new judgment, statute or procedure); advisories that restate long-standing practice have effective_from = null and carry their publication date in 'published'."
+ },
+ "entries": [
+  {
+   "id": "P1",
+   "kind": "prohibitive",
+   "strength": "hard",
+   "title": "No arrest by video or voice call",
+   "text": "Law-enforcement agencies, including the CBI, police, customs, the Enforcement Directorate and judges, do not arrest people through video calls. Arrest is a physical act followed by production before a Magistrate; a person cannot be placed under 'digital arrest' over WhatsApp, Skype or any call.",
+   "signature": {
+    "agency": [
+     "police",
+     "cbi",
+     "ed",
+     "customs",
+     "court",
+     "ncb"
+    ],
+    "instrument": [
+     "arrest",
+     "arrest_warrant"
+    ],
+    "channel": [
+     "video_call",
+     "voice_call",
+     "whatsapp",
+     "skype"
+    ]
+   },
+   "predicate": "instrument in {arrest, arrest_warrant} and channel in {video_call, voice_call, whatsapp, skype} and agency in LE",
+   "effective_from": null,
+   "sources": [
+    "I4C/MHA public advisory on 'digital arrest', reported 6 Oct 2024 (Tribune India)",
+    "Enforcement Directorate press release on fake summons, 8 Oct 2025: no concept of digital or online arrest under PMLA; ED arrests are made physically in person"
+   ],
+   "urls": [
+    "https://www.tribuneindia.com/news/india/cbi-ed-police-dont-arrest-people-through-video-calls-indian-cyber-crime-coordination-centre/",
+    "https://enforcementdirectorate.gov.in/sites/default/files/latestnews/Press_release_fake%20summons-08.10.2025%201.pdf"
+   ],
+   "published": "2024-10-05"
+  },
+  {
+   "id": "P2",
+   "kind": "prohibitive",
+   "strength": "hard",
+   "title": "Appearance notice cannot be served electronically",
+   "text": "A notice of appearance under Section 41A of the Code of Criminal Procedure, 1973 or Section 35 of the Bharatiya Nagarik Suraksha Sanhita, 2023 cannot be served by WhatsApp, e-mail, SMS or other electronic modes; such service is not an alternative or substitute for the prescribed mode (Supreme Court, Satender Kumar Antil v. CBI, order of 21 Jan 2025; Haryana's plea to permit electronic service rejected, judgment of 16 Jul 2025).",
+   "signature": {
+    "agency": [
+     "police",
+     "cbi",
+     "customs",
+     "ncb"
+    ],
+    "instrument": [
+     "notice_s35"
+    ],
+    "channel": [
+     "whatsapp",
+     "email",
+     "sms",
+     "video_call",
+     "voice_call",
+     "skype"
+    ]
+   },
+   "predicate": "instrument == notice_s35 and channel in ELECTRONIC",
+   "effective_from": "2025-01-21",
+   "sources": [
+    "Supreme Court of India, Satender Kumar Antil v. CBI, order dated 21 Jan 2025 (Sundresh & Bindal JJ.)",
+    "Supreme Court of India, Satender Kumar Antil v. CBI, judgment dated 16 Jul 2025 (2025 INSC 909)"
+   ],
+   "urls": [
+    "https://sabrangindia.in/strengthening-safeguards-against-arbitrary-arrests-supreme-court-bars-whatsapp-email-notices-under-section-41a-crpc-section-35-bnss/",
+    "https://www.verdictum.in/court-updates/supreme-court/satender-kumar-antil-v-central-bureau-of-investigation-2025-insc-909-electronic-communication-service-of-notice-section-35-bnss-whatsapp-1586826"
+   ],
+   "published": "2025-01-21"
+  },
+  {
+   "id": "P3",
+   "kind": "prohibitive",
+   "strength": "hard",
+   "title": "No payment to an official's or 'verification' account",
+   "text": "No investigating agency asks a person to transfer money to an account supplied over a call or message to 'verify' funds, obtain bail or avoid arrest. Digital-arrest fraudsters demand such online transfers; citizens should not act on them and should report to 1930 or cybercrime.gov.in.",
+   "signature": {
+    "agency": [
+     "police",
+     "cbi",
+     "ed",
+     "customs",
+     "court",
+     "ncb",
+     "rbi",
+     "trai",
+     "income_tax"
+    ],
+    "demand": [
+     "transfer_funds",
+     "verification_deposit",
+     "bail_payment_online"
+    ]
+   },
+   "predicate": "demand in {transfer_funds, verification_deposit, bail_payment_online} and payee == caller_supplied",
+   "effective_from": null,
+   "sources": [
+    "I4C/MHA public advisory on 'digital arrest', reported 6 Oct 2024 (Tribune India)"
+   ],
+   "urls": [
+    "https://www.tribuneindia.com/news/india/cbi-ed-police-dont-arrest-people-through-video-calls-indian-cyber-crime-coordination-centre/"
+   ],
+   "published": "2024-10-05"
+  },
+  {
+   "id": "P4",
+   "kind": "prohibitive",
+   "strength": "hard",
+   "title": "RBI holds no accounts for individuals",
+   "text": "The Reserve Bank of India does not maintain any account in the name of individuals, companies or trusts to hold funds, does not open accounts for individuals and does not ask them to deposit money. Fraudsters use fake RBI letterheads and e-mail addresses and pose as RBI officials.",
+   "signature": {
+    "agency": [
+     "rbi"
+    ],
+    "demand": [
+     "transfer_funds",
+     "verification_deposit",
+     "safe_account"
+    ],
+    "keywords": [
+     "RBI account",
+     "safe account",
+     "RBI verification"
+    ]
+   },
+   "predicate": "(agency == rbi or payee == rbi) and demand in {transfer_funds, verification_deposit, safe_account}",
+   "effective_from": null,
+   "sources": [
+    "Reserve Bank of India press release 'RBI cautions against Fraudulent Activities in its name', 29 Aug 2024"
+   ],
+   "urls": [
+    "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=58595"
+   ],
+   "published": "2024-08-29"
+  },
+  {
+   "id": "P5",
+   "kind": "prohibitive",
+   "strength": "hard",
+   "title": "TRAI does not initiate disconnection notices",
+   "text": "TRAI does not initiate communication about mobile-number disconnection through messages, calls or official notices and has not authorised any third party to do so; any such communication claiming to be from TRAI is likely fraud.",
+   "signature": {
+    "agency": [
+     "trai"
+    ],
+    "instrument": [
+     "disconnection_notice"
+    ]
+   },
+   "predicate": "agency == trai and instrument == disconnection_notice",
+   "effective_from": null,
+   "sources": [
+    "TRAI Press Release No. 26/2024, 6 Jun 2024"
+   ],
+   "urls": [
+    "https://trai.gov.in/sites/default/files/PR_No.26of2024.pdf"
+   ],
+   "published": "2024-06-06"
+  },
+  {
+   "id": "P6",
+   "kind": "prohibitive",
+   "strength": "hard",
+   "title": "No home confinement on camera or enforced secrecy",
+   "text": "There is no legal procedure by which a person is held in custody at home under camera watch or ordered to keep an investigation secret from family. Keeping the person on camera at home is a hallmark of digital-arrest fraud; a lawfully arrested person must be produced before a Magistrate and a named relative or friend informed of the arrest.",
+   "signature": {
+    "agency": [
+     "police",
+     "cbi",
+     "ed",
+     "customs",
+     "court",
+     "ncb"
+    ],
+    "demand": [
+     "stay_on_camera",
+     "secrecy",
+     "isolation"
+    ]
+   },
+   "predicate": "demand in {stay_on_camera, secrecy, isolation} and agency in LE",
+   "effective_from": null,
+   "sources": [
+    "I4C/MHA public advisory on 'digital arrest', reported 6 Oct 2024 (Tribune India)",
+    "Bharatiya Nagarik Suraksha Sanhita, 2023, Sections 36 and 58 (information of arrest to a nominated person; production before Magistrate)"
+   ],
+   "urls": [
+    "https://www.tribuneindia.com/news/india/cbi-ed-police-dont-arrest-people-through-video-calls-indian-cyber-crime-coordination-centre/",
+    "https://www.nishithdesai.com/research-and-articles/hotline/dispute-resolution-hotline/navigating-through-criminal-law-reforms-part-ii-review-of-bharatiya-nagarik-suraksha-sanhita-2023-replacing-the-code-of-criminal-procedure-1973-14897"
+   ],
+   "published": "2024-10-05"
+  },
+  {
+   "id": "R1",
+   "kind": "requirement",
+   "strength": "hard",
+   "title": "Income-tax communications must carry a DIN",
+   "text": "Every communication issued by the Income-tax Department on or after 1 Oct 2019 must quote a computer-generated Document Identification Number (DIN) in its body; a communication without a DIN is treated as invalid and deemed never to have been issued, save a recorded manual exception approved in writing.",
+   "signature": {
+    "agency": [
+     "income_tax"
+    ],
+    "instrument": [
+     "tax_notice"
+    ]
+   },
+   "predicate": "agency == income_tax and not has_din",
+   "effective_from": "2019-10-01",
+   "sources": [
+    "CBDT Circular No. 19/2019 dated 14 Aug 2019"
+   ],
+   "urls": [
+    "https://www.taxheal.com/?p=82039"
+   ],
+   "published": "2019-08-14"
+  },
+  {
+   "id": "R2",
+   "kind": "requirement",
+   "strength": "hard",
+   "title": "Electronic court summons carry the seal image and a digital signature",
+   "text": "Under the BNSS a court may issue a summons in electronic form, validated by an image of the court's seal or a digital signature, and may direct electronic service (Sections 63, 64, 70, 71). State rules, e.g. the Delhi BNSS (Service of Summons) Rules 2025, require the image of the court seal and a digital signature of the Presiding Officer or authorised officer.",
+   "signature": {
+    "agency": [
+     "court"
+    ],
+    "instrument": [
+     "summons_court"
+    ],
+    "channel": [
+     "whatsapp",
+     "email",
+     "sms"
+    ]
+   },
+   "predicate": "instrument == summons_court and channel in ELECTRONIC and not (has_seal and has_digital_signature)",
+   "effective_from": "2024-07-01",
+   "sources": [
+    "Bharatiya Nagarik Suraksha Sanhita, 2023, Sections 63-64, 70-71 (in force 1 Jul 2024)",
+    "Delhi BNSS (Service of Summons) Rules, 2025, Rule 5"
+   ],
+   "urls": [
+    "https://www.nishithdesai.com/research-and-articles/hotline/dispute-resolution-hotline/navigating-through-criminal-law-reforms-part-ii-review-of-bharatiya-nagarik-suraksha-sanhita-2023-replacing-the-code-of-criminal-procedure-1973-14897",
+    "https://www.legitquest.com/act/delhi-bnss-service-of-summons-rules-2025/10a26"
+   ],
+   "published": "2024-07-01"
+  },
+  {
+   "id": "R3",
+   "kind": "requirement",
+   "strength": "soft",
+   "title": "ED summons carry a QR code and passcode",
+   "text": "Since October 2025 Enforcement Directorate summons are generated through a system that prints a QR code and a unique passcode at the bottom, are signed and stamped, and list an official e-mail and phone number; summons outside the system are issued only in exceptional circumstances.",
+   "signature": {
+    "agency": [
+     "ed"
+    ],
+    "instrument": [
+     "summons_ed",
+     "arrest_warrant"
+    ]
+   },
+   "predicate": "agency == ed and instrument == summons_ed and not has_qr",
+   "effective_from": "2025-10-08",
+   "sources": [
+    "Enforcement Directorate press release on fake summons, 8 Oct 2025"
+   ],
+   "urls": [
+    "https://enforcementdirectorate.gov.in/sites/default/files/latestnews/Press_release_fake%20summons-08.10.2025%201.pdf"
+   ],
+   "published": "2025-10-08"
+  },
+  {
+   "id": "R4",
+   "kind": "requirement",
+   "strength": "soft",
+   "title": "Citing repealed CrPC/IPC for a new matter",
+   "text": "The BNSS replaced the CrPC from 1 Jul 2024. Proceedings pending before that date may continue under the CrPC (Section 531), so a post-July-2024 document citing only CrPC/IPC sections is not impossible, but in a fresh matter it is an anachronism worth flagging.",
+   "signature": {
+    "cites": [
+     "CrPC",
+     "IPC"
+    ]
+   },
+   "predicate": "cites_only_old_codes and date >= 2024-07-01",
+   "effective_from": "2024-07-01",
+   "sources": [
+    "Bharatiya Nagarik Suraksha Sanhita, 2023, Section 531 (repeal and savings); Bombay HC on pending investigations (SCC Online, 7 Aug 2024)"
+   ],
+   "urls": [
+    "https://taxmann.com/post/blog/bharatiya-nagarik-suraksha-sanhita-to-come-into-force",
+    "https://www.scconline.com/blog/post/2024/08/07/provisions-of-crpc-not-bnss-will-apply-to-pending-investigation-prior-to-1-7-2024-bomhc/"
+   ],
+   "published": "2024-07-01"
+  },
+  {
+   "id": "A1",
+   "kind": "permissive",
+   "strength": "hard",
+   "title": "Courts may examine and hear by audio-video means",
+   "text": "The BNSS permits courts to examine witnesses and the accused and to conduct parts of proceedings by audio-video electronic means (e.g. Sections 254, 265, 308, 530). A court video hearing scheduled through a summons is lawful and is not a 'digital arrest'.",
+   "signature": {
+    "agency": [
+     "court"
+    ],
+    "instrument": [
+     "hearing_vc",
+     "summons_court"
+    ],
+    "channel": [
+     "video_call"
+    ]
+   },
+   "predicate": "agency == court and instrument == hearing_vc",
+   "effective_from": "2024-07-01",
+   "sources": [
+    "Bharatiya Nagarik Suraksha Sanhita, 2023, Sections 254, 265, 308, 530"
+   ],
+   "urls": [
+    "https://www.nishithdesai.com/research-and-articles/hotline/dispute-resolution-hotline/navigating-through-criminal-law-reforms-part-ii-review-of-bharatiya-nagarik-suraksha-sanhita-2023-replacing-the-code-of-criminal-procedure-1973-14897"
+   ],
+   "published": null
+  },
+  {
+   "id": "A2",
+   "kind": "permissive",
+   "strength": "hard",
+   "title": "Electronic orders to produce documents",
+   "text": "Under Section 94 BNSS a court or police officer may issue a summons or written order, in physical or electronic form, requiring production of documents or electronic records; production can be made without personal attendance.",
+   "signature": {
+    "agency": [
+     "police",
+     "court",
+     "cbi"
+    ],
+    "instrument": [
+     "order_produce_docs"
+    ],
+    "channel": [
+     "email",
+     "whatsapp"
+    ]
+   },
+   "predicate": "instrument == order_produce_docs",
+   "effective_from": "2024-07-01",
+   "sources": [
+    "Bharatiya Nagarik Suraksha Sanhita, 2023, Section 94"
+   ],
+   "urls": [
+    "https://www.nishithdesai.com/research-and-articles/hotline/dispute-resolution-hotline/navigating-through-criminal-law-reforms-part-ii-review-of-bharatiya-nagarik-suraksha-sanhita-2023-replacing-the-code-of-criminal-procedure-1973-14897"
+   ],
+   "published": null
+  },
+  {
+   "id": "A3",
+   "kind": "permissive",
+   "strength": "hard",
+   "title": "Electronic court summons are lawful",
+   "text": "A summons issued electronically by a court bearing the image of its seal and a digital signature, and served electronically under a court order and the State's rules, is lawful (BNSS Sections 63-64, 70-71; Delhi BNSS (Service of Summons) Rules 2025).",
+   "signature": {
+    "agency": [
+     "court"
+    ],
+    "instrument": [
+     "summons_court"
+    ],
+    "channel": [
+     "whatsapp",
+     "email"
+    ]
+   },
+   "predicate": "instrument == summons_court and has_seal and has_digital_signature",
+   "effective_from": "2024-07-01",
+   "sources": [
+    "Bharatiya Nagarik Suraksha Sanhita, 2023, Sections 63-64, 70-71",
+    "Delhi BNSS (Service of Summons) Rules, 2025, Rule 5"
+   ],
+   "urls": [
+    "https://www.legitquest.com/act/delhi-bnss-service-of-summons-rules-2025/10a26"
+   ],
+   "published": null
+  },
+  {
+   "id": "A4",
+   "kind": "permissive",
+   "strength": "hard",
+   "title": "Income-tax notices with a DIN by e-mail or portal",
+   "text": "Income-tax notices quoting a valid DIN and delivered by e-mail or through the e-filing portal are routine; authenticity can be checked with the e-filing service 'Authenticate notice/order issued by ITD'.",
+   "signature": {
+    "agency": [
+     "income_tax"
+    ],
+    "instrument": [
+     "tax_notice"
+    ],
+    "channel": [
+     "email",
+     "portal"
+    ]
+   },
+   "predicate": "agency == income_tax and has_din",
+   "effective_from": "2019-10-01",
+   "sources": [
+    "CBDT Circular No. 19/2019",
+    "Income Tax Department e-filing help: Authenticate notice/order issued by ITD"
+   ],
+   "urls": [
+    "https://www.incometax.gov.in/iec/foportal/help/all-topics/e-filing-services/authenticate-noticeorder-issued-itd"
+   ],
+   "published": null
+  },
+  {
+   "id": "A5",
+   "kind": "permissive",
+   "strength": "hard",
+   "title": "Summons with QR and passcode, appearance in person",
+   "text": "A system-generated ED summons with a QR code and passcode, signed and stamped, asking the person to appear in person at an ED office, follows the ED's declared procedure and can be verified on the ED website ('Verify Your Summons').",
+   "signature": {
+    "agency": [
+     "ed"
+    ],
+    "instrument": [
+     "summons_ed"
+    ],
+    "demand": [
+     "appear_in_person"
+    ]
+   },
+   "predicate": "agency == ed and instrument == summons_ed and has_qr and demand == appear_in_person",
+   "effective_from": "2025-10-08",
+   "sources": [
+    "Enforcement Directorate press release on fake summons, 8 Oct 2025"
+   ],
+   "urls": [
+    "https://enforcementdirectorate.gov.in/sites/default/files/latestnews/Press_release_fake%20summons-08.10.2025%201.pdf"
+   ],
+   "published": null
+  },
+  {
+   "id": "V1",
+   "kind": "verification",
+   "strength": "hard",
+   "title": "Report or check suspected cyber fraud",
+   "text": "Report suspected digital-arrest or financial cyber fraud on the national helpline 1930 or at www.cybercrime.gov.in.",
+   "signature": {
+    "agency": [
+     "*"
+    ]
+   },
+   "predicate": "true",
+   "effective_from": null,
+   "sources": [
+    "I4C/MHA advisory (Oct 2024); TRAI PR 26/2024"
+   ],
+   "urls": [
+    "https://www.cybercrime.gov.in/"
+   ],
+   "published": null
+  },
+  {
+   "id": "V2",
+   "kind": "verification",
+   "strength": "hard",
+   "title": "Verify an ED summons",
+   "text": "Verify an ED summons by scanning its QR code or via 'Verify Your Summons' on the ED website using the summons number and passcode (possible 24 working hours after issue).",
+   "signature": {
+    "agency": [
+     "ed"
+    ]
+   },
+   "predicate": "agency == ed",
+   "effective_from": "2025-10-08",
+   "sources": [
+    "ED press release, 8 Oct 2025"
+   ],
+   "urls": [
+    "https://enforcementdirectorate.gov.in/"
+   ],
+   "published": null
+  },
+  {
+   "id": "V3",
+   "kind": "verification",
+   "strength": "hard",
+   "title": "Authenticate an income-tax notice",
+   "text": "Authenticate an income-tax notice or order with the e-filing service 'Authenticate notice/order issued by ITD' using its DIN.",
+   "signature": {
+    "agency": [
+     "income_tax"
+    ]
+   },
+   "predicate": "agency == income_tax",
+   "effective_from": "2019-10-01",
+   "sources": [
+    "Income Tax Department e-filing help"
+   ],
+   "urls": [
+    "https://www.incometax.gov.in/iec/foportal/help/all-topics/e-filing-services/authenticate-noticeorder-issued-itd"
+   ],
+   "published": null
+  },
+  {
+   "id": "V4",
+   "kind": "verification",
+   "strength": "hard",
+   "title": "Report telecom impersonation",
+   "text": "Report suspected fraud communications in the name of TRAI or telecom operators through the Chakshu facility on the DoT Sanchar Saathi portal.",
+   "signature": {
+    "agency": [
+     "trai"
+    ]
+   },
+   "predicate": "agency == trai",
+   "effective_from": "2024-06-06",
+   "sources": [
+    "TRAI Press Release No. 26/2024"
+   ],
+   "urls": [
+    "https://sancharsaathi.gov.in/sfc/"
+   ],
+   "published": null
+  }
+ ]
+}

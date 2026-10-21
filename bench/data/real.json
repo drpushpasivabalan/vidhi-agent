@@ -1,0 +1,3162 @@
+[
+ {
+  "id": "R-S01",
+  "label": 1,
+  "date": "2024-09-25",
+  "channel": "video_call",
+  "source": "Deccan Herald, 13 Oct 2024",
+  "url": "https://www.deccanherald.com/amp/story/india%2Fkarnataka%2Fbengaluru%2Fdigital-arrest-for-six-days-29-year-old-conned-of-rs-14-lakh-3230249",
+  "text": "they created a sense of urgency by telling him that he had to visit CBI in Mumbai the same day for investigation. The caller asked him to transfer 80 per cent of the money in his bank accounts to an 'RBI account' for verification. He was told he would be under 24x7 surveillance and asked to install Signal to record his video statement.",
+  "gold": {
+   "agencies": [
+    "cbi",
+    "rbi",
+    "trai"
+   ],
+   "instruments": [],
+   "demands": [
+    "transfer_funds",
+    "verification_deposit",
+    "stay_on_camera"
+   ],
+   "payee": "rbi"
+  },
+  "form": "paraphrase",
+  "gold_raw": {
+   "agencies": [
+    "cbi",
+    "rbi",
+    "trai"
+   ],
+   "instruments": [],
+   "demands": [
+    "transfer_funds",
+    "verification_deposit",
+    "stay_on_camera"
+   ],
+   "payee": "rbi"
+  },
+  "family": "real_fraud",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "they created a sense of urgency by telling him that he had to visit CBI in Mumbai the same day for investigation. The caller asked him to transfer 80 per cent of the money in his bank accounts to an 'RBI account' for verification. He was told he would be under 24x7 surveillance and asked to install Signal to record his video statement."
+ },
+ {
+  "id": "R-S02",
+  "label": 1,
+  "date": "2024-05-16",
+  "channel": "skype",
+  "source": "The News Minute, 22 May 2024",
+  "url": "https://www.thenewsminute.com/karnataka/fedex-scam-bengaluru-software-engineer-loses-rs-1-crore-to-fraudsters",
+  "text": "200 grams of narcotic drugs and several passports were found in a parcel listing her name and number at the Mumbai airport. The fraudsters, posing as a FedEx executive, a customs officer and Mumbai Police, asked her to transfer money to an account they said belonged to the Reserve Bank of India for verification. She was asked to stay in an isolated room with the camera on, and was promised the money would be returned within 30 days after verification.",
+  "gold": {
+   "agencies": [
+    "courier",
+    "customs",
+    "police",
+    "rbi"
+   ],
+   "instruments": [],
+   "demands": [
+    "transfer_funds",
+    "verification_deposit",
+    "stay_on_camera",
+    "isolation"
+   ],
+   "payee": "rbi"
+  },
+  "form": "paraphrase",
+  "gold_raw": {
+   "agencies": [
+    "courier",
+    "customs",
+    "police",
+    "rbi"
+   ],
+   "instruments": [],
+   "demands": [
+    "transfer_funds",
+    "verification_deposit",
+    "stay_on_camera",
+    "isolation"
+   ],
+   "payee": "rbi"
+  },
+  "family": "real_fraud",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "200 grams of narcotic drugs and several passports were found in a parcel listing her name and number at the Mumbai airport. The fraudsters, posing as a FedEx executive, a customs officer and Mumbai Police, asked her to transfer money to an account they said belonged to the Reserve Bank of India for verification. She was asked to stay in an isolated room with the camera on, and was promised the money would be returned within 30 days after verification."
+ },
+ {
+  "id": "R-S03",
+  "label": 1,
+  "date": "2023-12-10",
+  "channel": "skype",
+  "source": "Deccan Herald, 10 Dec 2023",
+  "url": "https://www.deccanherald.com/amp/story/india%2Ffedex-courier-scam-a-tale-of-terror-trickery-and-deceit-2804802",
+  "text": "The caller said he was a FedEx manager and that a package in his name was confiscated by Mumbai Customs. He was told to keep the video on at all times, stay alone in the room and send his wife away, and to transfer money to an 'RBI account', which would be credited back after verification. He was shown a case document claiming his bank account was used to launder money.",
+  "gold": {
+   "agencies": [
+    "courier",
+    "customs",
+    "police",
+    "rbi"
+   ],
+   "instruments": [],
+   "demands": [
+    "stay_on_camera",
+    "isolation",
+    "transfer_funds",
+    "verification_deposit"
+   ],
+   "payee": "rbi"
+  },
+  "form": "paraphrase",
+  "gold_raw": {
+   "agencies": [
+    "courier",
+    "customs",
+    "police",
+    "rbi"
+   ],
+   "instruments": [],
+   "demands": [
+    "stay_on_camera",
+    "isolation",
+    "transfer_funds",
+    "verification_deposit"
+   ],
+   "payee": "rbi"
+  },
+  "family": "real_fraud",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "The caller said he was a FedEx manager and that a package in his name was confiscated by Mumbai Customs. He was told to keep the video on at all times, stay alone in the room and send his wife away, and to transfer money to an 'RBI account', which would be credited back after verification. He was shown a case document claiming his bank account was used to launder money."
+ },
+ {
+  "id": "R-S04",
+  "label": 1,
+  "date": "2024-09-28",
+  "channel": "skype",
+  "source": "The News Minute, 2 Oct 2024",
+  "url": "https://thenewsminute.com/news/how-an-indian-ceo-lost-rs-7-crore-to-scammers-who-pretended-to-be-ed-cbi-and-cji",
+  "text": "The caller claimed that to be a Central Bureau of Investigation (CBI) officer. Posing as CBI officers, they instructed me to keep Skype in my phone on even during sleep. He was also sent a 'CBI order' saying that he was taken into 'digital custody' related to Naresh Goyal's case. asking him to release Rs 7 crore into a Secret Supervision Account (SSA). The industrialist said he was so intimidated that he could not share the incident with anyone.",
+  "gold": {
+   "agencies": [
+    "cbi",
+    "court"
+   ],
+   "instruments": [
+    "arrest"
+   ],
+   "demands": [
+    "stay_on_camera",
+    "transfer_funds",
+    "secrecy",
+    "verification_deposit"
+   ],
+   "payee": "caller_supplied"
+  },
+  "form": "excerpts",
+  "gold_raw": {
+   "agencies": [
+    "cbi",
+    "court"
+   ],
+   "instruments": [
+    "arrest"
+   ],
+   "demands": [
+    "stay_on_camera",
+    "transfer_funds",
+    "secrecy",
+    "verification_deposit"
+   ],
+   "payee": "caller_supplied"
+  },
+  "family": "real_fraud",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "The caller claimed that to be a Central Bureau of Investigation (CBI) officer. Posing as CBI officers, they instructed me to keep Skype in my phone on even during sleep. He was also sent a 'CBI order' saying that he was taken into 'digital custody' related to Naresh Goyal's case. asking him to release Rs 7 crore into a Secret Supervision Account (SSA). The industrialist said he was so intimidated that he could not share the incident with anyone."
+ },
+ {
+  "id": "R-S05",
+  "label": 1,
+  "date": "2025-04-19",
+  "channel": "video_call",
+  "source": "The Tribune, 19 Apr 2025",
+  "url": "https://www.tribuneindia.com/news/delhi/digital-arrest-scam-delhi-cyber-police-arrest-3-after-retired-officer-cheated-of-rs-48-5-lakh",
+  "text": "The accused used WhatsApp video calls to impersonate officials from TRAI, CBI, Mumbai Police, and even Supreme Court judges. The caller informed him of a money laundering case registered in Mumbai using his Aadhaar card. Within minutes, the victim was connected to a supposed Mumbai Police Sub-Inspector. manipulated into liquidating his Fixed Deposits, PPF, and other savings. The money was transferred to accounts falsely claimed to be under Supreme Court supervision.",
+  "gold": {
+   "agencies": [
+    "trai",
+    "cbi",
+    "police",
+    "court"
+   ],
+   "instruments": [],
+   "demands": [
+    "transfer_funds",
+    "verification_deposit"
+   ],
+   "payee": "caller_supplied"
+  },
+  "form": "excerpts",
+  "gold_raw": {
+   "agencies": [
+    "trai",
+    "cbi",
+    "police",
+    "court"
+   ],
+   "instruments": [],
+   "demands": [
+    "transfer_funds",
+    "verification_deposit"
+   ],
+   "payee": "caller_supplied"
+  },
+  "family": "real_fraud",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "The accused used WhatsApp video calls to impersonate officials from TRAI, CBI, Mumbai Police, and even Supreme Court judges. The caller informed him of a money laundering case registered in Mumbai using his Aadhaar card. Within minutes, the victim was connected to a supposed Mumbai Police Sub-Inspector. manipulated into liquidating his Fixed Deposits, PPF, and other savings. The money was transferred to accounts falsely claimed to be under Supreme Court supervision."
+ },
+ {
+  "id": "R-S06",
+  "label": 1,
+  "date": "2026-03-27",
+  "channel": "voice_call",
+  "source": "ETV Bharat, 4 Jul 2026",
+  "url": "https://www.etvbharat.com/en/state/retired-patna-professor-duped-of-rs-82-dot-53-lakh-in-eight-day-digital-arrest-cyber-fraud-enn26070403603",
+  "text": "The fraud began on March 27, 2026, when Ghyasuddin received a phone call from a person claiming to be a CBI officer. He was allegedly instructed not to disclose the matter to any family member, friend or acquaintance. The scammers pressured him into sending about Rs 82.53 lakh in several instalments through RTGS and UPI.",
+  "gold": {
+   "agencies": [
+    "cbi"
+   ],
+   "instruments": [],
+   "demands": [
+    "secrecy",
+    "transfer_funds"
+   ],
+   "payee": "caller_supplied"
+  },
+  "form": "paraphrase",
+  "gold_raw": {
+   "agencies": [
+    "cbi"
+   ],
+   "instruments": [],
+   "demands": [
+    "secrecy",
+    "transfer_funds"
+   ],
+   "payee": "caller_supplied"
+  },
+  "family": "real_fraud",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "The fraud began on March 27, 2026, when Ghyasuddin received a phone call from a person claiming to be a CBI officer. He was allegedly instructed not to disclose the matter to any family member, friend or acquaintance. The scammers pressured him into sending about Rs 82.53 lakh in several instalments through RTGS and UPI."
+ },
+ {
+  "id": "R-S07",
+  "label": 1,
+  "date": "2024-11-25",
+  "channel": "whatsapp",
+  "source": "Deccan Herald, 25 Nov 2024",
+  "url": "https://www.deccanherald.com/amp/story/india%2Fnoida-woman-duped-of-rs-34-lakh-gets-fake-ed-notices-in-case-of-digital-arrest-3290232",
+  "text": "threatened her with fake notices by the Enforcement Directorate. The fraudsters claimed that a parcel is being sent from Mumbai to Iran in her name. the fraudsters sent her a complaint via WhatsApp and asked her to send Rs 34 lakh. An accused also video called her on Skype with the video switched off. the accused also sent two notices of Enforcement Directorate (ED).",
+  "gold": {
+   "agencies": [
+    "ed",
+    "courier"
+   ],
+   "instruments": [
+    "summons_ed"
+   ],
+   "demands": [
+    "transfer_funds"
+   ],
+   "payee": "caller_supplied"
+  },
+  "form": "excerpts",
+  "gold_raw": {
+   "agencies": [
+    "ed",
+    "courier"
+   ],
+   "instruments": [
+    "summons_ed"
+   ],
+   "demands": [
+    "transfer_funds"
+   ],
+   "payee": "caller_supplied"
+  },
+  "family": "real_fraud",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "threatened her with fake notices by the Enforcement Directorate. The fraudsters claimed that a parcel is being sent from Mumbai to Iran in her name. the fraudsters sent her a complaint via WhatsApp and asked her to send Rs 34 lakh. An accused also video called her on Skype with the video switched off. the accused also sent two notices of Enforcement Directorate (ED)."
+ },
+ {
+  "id": "R-S08",
+  "label": 1,
+  "date": "2026-07-03",
+  "channel": "whatsapp",
+  "source": "Free Press Journal, 9 Jul 2026",
+  "url": "https://www.freepressjournal.in/mumbai/mumbai-digital-arrest-scam-fake-ed-officials-target-78-year-old-khar-resident-attempt-bank-account-takeover",
+  "text": "received WhatsApp calls between July 3 and 6 from men identifying themselves as ED officers. They falsely claimed a money laundering case had been registered against him in Delhi. He was asked to install an app and sign a consent letter handing over control of his accounts to the ED.",
+  "gold": {
+   "agencies": [
+    "ed"
+   ],
+   "instruments": [],
+   "demands": [
+    "transfer_funds"
+   ],
+   "payee": "caller_supplied"
+  },
+  "form": "excerpts",
+  "gold_raw": {
+   "agencies": [
+    "ed"
+   ],
+   "instruments": [],
+   "demands": [
+    "transfer_funds"
+   ],
+   "payee": "caller_supplied"
+  },
+  "family": "real_fraud",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "received WhatsApp calls between July 3 and 6 from men identifying themselves as ED officers. They falsely claimed a money laundering case had been registered against him in Delhi. He was asked to install an app and sign a consent letter handing over control of his accounts to the ED."
+ },
+ {
+  "id": "R-S09",
+  "label": 1,
+  "date": "2024-01-25",
+  "channel": "video_call",
+  "source": "Taxscan, 25 Jan 2024",
+  "url": "https://www.taxscan.in/fake-customs-official-tricks-70-year-old-loots-rs-3-5-lakh-under-false-drug-seizure-claim/368605",
+  "text": "allegedly from an individual posing as a Customs officer based in Lucknow. another individual directed the victim to download the Telegram App, initiating a video call to record his statement. the caller produced a purported letter, claiming that the CBI had issued an arrest warrant against him. the fraudster coerced the victim into transferring Rs 3.5 lakh to a specified bank account.",
+  "gold": {
+   "agencies": [
+    "customs",
+    "cbi"
+   ],
+   "instruments": [
+    "arrest_warrant"
+   ],
+   "demands": [
+    "transfer_funds"
+   ],
+   "payee": "caller_supplied"
+  },
+  "form": "excerpts",
+  "gold_raw": {
+   "agencies": [
+    "customs",
+    "cbi"
+   ],
+   "instruments": [
+    "arrest_warrant"
+   ],
+   "demands": [
+    "transfer_funds"
+   ],
+   "payee": "caller_supplied"
+  },
+  "family": "real_fraud",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "allegedly from an individual posing as a Customs officer based in Lucknow. another individual directed the victim to download the Telegram App, initiating a video call to record his statement. the caller produced a purported letter, claiming that the CBI had issued an arrest warrant against him. the fraudster coerced the victim into transferring Rs 3.5 lakh to a specified bank account."
+ },
+ {
+  "id": "R-S10",
+  "label": 1,
+  "date": "2023-11-15",
+  "channel": "voice_call",
+  "source": "Outlook Business (TRAI advisory), 15 Nov 2023",
+  "url": "https://www.outlookbusiness.com/news/any-disconnection-related-call-message-claiming-to-be-from-trai-is-fraudulent-regulator",
+  "text": "Callers falsely claim to be from TRAI and threaten to disconnect numbers. Others say numbers are being used for unsolicited messages, or that Aadhaar numbers were used to obtain SIM cards for illegal activities. Some try to lure people into Skype video calls to avoid disconnection.",
+  "gold": {
+   "agencies": [
+    "trai"
+   ],
+   "instruments": [
+    "disconnection_notice"
+   ],
+   "demands": [],
+   "payee": "none"
+  },
+  "form": "paraphrase",
+  "gold_raw": {
+   "agencies": [
+    "trai"
+   ],
+   "instruments": [
+    "disconnection_notice"
+   ],
+   "demands": [],
+   "payee": "none"
+  },
+  "family": "real_fraud",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "Callers falsely claim to be from TRAI and threaten to disconnect numbers. Others say numbers are being used for unsolicited messages, or that Aadhaar numbers were used to obtain SIM cards for illegal activities. Some try to lure people into Skype video calls to avoid disconnection."
+ },
+ {
+  "id": "R-S11",
+  "label": 1,
+  "date": "2026-02-28",
+  "channel": "email",
+  "source": "News On AIR (PIB Fact Check), 28 Feb 2026",
+  "url": "https://www.newsonair.gov.in/government-debunks-fake-legal-notice-linked-to-indian-cyber-crime-coordination-centre",
+  "text": "A letter was circulating on social media, attributed to the Indian Cyber Crime Coordination Centre, sending a legal notice. the letter is fake and has not been issued by the Intelligence Bureau.",
+  "gold": {
+   "agencies": [
+    "police"
+   ],
+   "instruments": [],
+   "demands": [],
+   "payee": "none"
+  },
+  "form": "paraphrase",
+  "gold_raw": {
+   "agencies": [
+    "police"
+   ],
+   "instruments": [
+    "legal_notice"
+   ],
+   "demands": [],
+   "payee": "none"
+  },
+  "family": "real_fraud",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "A letter was circulating on social media, attributed to the Indian Cyber Crime Coordination Centre, sending a legal notice. the letter is fake and has not been issued by the Intelligence Bureau."
+ },
+ {
+  "id": "R-S12",
+  "label": 1,
+  "date": "2025-07-06",
+  "channel": "voice_call",
+  "source": "Deccan Herald, 6 Jul 2025",
+  "url": "https://www.deccanherald.com/amp/story/india%2Fkarnataka%2Fkarnataka-woman-loses-rs-316-crore-in-digital-arrest-scam-3617765",
+  "text": "claiming to be Inspector Anu Sharma from the NCRP. a new SIM card had been fraudulently activated in her husband's name. The call was then transferred to someone posing as a Sub-Inspector named Mohan Kumar from the Sahar Police Station. The caller instructed the woman to bring her husband to Mumbai. demanded both the complainant's and her husband's bank account details.",
+  "gold": {
+   "agencies": [
+    "police"
+   ],
+   "instruments": [],
+   "demands": [],
+   "payee": "none"
+  },
+  "form": "excerpts",
+  "gold_raw": {
+   "agencies": [
+    "police"
+   ],
+   "instruments": [],
+   "demands": [
+    "bank_details"
+   ],
+   "payee": "none"
+  },
+  "family": "real_fraud",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "claiming to be Inspector Anu Sharma from the NCRP. a new SIM card had been fraudulently activated in her husband's name. The call was then transferred to someone posing as a Sub-Inspector named Mohan Kumar from the Sahar Police Station. The caller instructed the woman to bring her husband to Mumbai. demanded both the complainant's and her husband's bank account details."
+ },
+ {
+  "id": "R-S13",
+  "label": 1,
+  "date": "2025-10-23",
+  "channel": "voice_call",
+  "source": "Deccan Herald, 31 Oct 2025",
+  "url": "https://www.deccanherald.com/india/karnataka/mangaluru/mangaluru-police-recover-rs-17-lakh-duped-in-digital-arrest-3781567",
+  "text": "received a call from an unknown person at 10 am on October 23, claiming that an arrest warrant had been issued against her.",
+  "gold": {
+   "agencies": [],
+   "instruments": [
+    "arrest_warrant"
+   ],
+   "demands": [],
+   "payee": "none"
+  },
+  "form": "excerpts",
+  "gold_raw": {
+   "agencies": [],
+   "instruments": [
+    "arrest_warrant"
+   ],
+   "demands": [],
+   "payee": "none"
+  },
+  "family": "real_fraud",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "received a call from an unknown person at 10 am on October 23, claiming that an arrest warrant had been issued against her."
+ },
+ {
+  "id": "R-S14",
+  "label": 1,
+  "date": "2025-12-12",
+  "channel": "video_call",
+  "source": "The Tribune, 12 Dec 2025",
+  "url": "https://www.tribuneindia.com/news/chandigarh/man-duped-of-85-lakh-in-digital-arrest-scam-in-manimajra",
+  "text": "claiming to be from the Telecom Authority of India, posing as senior vigilance and law enforcement officers, through manipulated video calls, fake court notices and fabricated RBI documents through WhatsApp, by transferring money into various bank accounts for so-called verification by the RBI.",
+  "gold": {
+   "agencies": [
+    "trai",
+    "police",
+    "court",
+    "rbi"
+   ],
+   "instruments": [
+    "summons_court"
+   ],
+   "demands": [
+    "transfer_funds",
+    "verification_deposit"
+   ],
+   "payee": "rbi"
+  },
+  "form": "excerpts",
+  "gold_raw": {
+   "agencies": [
+    "trai",
+    "police",
+    "court",
+    "rbi"
+   ],
+   "instruments": [
+    "summons_court"
+   ],
+   "demands": [
+    "transfer_funds",
+    "verification_deposit"
+   ],
+   "payee": "rbi"
+  },
+  "family": "real_fraud",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "claiming to be from the Telecom Authority of India, posing as senior vigilance and law enforcement officers, through manipulated video calls, fake court notices and fabricated RBI documents through WhatsApp, by transferring money into various bank accounts for so-called verification by the RBI."
+ },
+ {
+  "id": "R-S15",
+  "label": 1,
+  "date": "2025-11-15",
+  "channel": "video_call",
+  "source": "Siasat, 15 Nov 2025",
+  "url": "https://www.siasat.com/woman-loses-rs-19-lakh-in-digital-arrest-in-hyderabad-3296838/",
+  "text": "She was threatened by cyber fraudsters posing as National Investigation Agency (NIA) officers. The cyber fraudster informed the victim that her bank account was linked to money laundering worth multiple crores. The fraudster threatened the victim that she and her family would be arrested if they did not cooperate. They showed forged ID cards of the Mumbai police on a WhatsApp video call. They showed forged RBI ID cards and fake receipts and asked her to keep the conversation confidential.",
+  "gold": {
+   "agencies": [
+    "police",
+    "rbi"
+   ],
+   "instruments": [
+    "arrest"
+   ],
+   "demands": [
+    "secrecy"
+   ],
+   "payee": "none"
+  },
+  "form": "excerpts",
+  "gold_raw": {
+   "agencies": [
+    "police",
+    "rbi"
+   ],
+   "instruments": [
+    "arrest"
+   ],
+   "demands": [
+    "secrecy"
+   ],
+   "payee": "none"
+  },
+  "family": "real_fraud",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "She was threatened by cyber fraudsters posing as National Investigation Agency (NIA) officers. The cyber fraudster informed the victim that her bank account was linked to money laundering worth multiple crores. The fraudster threatened the victim that she and her family would be arrested if they did not cooperate. They showed forged ID cards of the Mumbai police on a WhatsApp video call. They showed forged RBI ID cards and fake receipts and asked her to keep the conversation confidential."
+ },
+ {
+  "id": "R-S16",
+  "label": 1,
+  "date": "2025-06-23",
+  "channel": "video_call",
+  "source": "The Tribune, 5 Jul 2025",
+  "url": "https://www.tribuneindia.com/news/bathinda/former-principal-falls-victim-to-digital-arrest-scam-loses-rs1-27-crore",
+  "text": "by conmen posing as senior CBI officials, claiming to be the CBI director. Then I was forced to join a WhatsApp video call. I was instructed to stay on camera at all times and not leave my home. the scammers told me to 'secure' my assets by transferring funds to accounts they provided for bail.",
+  "gold": {
+   "agencies": [
+    "cbi"
+   ],
+   "instruments": [],
+   "demands": [
+    "stay_on_camera",
+    "isolation",
+    "transfer_funds",
+    "bail_payment_online"
+   ],
+   "payee": "caller_supplied"
+  },
+  "form": "excerpts",
+  "gold_raw": {
+   "agencies": [
+    "cbi"
+   ],
+   "instruments": [],
+   "demands": [
+    "stay_on_camera",
+    "isolation",
+    "transfer_funds",
+    "bail_payment_online"
+   ],
+   "payee": "caller_supplied"
+  },
+  "family": "real_fraud",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "by conmen posing as senior CBI officials, claiming to be the CBI director. Then I was forced to join a WhatsApp video call. I was instructed to stay on camera at all times and not leave my home. the scammers told me to 'secure' my assets by transferring funds to accounts they provided for bail."
+ },
+ {
+  "id": "R-L01",
+  "label": 0,
+  "date": "2026-10-17",
+  "channel": "physical",
+  "source": "Deccan Herald, 17 Oct 2026",
+  "url": "https://www.deccanherald.com/india/keralam/cmrl-case-ed-pastes-summons-at-pinarayi-vijayans-house-asks-him-to-appear-for-questioning-on-oct-23-4186234",
+  "text": "Enforcement Directorate pastes summons at Pinarayi Vijayan residence directing him to appear for questioning on October 23. Officials said the move was intended to ensure that Vijayan received the summons and appeared for questioning as directed.",
+  "gold": {
+   "agencies": [
+    "ed"
+   ],
+   "instruments": [
+    "summons_ed"
+   ],
+   "demands": [
+    "appear_in_person"
+   ],
+   "payee": "none"
+  },
+  "form": "excerpts",
+  "gold_raw": {
+   "agencies": [
+    "ed"
+   ],
+   "instruments": [
+    "summons_ed"
+   ],
+   "demands": [
+    "appear_in_person"
+   ],
+   "payee": "none"
+  },
+  "family": "real_lawful",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "Enforcement Directorate pastes summons at Pinarayi Vijayan residence directing him to appear for questioning on October 23. Officials said the move was intended to ensure that Vijayan received the summons and appeared for questioning as directed."
+ },
+ {
+  "id": "R-L02",
+  "label": 0,
+  "date": "2025-11-14",
+  "channel": "physical",
+  "source": "IndUS Business Journal, 14 Nov 2025",
+  "url": "https://indusbusinessjournal.com/2025/11/ed-issues-new-summons-ordering-anil-ambani-to-appear-in-person-on-monday/",
+  "text": "has issued a fresh summons directing Reliance ADAG Group chairman Anil D. Ambani to appear in person. investigators issued a new summons requiring his personal appearance on November 17. the summons relates to a Foreign Exchange Management Act (FEMA) inquiry.",
+  "gold": {
+   "agencies": [
+    "ed"
+   ],
+   "instruments": [
+    "summons_ed"
+   ],
+   "demands": [
+    "appear_in_person"
+   ],
+   "payee": "none"
+  },
+  "form": "excerpts",
+  "gold_raw": {
+   "agencies": [
+    "ed"
+   ],
+   "instruments": [
+    "summons_ed"
+   ],
+   "demands": [
+    "appear_in_person"
+   ],
+   "payee": "none"
+  },
+  "family": "real_lawful",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "has issued a fresh summons directing Reliance ADAG Group chairman Anil D. Ambani to appear in person. investigators issued a new summons requiring his personal appearance on November 17. the summons relates to a Foreign Exchange Management Act (FEMA) inquiry."
+ },
+ {
+  "id": "R-L03",
+  "label": 0,
+  "date": "2024-07-01",
+  "channel": "physical",
+  "source": "Delhi Police, notice format under Section 35(3) BNSS",
+  "url": "https://training.delhipolice.gov.in/PDF/PublicData/NOTICE_20240615111147400.pdf",
+  "text": "Notice under Section 35(3) BNSS. You are directed to appear at the police station on the date and time stated. You are not being placed under arrest at this stage and are directed to join and cooperate with the investigation and produce relevant documents. Failure to attend/comply with the terms of this Notice can render you liable for arrest.",
+  "gold": {
+   "agencies": [
+    "police"
+   ],
+   "instruments": [
+    "notice_s35"
+   ],
+   "demands": [
+    "appear_in_person",
+    "produce_documents"
+   ],
+   "payee": "none"
+  },
+  "form": "paraphrase",
+  "gold_raw": {
+   "agencies": [
+    "police"
+   ],
+   "instruments": [
+    "notice_s35"
+   ],
+   "demands": [
+    "appear_in_person",
+    "produce_documents"
+   ],
+   "payee": "none"
+  },
+  "family": "real_lawful",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "Notice under Section 35(3) BNSS. You are directed to appear at the police station on the date and time stated. You are not being placed under arrest at this stage and are directed to join and cooperate with the investigation and produce relevant documents. Failure to attend/comply with the terms of this Notice can render you liable for arrest."
+ },
+ {
+  "id": "R-L04",
+  "label": 0,
+  "date": "2025-08-24",
+  "channel": "whatsapp",
+  "source": "The Week (PTI), 24 Aug 2025",
+  "url": "https://www.theweek.in/wire-updates/national/2025/08/24/des1-dl-summons-e-delivery.html",
+  "text": "electronic delivery of court summons and warrants through WhatsApp and e-mail. will be generated electronically and carry the digital seal and signature of the judge concerned. Police will then communicate it to the person concerned through e-mail or WhatsApp.",
+  "gold": {
+   "agencies": [
+    "court",
+    "police"
+   ],
+   "instruments": [
+    "summons_court"
+   ],
+   "demands": [],
+   "payee": "none",
+   "has_seal": true,
+   "has_ds": true
+  },
+  "form": "excerpts",
+  "gold_raw": {
+   "agencies": [
+    "court",
+    "police"
+   ],
+   "instruments": [
+    "summons_court"
+   ],
+   "demands": [],
+   "payee": "none",
+   "has_seal": true,
+   "has_ds": true
+  },
+  "family": "real_lawful",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "electronic delivery of court summons and warrants through WhatsApp and e-mail. will be generated electronically and carry the digital seal and signature of the judge concerned. Police will then communicate it to the person concerned through e-mail or WhatsApp."
+ },
+ {
+  "id": "R-S17",
+  "label": 1,
+  "date": "2024-12-23",
+  "channel": "voice_call",
+  "source": "The Tribune, 23 Dec 2024",
+  "form": "excerpts",
+  "url": "https://www.tribuneindia.com/news/amp/bengaluru-techie-loses-rs-11-crore-to-digital-arrest-scam",
+  "text": "the cyber fraudsters disguised themselves as police officials from the Mumbai Crime Branch. The fraudsters claimed that it was a case involving cheating of Rs 6 crore. The accused also claimed that the case is currently being looked into by the Supreme Court. also identified themselves as officers from the Income Tax and the Enforcement Directorate departments. kept him engaged over phone calls for more than a month. The accused had told him to sell his shares threatening arrest.",
+  "gold": {
+   "agencies": [
+    "police",
+    "court",
+    "income_tax",
+    "ed"
+   ],
+   "instruments": [
+    "arrest"
+   ],
+   "demands": [
+    "transfer_funds"
+   ],
+   "payee": "caller_supplied"
+  },
+  "gold_raw": {
+   "agencies": [
+    "police",
+    "court",
+    "income_tax",
+    "ed"
+   ],
+   "instruments": [
+    "arrest"
+   ],
+   "demands": [
+    "transfer_funds"
+   ],
+   "payee": "caller_supplied"
+  },
+  "family": "real_fraud",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "the cyber fraudsters disguised themselves as police officials from the Mumbai Crime Branch. The fraudsters claimed that it was a case involving cheating of Rs 6 crore. The accused also claimed that the case is currently being looked into by the Supreme Court. also identified themselves as officers from the Income Tax and the Enforcement Directorate departments. kept him engaged over phone calls for more than a month. The accused had told him to sell his shares threatening arrest."
+ },
+ {
+  "id": "R-S18",
+  "label": 1,
+  "date": "2024-10-13",
+  "channel": "video_call",
+  "source": "The Tribune, 13 Oct 2024",
+  "form": "excerpts",
+  "url": "https://www.tribuneindia.com/news/uttar-pradesh/amu-professor-duped-of-rs-75-lakh-in-digital-arrest-fraud",
+  "text": "The accused posed an Enforcement Directorate official, threatens people of arrest by making video calls. the victim was kept under \"digital arrest for more than 10 days\". the accused pressured Jahan to pay money to avoid arrest. He gave her some bank account numbers and the victim complied with the demands and deposited more than Rs 75 lakh.",
+  "gold": {
+   "agencies": [
+    "ed"
+   ],
+   "instruments": [
+    "arrest"
+   ],
+   "demands": [
+    "transfer_funds"
+   ],
+   "payee": "caller_supplied"
+  },
+  "gold_raw": {
+   "agencies": [
+    "ed"
+   ],
+   "instruments": [
+    "arrest"
+   ],
+   "demands": [
+    "transfer_funds"
+   ],
+   "payee": "caller_supplied"
+  },
+  "family": "real_fraud",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "The accused posed an Enforcement Directorate official, threatens people of arrest by making video calls. the victim was kept under \"digital arrest for more than 10 days\". the accused pressured Jahan to pay money to avoid arrest. He gave her some bank account numbers and the victim complied with the demands and deposited more than Rs 75 lakh."
+ },
+ {
+  "id": "R-S19",
+  "label": 1,
+  "date": "2025-07-19",
+  "channel": "video_call",
+  "source": "The Tribune, 19 Jul 2025",
+  "form": "excerpts",
+  "url": "https://www.tribuneindia.com/news/ludhiana/vet-varsity-professor-falls-prey-to-digital-arrest-scam-loses-20l/amp",
+  "text": "The suspects, posing as CBI and IPS officials, threatened him on video calls. They kept him under digital arrest for 14 days by threatening to implicate him in a human trafficking case. the victim was threatened through a video call by showing fake identity and documents related to the case. They also told the professor that arrest warrants were also issued by the Enforcement Directorate (ED). demanded another Rs 10 lakh, else threatened to implicate him in a case.",
+  "gold": {
+   "agencies": [
+    "cbi",
+    "police",
+    "ed"
+   ],
+   "instruments": [
+    "arrest",
+    "arrest_warrant"
+   ],
+   "demands": [
+    "transfer_funds"
+   ],
+   "payee": "caller_supplied"
+  },
+  "gold_raw": {
+   "agencies": [
+    "cbi",
+    "police",
+    "ed"
+   ],
+   "instruments": [
+    "arrest",
+    "arrest_warrant"
+   ],
+   "demands": [
+    "transfer_funds"
+   ],
+   "payee": "caller_supplied"
+  },
+  "family": "real_fraud",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "The suspects, posing as CBI and IPS officials, threatened him on video calls. They kept him under digital arrest for 14 days by threatening to implicate him in a human trafficking case. the victim was threatened through a video call by showing fake identity and documents related to the case. They also told the professor that arrest warrants were also issued by the Enforcement Directorate (ED). demanded another Rs 10 lakh, else threatened to implicate him in a case."
+ },
+ {
+  "id": "R-L05",
+  "label": 0,
+  "date": "2024-02-22",
+  "channel": "physical",
+  "source": "Deccan Herald, 22 Feb 2024",
+  "form": "excerpts",
+  "url": "https://www.deccanherald.com/amp/story/india%2Fdelhi%2Fed-summons-arvind-kejriwal-for-seventh-time-on-february-26-2905272",
+  "text": "The Enforcement Directorate has issued fresh summons to the Delhi Chief Minister Arvind Kejriwal, asked him to appear before the investigators in connection with a money laundering case.",
+  "gold": {
+   "agencies": [
+    "ed"
+   ],
+   "instruments": [
+    "summons_ed"
+   ],
+   "demands": [
+    "appear_in_person"
+   ],
+   "payee": "none"
+  },
+  "gold_raw": {
+   "agencies": [
+    "ed"
+   ],
+   "instruments": [
+    "summons_ed"
+   ],
+   "demands": [
+    "appear_in_person"
+   ],
+   "payee": "none"
+  },
+  "family": "real_lawful",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "The Enforcement Directorate has issued fresh summons to the Delhi Chief Minister Arvind Kejriwal, asked him to appear before the investigators in connection with a money laundering case."
+ },
+ {
+  "id": "R-L06",
+  "label": 0,
+  "date": "2026-06-09",
+  "channel": "physical",
+  "source": "Madhyamam, 9 Jun 2026",
+  "form": "excerpts",
+  "url": "https://madhyamamonline.com/kerala/ed-issues-summons-to-t-veena-asks-to-appear-for-questioning-on-friday-1527062",
+  "text": "The Enforcement Directorate (ED) has issued summons to nine people, including T. Veena, in connection with the money-laundering case linked to the Cochin Minerals and Rutile Limited. They have been asked to appear before the ED's Kochi office for questioning on Friday.",
+  "gold": {
+   "agencies": [
+    "ed"
+   ],
+   "instruments": [
+    "summons_ed"
+   ],
+   "demands": [
+    "appear_in_person"
+   ],
+   "payee": "none"
+  },
+  "gold_raw": {
+   "agencies": [
+    "ed"
+   ],
+   "instruments": [
+    "summons_ed"
+   ],
+   "demands": [
+    "appear_in_person"
+   ],
+   "payee": "none"
+  },
+  "family": "real_lawful",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "The Enforcement Directorate (ED) has issued summons to nine people, including T. Veena, in connection with the money-laundering case linked to the Cochin Minerals and Rutile Limited. They have been asked to appear before the ED's Kochi office for questioning on Friday."
+ },
+ {
+  "id": "R-L07",
+  "label": 0,
+  "date": "2021-08-27",
+  "channel": "whatsapp",
+  "source": "The Tribune, 27 Aug 2021",
+  "form": "excerpts",
+  "url": "https://tribuneindia.com/news/court-can-serve-summons-notice-through-whatsapp-email-hc-302465",
+  "text": "the Punjab and Haryana High Court has allowed e-service through email and instant messaging service WhatsApp. The only condition prescribed by the High Court is the furnishing of an affidavit that the email and the WhatsApp numbers are correct. A screenshot showing e-service of the summons has also been prescribed.",
+  "gold": {
+   "agencies": [
+    "court"
+   ],
+   "instruments": [
+    "summons_court"
+   ],
+   "demands": [],
+   "payee": "none"
+  },
+  "gold_raw": {
+   "agencies": [
+    "court"
+   ],
+   "instruments": [
+    "summons_court"
+   ],
+   "demands": [],
+   "payee": "none"
+  },
+  "family": "real_lawful",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "the Punjab and Haryana High Court has allowed e-service through email and instant messaging service WhatsApp. The only condition prescribed by the High Court is the furnishing of an affidavit that the email and the WhatsApp numbers are correct. A screenshot showing e-service of the summons has also been prescribed."
+ },
+ {
+  "id": "R-L08",
+  "label": 0,
+  "date": "2017-05-04",
+  "channel": "whatsapp",
+  "source": "Bar & Bench, 4 May 2017",
+  "form": "excerpts",
+  "url": "https://www.barandbench.com/news/delhi-high-courts-justice-endlaw-paves-way-service-summons-whatsapp",
+  "text": "Delhi High Court allowing the plaintiffs to serve the summons on one of the defendants through Whatsapp, text message and email.",
+  "gold": {
+   "agencies": [
+    "court"
+   ],
+   "instruments": [
+    "summons_court"
+   ],
+   "demands": [],
+   "payee": "none"
+  },
+  "gold_raw": {
+   "agencies": [
+    "court"
+   ],
+   "instruments": [
+    "summons_court"
+   ],
+   "demands": [],
+   "payee": "none"
+  },
+  "family": "real_lawful",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "Delhi High Court allowing the plaintiffs to serve the summons on one of the defendants through Whatsapp, text message and email."
+ },
+ {
+  "id": "R-L09",
+  "label": 0,
+  "date": "2022-12-02",
+  "channel": "physical",
+  "source": "The South First, 2 Dec 2022",
+  "form": "excerpts",
+  "url": "https://thesouthfirst.com/news/cbi-asks-kavitha-to-appear-before-it-in-delhi-liquor-scam/",
+  "text": "The notice was served on her under Section 160 of the CrPC for the investigation of the case. Under this notice, she would have to appear before the CBI as a witness in the case. to appear before it either in Hyderabad or in Delhi at 11 am on 6 December.",
+  "gold": {
+   "agencies": [
+    "cbi"
+   ],
+   "instruments": [],
+   "demands": [
+    "appear_in_person"
+   ],
+   "payee": "none"
+  },
+  "gold_raw": {
+   "agencies": [
+    "cbi"
+   ],
+   "instruments": [
+    "notice_witness"
+   ],
+   "demands": [
+    "appear_in_person"
+   ],
+   "payee": "none"
+  },
+  "family": "real_lawful",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "The notice was served on her under Section 160 of the CrPC for the investigation of the case. Under this notice, she would have to appear before the CBI as a witness in the case. to appear before it either in Hyderabad or in Delhi at 11 am on 6 December."
+ },
+ {
+  "id": "R-L10",
+  "label": 0,
+  "date": "2020-07-20",
+  "channel": "email",
+  "source": "The News Minute, 20 Jul 2020",
+  "form": "excerpts",
+  "url": "https://www.thenewsminute.com/money/income-tax-dept-launch-e-campaign-voluntary-compliance-taxpayers-129065",
+  "text": "the Income Tax Department will send email/SMS to identified taxpayers. The taxpayers concerned can respond online to the query of the tax department on the portal. Further, the taxpayer would not be required to visit any I-T office, as the response has to be submitted online.",
+  "gold": {
+   "agencies": [
+    "income_tax"
+   ],
+   "instruments": [
+    "tax_notice"
+   ],
+   "demands": [
+    "pay_via_portal"
+   ],
+   "payee": "official_portal"
+  },
+  "gold_raw": {
+   "agencies": [
+    "income_tax"
+   ],
+   "instruments": [
+    "tax_notice"
+   ],
+   "demands": [
+    "pay_via_portal"
+   ],
+   "payee": "official_portal"
+  },
+  "family": "real_lawful",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "the Income Tax Department will send email/SMS to identified taxpayers. The taxpayers concerned can respond online to the query of the tax department on the portal. Further, the taxpayer would not be required to visit any I-T office, as the response has to be submitted online."
+ },
+ {
+  "id": "R-S20",
+  "label": 1,
+  "date": "2025-11-19",
+  "channel": "video_call",
+  "source": "ETV Bharat, 1 Dec 2025",
+  "form": "excerpts",
+  "url": "https://www.etvbharat.com/en/state/elderly-couple-loses-rs-32-lakh-to-digital-arrest-scam-in-dehradun-enn25120103565",
+  "text": "The fraudsters posing as Mumbai Police officers claimed was caught with some sensitive documents on his mobile phone. received a call from an unknown person on November 19 and then a video call from the same number. identified himself as an officer from Mumbai's Colaba police station. she received a letter addressed to the Supreme Court. if she did not immediately deposit Rs 7 lakh, the case would not be shut and they would all be arrested.",
+  "gold": {
+   "agencies": [
+    "police",
+    "court"
+   ],
+   "instruments": [
+    "arrest"
+   ],
+   "demands": [
+    "transfer_funds"
+   ],
+   "payee": "caller_supplied"
+  },
+  "gold_raw": {
+   "agencies": [
+    "police",
+    "court"
+   ],
+   "instruments": [
+    "arrest",
+    "legal_notice"
+   ],
+   "demands": [
+    "transfer_funds"
+   ],
+   "payee": "caller_supplied"
+  },
+  "family": "real_fraud",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "The fraudsters posing as Mumbai Police officers claimed was caught with some sensitive documents on his mobile phone. received a call from an unknown person on November 19 and then a video call from the same number. identified himself as an officer from Mumbai's Colaba police station. she received a letter addressed to the Supreme Court. if she did not immediately deposit Rs 7 lakh, the case would not be shut and they would all be arrested."
+ },
+ {
+  "id": "R-S21",
+  "label": 1,
+  "date": "2026-10-01",
+  "channel": "video_call",
+  "source": "Nation Path India, 16 Oct 2026",
+  "form": "excerpts",
+  "url": "https://www.nationpathindia.com/national/ghaziabad-digital-arrest-scam-couple-loses-14-76-lakh-october-2026",
+  "text": "The callers allegedly claimed the family's identity documents were linked to a money-laundering investigation. The woman subsequently received WhatsApp video calls from people claiming to be police or court officials. The callers reportedly sought regular updates about where family members were going. They allegedly threatened to have the daughter kidnapped from school if the woman did not cooperate.",
+  "gold": {
+   "agencies": [
+    "police",
+    "court"
+   ],
+   "instruments": [],
+   "demands": [
+    "isolation"
+   ],
+   "payee": "none"
+  },
+  "gold_raw": {
+   "agencies": [
+    "police",
+    "court"
+   ],
+   "instruments": [],
+   "demands": [
+    "isolation"
+   ],
+   "payee": "none"
+  },
+  "family": "real_fraud",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "The callers allegedly claimed the family's identity documents were linked to a money-laundering investigation. The woman subsequently received WhatsApp video calls from people claiming to be police or court officials. The callers reportedly sought regular updates about where family members were going. They allegedly threatened to have the daughter kidnapped from school if the woman did not cooperate."
+ },
+ {
+  "id": "R-S22",
+  "label": 1,
+  "date": "2026-10-18",
+  "channel": "whatsapp",
+  "source": "The420.in, 18 Oct 2026",
+  "form": "excerpts",
+  "url": "https://the420.in/chandigarh-elderly-couple-cheated-digital-arrest-terror-links/",
+  "text": "a WhatsApp call from an unidentified individual claiming to be Vikram Singh. the callers claimed the Supreme Court of India had issued arrest warrants against the couple. to photograph and share bank records, fixed deposit receipts, and related financial assets. claiming the money had to be moved to an account associated with the National Investigation Agency. They were warned that they would be transported to a purported National Security Act facility in Pune.",
+  "gold": {
+   "agencies": [
+    "court",
+    "police"
+   ],
+   "instruments": [
+    "arrest_warrant"
+   ],
+   "demands": [
+    "transfer_funds"
+   ],
+   "payee": "caller_supplied"
+  },
+  "gold_raw": {
+   "agencies": [
+    "court",
+    "police"
+   ],
+   "instruments": [
+    "arrest_warrant"
+   ],
+   "demands": [
+    "transfer_funds",
+    "bank_details"
+   ],
+   "payee": "caller_supplied"
+  },
+  "family": "real_fraud",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "a WhatsApp call from an unidentified individual claiming to be Vikram Singh. the callers claimed the Supreme Court of India had issued arrest warrants against the couple. to photograph and share bank records, fixed deposit receipts, and related financial assets. claiming the money had to be moved to an account associated with the National Investigation Agency. They were warned that they would be transported to a purported National Security Act facility in Pune."
+ },
+ {
+  "id": "R-S23",
+  "label": 1,
+  "date": "2026-01-11",
+  "channel": "video_call",
+  "source": "Deccan Herald, 11 Jan 2026",
+  "form": "excerpts",
+  "url": "https://www.deccanherald.com/india/delhi/elderly-doctor-couple-kept-under-digital-arrest-for-over-two-weeks-in-delhi-duped-of-rs-14-crore-3858119",
+  "text": "people posing as telecom officials and police officers, trapped through a series of fake calls and video interactions, the accused impersonating law enforcement officials, coercing the elderly couple to transfer money to multiple bank accounts.",
+  "gold": {
+   "agencies": [
+    "trai",
+    "police"
+   ],
+   "instruments": [],
+   "demands": [
+    "transfer_funds"
+   ],
+   "payee": "caller_supplied"
+  },
+  "gold_raw": {
+   "agencies": [
+    "trai",
+    "police"
+   ],
+   "instruments": [],
+   "demands": [
+    "transfer_funds"
+   ],
+   "payee": "caller_supplied"
+  },
+  "family": "real_fraud",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "people posing as telecom officials and police officers, trapped through a series of fake calls and video interactions, the accused impersonating law enforcement officials, coercing the elderly couple to transfer money to multiple bank accounts."
+ },
+ {
+  "id": "R-S24",
+  "label": 1,
+  "date": "2026-09-15",
+  "channel": "video_call",
+  "source": "News Karnataka, 15 Sep 2026",
+  "form": "excerpts",
+  "url": "https://newskarnataka.com/india/elderly-couple-trapped-for-hours-in-shocking-digital-arrest-scam/15092026/",
+  "text": "a woman claiming to be an official of the Telecom Regulatory Authority of India. the couple's Aadhaar details had been misused to open a bank account involved in a Rs 2 crore fraud. The couple were instructed to sit together and remain on a video call. The callers allegedly warned them that they were under surveillance and could be arrested. keep the phone connected to a charger and avoid contacting anyone.",
+  "gold": {
+   "agencies": [
+    "trai"
+   ],
+   "instruments": [
+    "arrest"
+   ],
+   "demands": [
+    "stay_on_camera",
+    "isolation",
+    "secrecy"
+   ],
+   "payee": "none"
+  },
+  "gold_raw": {
+   "agencies": [
+    "trai"
+   ],
+   "instruments": [
+    "arrest"
+   ],
+   "demands": [
+    "stay_on_camera",
+    "isolation",
+    "secrecy"
+   ],
+   "payee": "none"
+  },
+  "family": "real_fraud",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "a woman claiming to be an official of the Telecom Regulatory Authority of India. the couple's Aadhaar details had been misused to open a bank account involved in a Rs 2 crore fraud. The couple were instructed to sit together and remain on a video call. The callers allegedly warned them that they were under surveillance and could be arrested. keep the phone connected to a charger and avoid contacting anyone."
+ },
+ {
+  "id": "R-S25",
+  "label": 1,
+  "date": "2026-08-17",
+  "channel": "sms",
+  "source": "Outlook Money (PIB Fact Check), 17 Aug 2026",
+  "form": "excerpts",
+  "url": "https://www.outlookmoney.com/amp/story/tax/income-tax-notice-seeking-rs-6000-is-fake-heres-what-taxpayers-should-do",
+  "text": "Received an Income Tax Department (ITD) notice asking you to deposit Rs 6,000? In some cases, the message may direct the taxpayer to a link for making the supposed payment. They may carry logos, use formal language, and ask the recipient to act quickly.",
+  "gold": {
+   "agencies": [
+    "income_tax"
+   ],
+   "instruments": [
+    "tax_notice"
+   ],
+   "demands": [
+    "transfer_funds"
+   ],
+   "payee": "caller_supplied"
+  },
+  "gold_raw": {
+   "agencies": [
+    "income_tax"
+   ],
+   "instruments": [
+    "tax_notice"
+   ],
+   "demands": [
+    "transfer_funds"
+   ],
+   "payee": "caller_supplied"
+  },
+  "family": "real_fraud",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "Received an Income Tax Department (ITD) notice asking you to deposit Rs 6,000? In some cases, the message may direct the taxpayer to a link for making the supposed payment. They may carry logos, use formal language, and ask the recipient to act quickly."
+ },
+ {
+  "id": "R-S26",
+  "label": 1,
+  "date": "2026-03-11",
+  "channel": "email",
+  "source": "Outlook Money, 11 Mar 2026",
+  "form": "excerpts",
+  "url": "https://www.outlookmoney.com/tax/urgent-alert-income-tax-department-flags-fake-ay-202526-demand-notices",
+  "text": "An email is circulating online claiming to be issued by the Income Tax Department for Assessment Year 2025-26. The email further asks recipients to pay a tax demand and directs them to click a link to view an 'Assessment Order.'",
+  "gold": {
+   "agencies": [
+    "income_tax"
+   ],
+   "instruments": [
+    "tax_notice"
+   ],
+   "demands": [
+    "transfer_funds"
+   ],
+   "payee": "caller_supplied"
+  },
+  "gold_raw": {
+   "agencies": [
+    "income_tax"
+   ],
+   "instruments": [
+    "tax_notice"
+   ],
+   "demands": [
+    "transfer_funds"
+   ],
+   "payee": "caller_supplied"
+  },
+  "family": "real_fraud",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "An email is circulating online claiming to be issued by the Income Tax Department for Assessment Year 2025-26. The email further asks recipients to pay a tax demand and directs them to click a link to view an 'Assessment Order.'"
+ },
+ {
+  "id": "R-L11",
+  "label": 0,
+  "date": "2026-02-19",
+  "channel": "physical",
+  "source": "Outlook Business, 19 Feb 2026",
+  "form": "excerpts",
+  "url": "https://www.outlookbusiness.com/corporate/ed-issues-fresh-summons-to-anil-ambani-for-february-26",
+  "text": "The Enforcement Directorate has issued fresh summons to Reliance Group chairman Anil Ambani to appear for questioning on February 26 after he skipped deposition this week, record their separate statements under the Prevention of Money Laundering Act (PMLA).",
+  "gold": {
+   "agencies": [
+    "ed"
+   ],
+   "instruments": [
+    "summons_ed"
+   ],
+   "demands": [
+    "appear_in_person"
+   ],
+   "payee": "none"
+  },
+  "gold_raw": {
+   "agencies": [
+    "ed"
+   ],
+   "instruments": [
+    "summons_ed"
+   ],
+   "demands": [
+    "appear_in_person"
+   ],
+   "payee": "none"
+  },
+  "family": "real_lawful",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "The Enforcement Directorate has issued fresh summons to Reliance Group chairman Anil Ambani to appear for questioning on February 26 after he skipped deposition this week, record their separate statements under the Prevention of Money Laundering Act (PMLA)."
+ },
+ {
+  "id": "R-L12",
+  "label": 0,
+  "date": "2025-06-20",
+  "channel": "physical",
+  "source": "Onmanorama, 24 Jun 2025",
+  "form": "excerpts",
+  "url": "https://www.onmanorama.com/news/kerala/2025/06/24/manjummel-boys-producers-bail.amp.html",
+  "text": "they had received a notice under Section 35(3) of the Bharatiya Nagarik Suraksha Sanhita (BNSS), 2023. As per the notice, the petitioners were required to appear at the Police Station on June 20.",
+  "gold": {
+   "agencies": [
+    "police"
+   ],
+   "instruments": [
+    "notice_s35"
+   ],
+   "demands": [
+    "appear_in_person"
+   ],
+   "payee": "none"
+  },
+  "gold_raw": {
+   "agencies": [
+    "police"
+   ],
+   "instruments": [
+    "notice_s35"
+   ],
+   "demands": [
+    "appear_in_person"
+   ],
+   "payee": "none"
+  },
+  "family": "real_lawful",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "they had received a notice under Section 35(3) of the Bharatiya Nagarik Suraksha Sanhita (BNSS), 2023. As per the notice, the petitioners were required to appear at the Police Station on June 20."
+ },
+ {
+  "id": "R-L13",
+  "label": 0,
+  "date": "2024-03-17",
+  "channel": "physical",
+  "source": "Business Standard, 17 Mar 2024",
+  "form": "excerpts",
+  "url": "https://www.business-standard.com/politics/ed-issues-fresh-summons-to-delhi-cm-kejriwal-asked-to-appear-on-march-21-124031700086_1.html",
+  "text": "The Enforcement Directorate has issued fresh summons, to appear for questioning on March 21 in the excise policy linked money laundering case, so that Kejriwal's statement can be recorded under the Prevention of Money Laundering Act. has been asked to depose at the central agency's office in central Delhi.",
+  "gold": {
+   "agencies": [
+    "ed"
+   ],
+   "instruments": [
+    "summons_ed"
+   ],
+   "demands": [
+    "appear_in_person"
+   ],
+   "payee": "none"
+  },
+  "gold_raw": {
+   "agencies": [
+    "ed"
+   ],
+   "instruments": [
+    "summons_ed"
+   ],
+   "demands": [
+    "appear_in_person"
+   ],
+   "payee": "none"
+  },
+  "family": "real_lawful",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "The Enforcement Directorate has issued fresh summons, to appear for questioning on March 21 in the excise policy linked money laundering case, so that Kejriwal's statement can be recorded under the Prevention of Money Laundering Act. has been asked to depose at the central agency's office in central Delhi."
+ },
+ {
+  "id": "R-L14",
+  "label": 0,
+  "date": "2025-04-18",
+  "channel": "physical",
+  "source": "The Week (PTI), 18 Apr 2025",
+  "form": "excerpts",
+  "url": "https://www.theweek.in/wire-updates/national/2025/04/18/mes14-kl-actor-police-notice.html",
+  "text": "the notice was delivered to the actor's family at his residence in Thrissur, directing him to appear for questioning in connection with an incident. Chacko has been asked to appear before the Ernakulam North Police Sub-Inspector at 10 am on Saturday.",
+  "gold": {
+   "agencies": [
+    "police"
+   ],
+   "instruments": [
+    "notice_s35"
+   ],
+   "demands": [
+    "appear_in_person"
+   ],
+   "payee": "none"
+  },
+  "gold_raw": {
+   "agencies": [
+    "police"
+   ],
+   "instruments": [
+    "notice_s35"
+   ],
+   "demands": [
+    "appear_in_person"
+   ],
+   "payee": "none"
+  },
+  "family": "real_lawful",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "the notice was delivered to the actor's family at his residence in Thrissur, directing him to appear for questioning in connection with an incident. Chacko has been asked to appear before the Ernakulam North Police Sub-Inspector at 10 am on Saturday."
+ },
+ {
+  "id": "R-L15",
+  "label": 0,
+  "date": "2025-12-24",
+  "channel": "sms",
+  "source": "Business Standard, 24 Dec 2025",
+  "form": "excerpts",
+  "url": "https://www.business-standard.com/finance/news/i-t-dept-flags-discrepancies-in-returns-extends-deadline-to-december-31-125122200741_1.html",
+  "text": "text messages from the income tax (I-T) department asking them to file revised returns by December 31, claiming discrepancies were identified in their refund claims. aims to prompt voluntary compliance by flagging potential errors identified through risk analytics.",
+  "gold": {
+   "agencies": [
+    "income_tax"
+   ],
+   "instruments": [
+    "tax_notice"
+   ],
+   "demands": [
+    "pay_via_portal"
+   ],
+   "payee": "official_portal"
+  },
+  "gold_raw": {
+   "agencies": [
+    "income_tax"
+   ],
+   "instruments": [
+    "tax_notice"
+   ],
+   "demands": [
+    "pay_via_portal"
+   ],
+   "payee": "official_portal"
+  },
+  "family": "real_lawful",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "text messages from the income tax (I-T) department asking them to file revised returns by December 31, claiming discrepancies were identified in their refund claims. aims to prompt voluntary compliance by flagging potential errors identified through risk analytics."
+ },
+ {
+  "id": "R-L16",
+  "label": 0,
+  "date": "2026-04-29",
+  "channel": "physical",
+  "source": "ETV Bharat, 29 Apr 2026",
+  "form": "excerpts",
+  "url": "https://www.etvbharat.com/en/state/court-in-punjabs-mansa-pulls-up-cm-bhagwant-mann-over-non-appearance-in-defamation-case-enn26042903829",
+  "text": "The court has asked Mann to appear before it on May 1 failing which his bail will be cancelled. has issued strict orders to Mann to appear in person in front it.",
+  "gold": {
+   "agencies": [
+    "court"
+   ],
+   "instruments": [
+    "summons_court"
+   ],
+   "demands": [
+    "appear_in_person"
+   ],
+   "payee": "none"
+  },
+  "gold_raw": {
+   "agencies": [
+    "court"
+   ],
+   "instruments": [
+    "summons_court"
+   ],
+   "demands": [
+    "appear_in_person"
+   ],
+   "payee": "none"
+  },
+  "family": "real_lawful",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "The court has asked Mann to appear before it on May 1 failing which his bail will be cancelled. has issued strict orders to Mann to appear in person in front it."
+ },
+ {
+  "id": "R-L17",
+  "label": 0,
+  "date": "2021-02-19",
+  "channel": "physical",
+  "source": "The Tribune, 19 Feb 2021",
+  "form": "excerpts",
+  "url": "https://www.tribuneindia.com/news/nation/court-summons-amit-shah-in-defamation-case-filed-by-tmcs-abhishek-banerjee-214711/amp",
+  "text": "issued summons to Union Home Minister Amit Shah on Friday to appear either personally or through a lawyer before it on February 22. The judge directed that Shah's attendance either personally or through a lawyer is necessary.",
+  "gold": {
+   "agencies": [
+    "court"
+   ],
+   "instruments": [
+    "summons_court"
+   ],
+   "demands": [
+    "appear_in_person"
+   ],
+   "payee": "none"
+  },
+  "gold_raw": {
+   "agencies": [
+    "court"
+   ],
+   "instruments": [
+    "summons_court"
+   ],
+   "demands": [
+    "appear_in_person"
+   ],
+   "payee": "none"
+  },
+  "family": "real_lawful",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "issued summons to Union Home Minister Amit Shah on Friday to appear either personally or through a lawyer before it on February 22. The judge directed that Shah's attendance either personally or through a lawyer is necessary."
+ },
+ {
+  "id": "R-L18",
+  "label": 0,
+  "date": "2023-05-23",
+  "channel": "physical",
+  "source": "Business Standard, 23 May 2023",
+  "form": "excerpts",
+  "url": "https://www.business-standard.com/india-news/defamation-case-gujarat-court-issues-fresh-summons-against-kejriwal-123052300487_1.html",
+  "text": "issued a fresh summons to Delhi Chief Minister Arvind Kejriwal and Aam Aadmi Party's Rajya Sabha member Sanjay Singh to appear before it on June 7 in a criminal defamation case lodged by the Gujarat University.",
+  "gold": {
+   "agencies": [
+    "court"
+   ],
+   "instruments": [
+    "summons_court"
+   ],
+   "demands": [
+    "appear_in_person"
+   ],
+   "payee": "none"
+  },
+  "gold_raw": {
+   "agencies": [
+    "court"
+   ],
+   "instruments": [
+    "summons_court"
+   ],
+   "demands": [
+    "appear_in_person"
+   ],
+   "payee": "none"
+  },
+  "family": "real_lawful",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "issued a fresh summons to Delhi Chief Minister Arvind Kejriwal and Aam Aadmi Party's Rajya Sabha member Sanjay Singh to appear before it on June 7 in a criminal defamation case lodged by the Gujarat University."
+ },
+ {
+  "id": "R-L19",
+  "label": 0,
+  "date": "2020-11-09",
+  "channel": "physical",
+  "source": "Onmanorama, 9 Nov 2020",
+  "form": "excerpts",
+  "url": "https://www.onmanorama.com/news/india/2020/11/09/actor-arjun-rampal-summoned-by-narcotics-control-bureau-after-ra.html",
+  "text": "The Narcotics Control Bureau (NCB) on Monday carried out a search at the residence of actor Arjun Rampal. Summons was also issued to Rampal, asking him to appear before the drug law enforcement agency on November 11.",
+  "gold": {
+   "agencies": [
+    "ncb"
+   ],
+   "instruments": [],
+   "demands": [
+    "appear_in_person"
+   ],
+   "payee": "none"
+  },
+  "gold_raw": {
+   "agencies": [
+    "ncb"
+   ],
+   "instruments": [
+    "summons_agency"
+   ],
+   "demands": [
+    "appear_in_person"
+   ],
+   "payee": "none"
+  },
+  "family": "real_lawful",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "The Narcotics Control Bureau (NCB) on Monday carried out a search at the residence of actor Arjun Rampal. Summons was also issued to Rampal, asking him to appear before the drug law enforcement agency on November 11."
+ },
+ {
+  "id": "R-L20",
+  "label": 0,
+  "date": "2025-09-26",
+  "channel": "physical",
+  "source": "The Tribune, 26 Sep 2025",
+  "form": "excerpts",
+  "url": "https://www.tribuneindia.com/news/amritsar/tarn-taran-councillor-skips-ncb-summon-in-drug-probe",
+  "text": "has failed to appear before the Narcotics Control Bureau (NCB) here, was issued a third summon by the Central agency to appear on Wednesday. if he continues to evade questioning, the agency may move court to arrest him.",
+  "gold": {
+   "agencies": [
+    "ncb"
+   ],
+   "instruments": [],
+   "demands": [
+    "appear_in_person"
+   ],
+   "payee": "none"
+  },
+  "gold_raw": {
+   "agencies": [
+    "ncb"
+   ],
+   "instruments": [
+    "summons_agency"
+   ],
+   "demands": [
+    "appear_in_person"
+   ],
+   "payee": "none"
+  },
+  "family": "real_lawful",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "has failed to appear before the Narcotics Control Bureau (NCB) here, was issued a third summon by the Central agency to appear on Wednesday. if he continues to evade questioning, the agency may move court to arrest him."
+ },
+ {
+  "id": "R-L21",
+  "label": 0,
+  "date": "2020-09-07",
+  "channel": "physical",
+  "source": "Deccan Herald, 7 Sep 2020",
+  "form": "excerpts",
+  "url": "https://www.deccanherald.com/amp/story/india%2Fkarnataka%2Fbengaluru%2Fcorporator-s-son-summoned-for-questioning-in-drugs-case-883615.html",
+  "text": "The Narcotics Control Bureau (NCB) has issued a notice to the son of a BBMP corporator in a drugs case. The notice asks him to appear at the NCB's Mumbai office before September 7. If Yashas fails to appear, he will be liable for action under the law.",
+  "gold": {
+   "agencies": [
+    "ncb"
+   ],
+   "instruments": [],
+   "demands": [
+    "appear_in_person"
+   ],
+   "payee": "none"
+  },
+  "gold_raw": {
+   "agencies": [
+    "ncb"
+   ],
+   "instruments": [
+    "summons_agency"
+   ],
+   "demands": [
+    "appear_in_person"
+   ],
+   "payee": "none"
+  },
+  "family": "real_lawful",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "The Narcotics Control Bureau (NCB) has issued a notice to the son of a BBMP corporator in a drugs case. The notice asks him to appear at the NCB's Mumbai office before September 7. If Yashas fails to appear, he will be liable for action under the law."
+ },
+ {
+  "id": "R-S27",
+  "label": 1,
+  "date": "2025-07-06",
+  "channel": "whatsapp",
+  "source": "The420.in, 6 Jul 2025",
+  "form": "excerpts",
+  "url": "https://the420.in/whatsapp-fake-cbi-scam-lucknow-digital-extortion-digital-arrest/",
+  "text": "The caller, posing as a CBI officer, accused the victim of being involved in serious financial crimes. the scammer connected the victim to a supposed \"Andheri East Police Station\" via WhatsApp call. They sent fake arrest warrants and court seizure orders via messaging apps to make the scheme appear official. the victim was told to remain alone in a room, avoid contact with family, and appear on camera.",
+  "gold": {
+   "agencies": [
+    "cbi",
+    "police",
+    "court"
+   ],
+   "instruments": [
+    "arrest_warrant"
+   ],
+   "demands": [
+    "isolation",
+    "secrecy",
+    "stay_on_camera"
+   ],
+   "payee": "none"
+  },
+  "gold_raw": {
+   "agencies": [
+    "cbi",
+    "police",
+    "court"
+   ],
+   "instruments": [
+    "arrest_warrant"
+   ],
+   "demands": [
+    "isolation",
+    "secrecy",
+    "stay_on_camera"
+   ],
+   "payee": "none"
+  },
+  "family": "real_fraud",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "The caller, posing as a CBI officer, accused the victim of being involved in serious financial crimes. the scammer connected the victim to a supposed \"Andheri East Police Station\" via WhatsApp call. They sent fake arrest warrants and court seizure orders via messaging apps to make the scheme appear official. the victim was told to remain alone in a room, avoid contact with family, and appear on camera."
+ },
+ {
+  "id": "R-S28",
+  "label": 1,
+  "date": "2025-11-10",
+  "channel": "video_call",
+  "source": "The420.in, 10 Nov 2025",
+  "form": "excerpts",
+  "url": "https://the420.in/pune-digital-arrest-whatsapp-scam-cbi-fake-officers-fraud/",
+  "text": "posing as officials from the Central Bureau of Investigation (CBI) and a local court, communicating through WhatsApp video calls. The caller accused him of being involved in child pornography and money laundering. a warrant had been issued against him. threatened the victim with a \"digital arrest\" unless he transferred money, transfer a large amount as a \"security deposit.\"",
+  "gold": {
+   "agencies": [
+    "cbi",
+    "court"
+   ],
+   "instruments": [
+    "arrest",
+    "arrest_warrant"
+   ],
+   "demands": [
+    "transfer_funds",
+    "verification_deposit"
+   ],
+   "payee": "caller_supplied"
+  },
+  "gold_raw": {
+   "agencies": [
+    "cbi",
+    "court"
+   ],
+   "instruments": [
+    "arrest",
+    "arrest_warrant"
+   ],
+   "demands": [
+    "transfer_funds",
+    "verification_deposit"
+   ],
+   "payee": "caller_supplied"
+  },
+  "family": "real_fraud",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "posing as officials from the Central Bureau of Investigation (CBI) and a local court, communicating through WhatsApp video calls. The caller accused him of being involved in child pornography and money laundering. a warrant had been issued against him. threatened the victim with a \"digital arrest\" unless he transferred money, transfer a large amount as a \"security deposit.\""
+ },
+ {
+  "id": "R-S29",
+  "label": 1,
+  "date": "2025-02-12",
+  "channel": "video_call",
+  "source": "Deccan Herald, 12 Feb 2025",
+  "form": "excerpts",
+  "url": "https://www.deccanherald.com/amp/story/india%2Fkarnataka%2Fcalls-from-delhi-police-cbi-letter-from-supreme-court-how-fraudsters-duped-karnataka-woman-of-rs-14-lakh-3401804",
+  "text": "fraudsters who posed as police and CBI officials. a WhatsApp video call from an individual posing as a Delhi Police officer. she saw a case number, an arrest warrant, and legal documents related to black money transactions. The fraudsters warned that she would be arrested within two hours. to transfer money to the RBI for verification, assuring her that the amount would be refunded.",
+  "gold": {
+   "agencies": [
+    "police",
+    "cbi",
+    "rbi"
+   ],
+   "instruments": [
+    "arrest_warrant",
+    "arrest"
+   ],
+   "demands": [
+    "transfer_funds",
+    "verification_deposit"
+   ],
+   "payee": "rbi"
+  },
+  "gold_raw": {
+   "agencies": [
+    "police",
+    "cbi",
+    "rbi"
+   ],
+   "instruments": [
+    "arrest_warrant",
+    "arrest"
+   ],
+   "demands": [
+    "transfer_funds",
+    "verification_deposit"
+   ],
+   "payee": "rbi"
+  },
+  "family": "real_fraud",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "fraudsters who posed as police and CBI officials. a WhatsApp video call from an individual posing as a Delhi Police officer. she saw a case number, an arrest warrant, and legal documents related to black money transactions. The fraudsters warned that she would be arrested within two hours. to transfer money to the RBI for verification, assuring her that the amount would be refunded."
+ },
+ {
+  "id": "R-S30",
+  "label": 1,
+  "date": "2025-03-10",
+  "channel": "voice_call",
+  "source": "The Tribune, 10 Mar 2025",
+  "form": "excerpts",
+  "url": "https://www.tribuneindia.com/news/delhi/four-nabbed-for-44-50l-digital-arrest-fraud",
+  "text": "he received a call from a man posing as a CBI officer, falsely accusing him of involvement in criminal activities. Threatening legal action, the fraudsters coerced him to transfer Rs 44.50 lakh to avoid arrest.",
+  "gold": {
+   "agencies": [
+    "cbi"
+   ],
+   "instruments": [
+    "arrest"
+   ],
+   "demands": [
+    "transfer_funds"
+   ],
+   "payee": "caller_supplied"
+  },
+  "gold_raw": {
+   "agencies": [
+    "cbi"
+   ],
+   "instruments": [
+    "arrest"
+   ],
+   "demands": [
+    "transfer_funds"
+   ],
+   "payee": "caller_supplied"
+  },
+  "family": "real_fraud",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "he received a call from a man posing as a CBI officer, falsely accusing him of involvement in criminal activities. Threatening legal action, the fraudsters coerced him to transfer Rs 44.50 lakh to avoid arrest."
+ },
+ {
+  "id": "R-S31",
+  "label": 1,
+  "date": "2024-10-27",
+  "channel": "voice_call",
+  "source": "Deccan Herald, 27 Oct 2024",
+  "form": "excerpts",
+  "url": "https://www.deccanherald.com/amp/story/india%2Fkarnataka%2Fanother-digital-arrest-case-karnataka-woman-loses-rs-50-lakh-to-fraudsters-posing-as-police-cbi-officials-3250867",
+  "text": "a case was registered against her for the misuse of her mobile number in illegal advertisements. a Sub-Inspector from Agripada Police Station, Maharashtra. a person claiming to be Akash Kulhari from the CBI. an ATM card linked to her account was discovered during a raid on Naresh Goyal's property. asked to appear before the Supreme Court with relevant documents. advised her to transfer funds to an RBI account to avoid scrutiny.",
+  "gold": {
+   "agencies": [
+    "police",
+    "cbi",
+    "court",
+    "rbi"
+   ],
+   "instruments": [],
+   "demands": [
+    "transfer_funds",
+    "safe_account"
+   ],
+   "payee": "rbi"
+  },
+  "gold_raw": {
+   "agencies": [
+    "police",
+    "cbi",
+    "court",
+    "rbi"
+   ],
+   "instruments": [],
+   "demands": [
+    "transfer_funds",
+    "safe_account"
+   ],
+   "payee": "rbi"
+  },
+  "family": "real_fraud",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "a case was registered against her for the misuse of her mobile number in illegal advertisements. a Sub-Inspector from Agripada Police Station, Maharashtra. a person claiming to be Akash Kulhari from the CBI. an ATM card linked to her account was discovered during a raid on Naresh Goyal's property. asked to appear before the Supreme Court with relevant documents. advised her to transfer funds to an RBI account to avoid scrutiny."
+ },
+ {
+  "id": "R-S32",
+  "label": 1,
+  "date": "2025-01-08",
+  "channel": "video_call",
+  "source": "Deccan Herald, 8 Jan 2025",
+  "form": "excerpts",
+  "url": "https://www.deccanherald.com/amp/story/india%2Fkarnataka%2Fkarkala-woman-falls-prey-to-digital-arrest-scam-loses-rs-24-lakh-3346530",
+  "text": "The caller claimed to be from the Delhi Telecom Department. The caller further stated that multiple cases had been filed against her. During a video call, a man dressed in a police uniform identified himself as a CBI officer. He instructed Preema to cooperate with the investigation and warned her not to disclose the matter to anyone. They threatened to issue an arrest warrant if she failed to comply. coerced her into transferring money to various other accounts.",
+  "gold": {
+   "agencies": [
+    "trai",
+    "cbi",
+    "police"
+   ],
+   "instruments": [
+    "arrest_warrant"
+   ],
+   "demands": [
+    "secrecy",
+    "transfer_funds"
+   ],
+   "payee": "caller_supplied"
+  },
+  "gold_raw": {
+   "agencies": [
+    "trai",
+    "cbi",
+    "police"
+   ],
+   "instruments": [
+    "arrest_warrant"
+   ],
+   "demands": [
+    "secrecy",
+    "transfer_funds"
+   ],
+   "payee": "caller_supplied"
+  },
+  "family": "real_fraud",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "The caller claimed to be from the Delhi Telecom Department. The caller further stated that multiple cases had been filed against her. During a video call, a man dressed in a police uniform identified himself as a CBI officer. He instructed Preema to cooperate with the investigation and warned her not to disclose the matter to anyone. They threatened to issue an arrest warrant if she failed to comply. coerced her into transferring money to various other accounts."
+ },
+ {
+  "id": "R-S33",
+  "label": 1,
+  "date": "2024-08-14",
+  "channel": "skype",
+  "source": "The Tribune, 14 Aug 2024",
+  "form": "excerpts",
+  "url": "https://www.tribuneindia.com/news/india/top-up-doctor-kept-under-digital-house-arrest-duped-of-rs-2-8-crore",
+  "text": "claiming to be an employee of the Telecom Regulatory Authority of India (TRAI). someone who introduced himself as CBI officer Rahul. She was instructed to download the Skype app. He claimed that the court had evidence against her, including audio recordings. They coerced her into transferring money to multiple accounts.",
+  "gold": {
+   "agencies": [
+    "trai",
+    "cbi",
+    "court"
+   ],
+   "instruments": [],
+   "demands": [
+    "transfer_funds"
+   ],
+   "payee": "caller_supplied"
+  },
+  "gold_raw": {
+   "agencies": [
+    "trai",
+    "cbi",
+    "court"
+   ],
+   "instruments": [],
+   "demands": [
+    "transfer_funds"
+   ],
+   "payee": "caller_supplied"
+  },
+  "family": "real_fraud",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "claiming to be an employee of the Telecom Regulatory Authority of India (TRAI). someone who introduced himself as CBI officer Rahul. She was instructed to download the Skype app. He claimed that the court had evidence against her, including audio recordings. They coerced her into transferring money to multiple accounts."
+ },
+ {
+  "id": "R-S34",
+  "label": 1,
+  "date": "2025-04-11",
+  "channel": "voice_call",
+  "source": "ETV Bharat, 11 Apr 2025",
+  "form": "excerpts",
+  "url": "https://www.etvbharat.com/en/!state/lucknow-doctor-was-digitally-arrested-for-two-days-and-duped-of-rs-95-lakh-enn25041103090",
+  "text": "a person posing as an employee of a courier service company, illegal goods were being transported using his Aadhaar card number. The caller informed him that a case was being investigated and police officers wanted to talk to him. another person identifying himself as a police officer. The caller also instructed the doctor to transfer Rs 95 lakh to clear his name in the investigation.",
+  "gold": {
+   "agencies": [
+    "courier",
+    "police"
+   ],
+   "instruments": [],
+   "demands": [
+    "transfer_funds",
+    "verification_deposit"
+   ],
+   "payee": "caller_supplied"
+  },
+  "gold_raw": {
+   "agencies": [
+    "courier",
+    "police"
+   ],
+   "instruments": [],
+   "demands": [
+    "transfer_funds",
+    "verification_deposit"
+   ],
+   "payee": "caller_supplied"
+  },
+  "family": "real_fraud",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "a person posing as an employee of a courier service company, illegal goods were being transported using his Aadhaar card number. The caller informed him that a case was being investigated and police officers wanted to talk to him. another person identifying himself as a police officer. The caller also instructed the doctor to transfer Rs 95 lakh to clear his name in the investigation."
+ },
+ {
+  "id": "R-S35",
+  "label": 1,
+  "date": "2024-03-22",
+  "channel": "skype",
+  "source": "Medical Dialogues, 22 Mar 2024",
+  "form": "excerpts",
+  "url": "https://medicaldialogues.in/amp/news/health/doctors/up-doctor-duped-of-rs-40-lakh-in-digital-arrest-scam-126183",
+  "text": "The call was then transferred to someone claiming to be from the Maharashtra police headquarters. An arrest warrant has been issued in your name. The caller threatened her with an arrest warrant and claimed to have blocked her financial cards, PAN, and Aadhaar. they called me on Skype and showed me many documents. the scammers instructed the woman to maintain constant communication.",
+  "gold": {
+   "agencies": [
+    "police"
+   ],
+   "instruments": [
+    "arrest_warrant"
+   ],
+   "demands": [
+    "stay_on_camera"
+   ],
+   "payee": "none"
+  },
+  "gold_raw": {
+   "agencies": [
+    "police"
+   ],
+   "instruments": [
+    "arrest_warrant"
+   ],
+   "demands": [
+    "stay_on_camera"
+   ],
+   "payee": "none"
+  },
+  "family": "real_fraud",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "The call was then transferred to someone claiming to be from the Maharashtra police headquarters. An arrest warrant has been issued in your name. The caller threatened her with an arrest warrant and claimed to have blocked her financial cards, PAN, and Aadhaar. they called me on Skype and showed me many documents. the scammers instructed the woman to maintain constant communication."
+ },
+ {
+  "id": "R-S36",
+  "label": 1,
+  "date": "2025-11-17",
+  "channel": "skype",
+  "source": "The Tribune, 17 Nov 2025",
+  "form": "excerpts",
+  "url": "https://www.tribuneindia.com/news/india/digital-arrest-scam-bengaluru-woman-loses-rs-31-cr-over-6-months-to-fake-cbi-officers/amp",
+  "text": "Posing as CBI officers, the fraudsters enforced a \"digital arrest\" by holding her under constant Skype surveillance. The impostors warned her against contacting the police, saying criminals were watching her home. produced forged letters to make it appear official. the scammers demanded processing charges, repeatedly delaying refunds to February, then March.",
+  "gold": {
+   "agencies": [
+    "cbi"
+   ],
+   "instruments": [
+    "arrest"
+   ],
+   "demands": [
+    "stay_on_camera",
+    "secrecy",
+    "transfer_funds",
+    "verification_deposit"
+   ],
+   "payee": "caller_supplied"
+  },
+  "gold_raw": {
+   "agencies": [
+    "cbi"
+   ],
+   "instruments": [
+    "arrest"
+   ],
+   "demands": [
+    "stay_on_camera",
+    "secrecy",
+    "transfer_funds",
+    "verification_deposit"
+   ],
+   "payee": "caller_supplied"
+  },
+  "family": "real_fraud",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "Posing as CBI officers, the fraudsters enforced a \"digital arrest\" by holding her under constant Skype surveillance. The impostors warned her against contacting the police, saying criminals were watching her home. produced forged letters to make it appear official. the scammers demanded processing charges, repeatedly delaying refunds to February, then March."
+ },
+ {
+  "id": "R-S37",
+  "label": 1,
+  "date": "2025-07-16",
+  "channel": "video_call",
+  "source": "Deccan Herald, 16 Jul 2025",
+  "form": "excerpts",
+  "url": "https://www.deccanherald.com/amp/story/india%2Fkarnataka%2Fmangaluru-woman-loses-rs-6115-lakh-in-digital-arrest-scam-3634011",
+  "text": "claiming to be Investigation Officer Sandeep from Colaba Police Station. the caller alleged that someone had used her identity card for illegal activities. contacted her via WhatsApp video call. collected her personal details, including her PAN card and bank account information. the fraudsters continued to demand more money.",
+  "gold": {
+   "agencies": [
+    "police"
+   ],
+   "instruments": [],
+   "demands": [
+    "transfer_funds"
+   ],
+   "payee": "caller_supplied"
+  },
+  "gold_raw": {
+   "agencies": [
+    "police"
+   ],
+   "instruments": [],
+   "demands": [
+    "bank_details",
+    "transfer_funds"
+   ],
+   "payee": "caller_supplied"
+  },
+  "family": "real_fraud",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "claiming to be Investigation Officer Sandeep from Colaba Police Station. the caller alleged that someone had used her identity card for illegal activities. contacted her via WhatsApp video call. collected her personal details, including her PAN card and bank account information. the fraudsters continued to demand more money."
+ },
+ {
+  "id": "R-S38",
+  "label": 1,
+  "date": "2024-11-19",
+  "channel": "skype",
+  "source": "Deccan Herald, 1 Dec 2024",
+  "form": "excerpts",
+  "url": "https://www.deccanherald.com/amp/story/india%2Fmaharashtra%2Fdigital-arrest-scam-mumbai-woman-forced-to-strip-duped-of-rs-17-lakh-3298933",
+  "text": "The fraudsters, who claimed to be from Delhi Police, called her on November 19. she had been linked to a money laundering probe involving founder-chairman of Jet Airways Naresh Goyal. She was eventually taken on a video call and was informed that she had been put under 'digital arrest'. The caller asked the woman to download the Skype app. she was told to transfer Rs 1,78,000.",
+  "gold": {
+   "agencies": [
+    "police"
+   ],
+   "instruments": [
+    "arrest"
+   ],
+   "demands": [
+    "transfer_funds"
+   ],
+   "payee": "caller_supplied"
+  },
+  "gold_raw": {
+   "agencies": [
+    "police"
+   ],
+   "instruments": [
+    "arrest"
+   ],
+   "demands": [
+    "transfer_funds"
+   ],
+   "payee": "caller_supplied"
+  },
+  "family": "real_fraud",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "The fraudsters, who claimed to be from Delhi Police, called her on November 19. she had been linked to a money laundering probe involving founder-chairman of Jet Airways Naresh Goyal. She was eventually taken on a video call and was informed that she had been put under 'digital arrest'. The caller asked the woman to download the Skype app. she was told to transfer Rs 1,78,000."
+ },
+ {
+  "id": "R-L22",
+  "label": 0,
+  "date": "2022-11-02",
+  "channel": "physical",
+  "source": "Deccan Herald, 2 Nov 2022",
+  "form": "excerpts",
+  "url": "https://www.deccanherald.com/amp/story/india%2Fed-summons-jharkhand-chief-minister-hemant-soren-for-questioning-appearance-set-for-november-3-1158652.html",
+  "text": "The Enforcement Directorate has summoned Jharkhand Chief Minister Hemant Soren for questioning on Nov. 3. The agency wants to question and record his statement under the Prevention of Money Laundering Act (PMLA). Soren, 47, has been asked to appear before the federal probe agency at its regional office in state capital Ranchi.",
+  "gold": {
+   "agencies": [
+    "ed"
+   ],
+   "instruments": [
+    "summons_ed"
+   ],
+   "demands": [
+    "appear_in_person"
+   ],
+   "payee": "none"
+  },
+  "gold_raw": {
+   "agencies": [
+    "ed"
+   ],
+   "instruments": [
+    "summons_ed"
+   ],
+   "demands": [
+    "appear_in_person"
+   ],
+   "payee": "none"
+  },
+  "family": "real_lawful",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "The Enforcement Directorate has summoned Jharkhand Chief Minister Hemant Soren for questioning on Nov. 3. The agency wants to question and record his statement under the Prevention of Money Laundering Act (PMLA). Soren, 47, has been asked to appear before the federal probe agency at its regional office in state capital Ranchi."
+ },
+ {
+  "id": "R-L23",
+  "label": 0,
+  "date": "2024-03-04",
+  "channel": "physical",
+  "source": "ETV Bharat, 4 Mar 2024",
+  "form": "excerpts",
+  "url": "https://www.etvbharat.com/en/!bharat/ed-summons-tmc-leader-mahua-moitra-in-fema-case-on-march-11-enn24030406377",
+  "text": "The Enforcement Directorate has issued fresh summons to Trinamool Congress leader. Moitra has now been asked to appear at the ED office in Delhi on March 11. record her statement under the provisions of the Foreign Exchange Management Act (FEMA).",
+  "gold": {
+   "agencies": [
+    "ed"
+   ],
+   "instruments": [
+    "summons_ed"
+   ],
+   "demands": [
+    "appear_in_person"
+   ],
+   "payee": "none"
+  },
+  "gold_raw": {
+   "agencies": [
+    "ed"
+   ],
+   "instruments": [
+    "summons_ed"
+   ],
+   "demands": [
+    "appear_in_person"
+   ],
+   "payee": "none"
+  },
+  "family": "real_lawful",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "The Enforcement Directorate has issued fresh summons to Trinamool Congress leader. Moitra has now been asked to appear at the ED office in Delhi on March 11. record her statement under the provisions of the Foreign Exchange Management Act (FEMA)."
+ },
+ {
+  "id": "R-L24",
+  "label": 0,
+  "date": "2023-04-22",
+  "channel": "physical",
+  "source": "The Tribune, 22 Apr 2023",
+  "form": "excerpts",
+  "url": "https://www.tribuneindia.com/news/j-k/cbi-notice-to-malik-in-jk-insurance-scam-case-499690",
+  "text": "CBI notice to Malik in J&K insurance scam case, asking it to appear before it and answer certain queries. the former J&K Governor had been asked for his presence at the agency's Akbar Road guesthouse here.",
+  "gold": {
+   "agencies": [
+    "cbi"
+   ],
+   "instruments": [],
+   "demands": [
+    "appear_in_person"
+   ],
+   "payee": "none"
+  },
+  "gold_raw": {
+   "agencies": [
+    "cbi"
+   ],
+   "instruments": [
+    "notice_witness"
+   ],
+   "demands": [
+    "appear_in_person"
+   ],
+   "payee": "none"
+  },
+  "family": "real_lawful",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "CBI notice to Malik in J&K insurance scam case, asking it to appear before it and answer certain queries. the former J&K Governor had been asked for his presence at the agency's Akbar Road guesthouse here."
+ },
+ {
+  "id": "R-L25",
+  "label": 0,
+  "date": "2026-08-10",
+  "channel": "email",
+  "source": "LiveLaw, 10 Aug 2026",
+  "form": "excerpts",
+  "url": "https://www.livelaw.in/high-court/telangana-high-court/telangana-high-court-police-notice-x-account-details-fir-545131",
+  "text": "a Section 94 BNSS notice issued by the police to social media platform 'X' (formerly Twitter), including basic user information, registration details, linked mobile number, email address, particulars of devices used/logged in and IP logs in connection with an FIR.",
+  "gold": {
+   "agencies": [
+    "police"
+   ],
+   "instruments": [
+    "order_produce_docs"
+   ],
+   "demands": [
+    "produce_documents"
+   ],
+   "payee": "none"
+  },
+  "gold_raw": {
+   "agencies": [
+    "police"
+   ],
+   "instruments": [
+    "order_produce_docs"
+   ],
+   "demands": [
+    "produce_documents"
+   ],
+   "payee": "none"
+  },
+  "family": "real_lawful",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "a Section 94 BNSS notice issued by the police to social media platform 'X' (formerly Twitter), including basic user information, registration details, linked mobile number, email address, particulars of devices used/logged in and IP logs in connection with an FIR."
+ },
+ {
+  "id": "R-L26",
+  "label": 0,
+  "date": "2025-11-28",
+  "channel": "sms",
+  "source": "CBDT press release, 27 Nov 2025",
+  "form": "excerpts",
+  "url": "https://incometaxindia.gov.in/Lists/Press%20Releases/Attachments/1234/PressRelease-CBDT-launches-2nd-NUDGE-initiative-to-strengthen-voluntary-compliance-in-respect-of-Foreign-Assets.pdf",
+  "text": "SMSs and emails will be issued from 28th November 2025 to such taxpayers, advising them to review and revise their returns on or before 31st December 2025 to avoid penal consequences. taxpayers may refer to the official website www.incometax.gov.in.",
+  "gold": {
+   "agencies": [
+    "income_tax"
+   ],
+   "instruments": [
+    "tax_notice"
+   ],
+   "demands": [
+    "pay_via_portal"
+   ],
+   "payee": "official_portal"
+  },
+  "gold_raw": {
+   "agencies": [
+    "income_tax"
+   ],
+   "instruments": [
+    "tax_notice"
+   ],
+   "demands": [
+    "pay_via_portal"
+   ],
+   "payee": "official_portal"
+  },
+  "family": "real_lawful",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "SMSs and emails will be issued from 28th November 2025 to such taxpayers, advising them to review and revise their returns on or before 31st December 2025 to avoid penal consequences. taxpayers may refer to the official website www.incometax.gov.in."
+ },
+ {
+  "id": "R-L27",
+  "label": 0,
+  "date": "2024-02-03",
+  "channel": "physical",
+  "source": "Deccan Herald, 3 Feb 2024",
+  "form": "excerpts",
+  "url": "https://www.deccanherald.com/amp/story/india%2Fdelhi%2Faap-mla-poaching-claims-delhi-police-serve-notice-to-kejriwal-after-2-days-of-high-drama-2878180",
+  "text": "Delhi Police on Saturday served a notice on Chief Minister Arvind Kejriwal asking him to respond within three days, asking him to provide the names of AAP MLAs who were claimed to have been approached by the BJP. they will have to hand it over in person to the Chief Minister.",
+  "gold": {
+   "agencies": [
+    "police"
+   ],
+   "instruments": [
+    "order_produce_docs"
+   ],
+   "demands": [
+    "produce_documents"
+   ],
+   "payee": "none"
+  },
+  "gold_raw": {
+   "agencies": [
+    "police"
+   ],
+   "instruments": [
+    "order_produce_docs"
+   ],
+   "demands": [
+    "produce_documents"
+   ],
+   "payee": "none"
+  },
+  "family": "real_lawful",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "Delhi Police on Saturday served a notice on Chief Minister Arvind Kejriwal asking him to respond within three days, asking him to provide the names of AAP MLAs who were claimed to have been approached by the BJP. they will have to hand it over in person to the Chief Minister."
+ },
+ {
+  "id": "R-L28",
+  "label": 0,
+  "date": "2025-06-16",
+  "channel": "physical",
+  "source": "The Tribune, 16 Jun 2025",
+  "form": "excerpts",
+  "url": "https://www.tribuneindia.com/news/india/ed-issues-fresh-summons-to-robert-vadra-in-sanjay-bhandari-linked-pmla-case",
+  "text": "The Enforcement Directorate (ED) has issued a fresh summons to Robert Vadra for questioning in a money laundering case linked to UK-based arms consultant Sanjay Bhandari. He has been asked to depose before the federal probe agency here on June 17.",
+  "gold": {
+   "agencies": [
+    "ed"
+   ],
+   "instruments": [
+    "summons_ed"
+   ],
+   "demands": [
+    "appear_in_person"
+   ],
+   "payee": "none"
+  },
+  "gold_raw": {
+   "agencies": [
+    "ed"
+   ],
+   "instruments": [
+    "summons_ed"
+   ],
+   "demands": [
+    "appear_in_person"
+   ],
+   "payee": "none"
+  },
+  "family": "real_lawful",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "The Enforcement Directorate (ED) has issued a fresh summons to Robert Vadra for questioning in a money laundering case linked to UK-based arms consultant Sanjay Bhandari. He has been asked to depose before the federal probe agency here on June 17."
+ },
+ {
+  "id": "R-L29",
+  "label": 0,
+  "date": "2024-10-03",
+  "channel": "email",
+  "source": "NSE disclosure by Fedbank Financial Services, 6 Oct 2024",
+  "form": "excerpts",
+  "url": "https://nsearchives.nseindia.com/corporate/FEDFINA_06102024205802_GST_Intimation_signed_final.pdf",
+  "text": "the Company has received a GST summons issued under Section 70 of the Central Goods and Service Tax Act, 2017 seeking documents/ details regarding certain type of transactions. I do hereby summon you to appear before me in person on 2024-10-16.",
+  "gold": {
+   "agencies": [],
+   "instruments": [],
+   "demands": [
+    "appear_in_person",
+    "produce_documents"
+   ],
+   "payee": "none"
+  },
+  "gold_raw": {
+   "agencies": [
+    "tax_other"
+   ],
+   "instruments": [
+    "summons_agency"
+   ],
+   "demands": [
+    "appear_in_person",
+    "produce_documents"
+   ],
+   "payee": "none"
+  },
+  "family": "real_lawful",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "the Company has received a GST summons issued under Section 70 of the Central Goods and Service Tax Act, 2017 seeking documents/ details regarding certain type of transactions. I do hereby summon you to appear before me in person on 2024-10-16."
+ },
+ {
+  "id": "R-S39",
+  "label": 1,
+  "date": "2024-12-09",
+  "channel": "whatsapp",
+  "source": "News24 (PIB Fact Check), 9 Dec 2024",
+  "form": "excerpts",
+  "url": "https://news24online.com/trending/beware-of-digital-arrests-pib-uncovers-fake-cybercrime-letters-used-to-trap-victims/403478/amp",
+  "text": "A fake letter allegedly issued by the Indian Cyber Crime Coordination Centre (I4C) has been received by people with several allegations leveled against them, and a reply is sought to avoid arrest. Reports indicate that the gang contacts people via WhatsApp, posing as representatives of a courier company. They then transfer the call to someone pretending to be a police officer.",
+  "gold": {
+   "agencies": [
+    "police",
+    "courier"
+   ],
+   "instruments": [
+    "arrest"
+   ],
+   "demands": [],
+   "payee": "none"
+  },
+  "gold_raw": {
+   "agencies": [
+    "police",
+    "courier"
+   ],
+   "instruments": [
+    "legal_notice",
+    "arrest"
+   ],
+   "demands": [],
+   "payee": "none"
+  },
+  "family": "real_fraud",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "A fake letter allegedly issued by the Indian Cyber Crime Coordination Centre (I4C) has been received by people with several allegations leveled against them, and a reply is sought to avoid arrest. Reports indicate that the gang contacts people via WhatsApp, posing as representatives of a courier company. They then transfer the call to someone pretending to be a police officer."
+ },
+ {
+  "id": "R-S40",
+  "label": 1,
+  "date": "2026-03-28",
+  "channel": "whatsapp",
+  "source": "Free Press Journal, 28 Mar 2026",
+  "form": "excerpts",
+  "url": "https://www.freepressjournal.in/amp/mumbai/cbi-probes-2-crore-digital-arrest-scam-linked-to-mumbai-punjab-retiree-duped-by-fake-police",
+  "text": "The scammers approached the victim claiming to be police officials, stated that a SIM card issued in his name was being used for illegal activities in Mumbai, stating that the money would be verified by the RBI. sent a bogus RBI letter to the victim on WhatsApp. induced the victim to send money to different bank accounts.",
+  "gold": {
+   "agencies": [
+    "police",
+    "rbi"
+   ],
+   "instruments": [],
+   "demands": [
+    "transfer_funds",
+    "verification_deposit"
+   ],
+   "payee": "rbi"
+  },
+  "gold_raw": {
+   "agencies": [
+    "police",
+    "rbi"
+   ],
+   "instruments": [],
+   "demands": [
+    "transfer_funds",
+    "verification_deposit"
+   ],
+   "payee": "rbi"
+  },
+  "family": "real_fraud",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "The scammers approached the victim claiming to be police officials, stated that a SIM card issued in his name was being used for illegal activities in Mumbai, stating that the money would be verified by the RBI. sent a bogus RBI letter to the victim on WhatsApp. induced the victim to send money to different bank accounts."
+ },
+ {
+  "id": "R-L30",
+  "label": 0,
+  "date": "2023-04-14",
+  "channel": "physical",
+  "source": "Business Standard, 14 Apr 2023",
+  "form": "excerpts",
+  "url": "https://www.business-standard.com/india-news/cbi-summons-delhi-cm-kejriwal-in-excise-policy-scam-case-on-sunday-123041400717_1.html",
+  "text": "The CBI on Friday summoned Delhi Chief Minister Arvind Kejriwal on April 16. Kejriwal has been called to appear at the agency headquarters at 11 AM on Sunday to answer queries of the investigating team as a witness in the case.",
+  "gold": {
+   "agencies": [
+    "cbi"
+   ],
+   "instruments": [],
+   "demands": [
+    "appear_in_person"
+   ],
+   "payee": "none"
+  },
+  "gold_raw": {
+   "agencies": [
+    "cbi"
+   ],
+   "instruments": [
+    "notice_witness"
+   ],
+   "demands": [
+    "appear_in_person"
+   ],
+   "payee": "none"
+  },
+  "family": "real_lawful",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "The CBI on Friday summoned Delhi Chief Minister Arvind Kejriwal on April 16. Kejriwal has been called to appear at the agency headquarters at 11 AM on Sunday to answer queries of the investigating team as a witness in the case."
+ },
+ {
+  "id": "R-L31",
+  "label": 0,
+  "date": "2024-10-04",
+  "channel": "physical",
+  "source": "Kashmir Life, 5 Oct 2024",
+  "form": "excerpts",
+  "url": "https://kashmirlife.net/court-summons-rahul-gandhi-on-oct-23-in-defamation-case-368435/",
+  "text": "The court issued the summons to Gandhi on Friday, asking him to appear before it on October 23. he is required to appear in person before the court on October 23. his attendance is necessary to answer a charge punishable under section 500 (defamation).",
+  "gold": {
+   "agencies": [
+    "court"
+   ],
+   "instruments": [
+    "summons_court"
+   ],
+   "demands": [
+    "appear_in_person"
+   ],
+   "payee": "none"
+  },
+  "gold_raw": {
+   "agencies": [
+    "court"
+   ],
+   "instruments": [
+    "summons_court"
+   ],
+   "demands": [
+    "appear_in_person"
+   ],
+   "payee": "none"
+  },
+  "family": "real_lawful",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "The court issued the summons to Gandhi on Friday, asking him to appear before it on October 23. he is required to appear in person before the court on October 23. his attendance is necessary to answer a charge punishable under section 500 (defamation)."
+ },
+ {
+  "id": "R-L32",
+  "label": 0,
+  "date": "2024-12-03",
+  "channel": "physical",
+  "source": "Swarajya, 3 Dec 2024",
+  "form": "excerpts",
+  "url": "https://swarajyamag.com/amp/story/news-brief/savarkar-defamation-case-pune-court-summons-rahul-gandhi-in-january-after-congress-leader-seeks-exemption-for-parliament-session",
+  "text": "A special court in Pune has granted Congress President Rahul Gandhi an extension to appear in a defamation case. The court directed Gandhi to appear on 10 January 2025.",
+  "gold": {
+   "agencies": [
+    "court"
+   ],
+   "instruments": [
+    "summons_court"
+   ],
+   "demands": [
+    "appear_in_person"
+   ],
+   "payee": "none"
+  },
+  "gold_raw": {
+   "agencies": [
+    "court"
+   ],
+   "instruments": [
+    "summons_court"
+   ],
+   "demands": [
+    "appear_in_person"
+   ],
+   "payee": "none"
+  },
+  "family": "real_lawful",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "A special court in Pune has granted Congress President Rahul Gandhi an extension to appear in a defamation case. The court directed Gandhi to appear on 10 January 2025."
+ },
+ {
+  "id": "R-L33",
+  "label": 0,
+  "date": "2025-02-17",
+  "channel": "physical",
+  "source": "Deccan Herald, 17 Feb 2025",
+  "form": "excerpts",
+  "url": "https://www.deccanherald.com/amp/story/india%2Fmaharashtra%2Fyoutube-show-row-maharashtra-cyber-asks-comedian-samay-raina-to-appear-for-inquiry-on-february-18-3409186",
+  "text": "Maharashtra Cyber has summoned at least 50 persons to record their statements in connection with the case. He said the comedian has been asked to appear before the agency on February 18.",
+  "gold": {
+   "agencies": [
+    "police"
+   ],
+   "instruments": [],
+   "demands": [
+    "appear_in_person"
+   ],
+   "payee": "none"
+  },
+  "gold_raw": {
+   "agencies": [
+    "police"
+   ],
+   "instruments": [
+    "summons_agency"
+   ],
+   "demands": [
+    "appear_in_person"
+   ],
+   "payee": "none"
+  },
+  "family": "real_lawful",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "Maharashtra Cyber has summoned at least 50 persons to record their statements in connection with the case. He said the comedian has been asked to appear before the agency on February 18."
+ },
+ {
+  "id": "R-L34",
+  "label": 0,
+  "date": "2025-02-14",
+  "channel": "physical",
+  "source": "WION, 14 Feb 2025",
+  "form": "excerpts",
+  "url": "https://www.wionews.com/entertainment/indias-got-latent-row-assam-cops-in-pune-to-serve-summons-to-comedian-samay-raina-8719616/amp",
+  "text": "An Assam police team has arrived in Pune to issue summons to comedian Samay Raina. a team of their cyber police currently in Mumbai has served the summons to the duo, asking them to be present in person in connection with the controversial remarks.",
+  "gold": {
+   "agencies": [
+    "police"
+   ],
+   "instruments": [],
+   "demands": [
+    "appear_in_person"
+   ],
+   "payee": "none"
+  },
+  "gold_raw": {
+   "agencies": [
+    "police"
+   ],
+   "instruments": [
+    "summons_agency"
+   ],
+   "demands": [
+    "appear_in_person"
+   ],
+   "payee": "none"
+  },
+  "family": "real_lawful",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "An Assam police team has arrived in Pune to issue summons to comedian Samay Raina. a team of their cyber police currently in Mumbai has served the summons to the duo, asking them to be present in person in connection with the controversial remarks."
+ },
+ {
+  "id": "R-L35",
+  "label": 0,
+  "date": "2017-05-02",
+  "channel": "whatsapp",
+  "source": "The Better India, 2 May 2017",
+  "form": "excerpts",
+  "url": "https://www.thebetterindia.com/98374/first-judge-mumbai-uses-whatsapp-truecaller-issues-summons/amp/",
+  "text": "issued summons to the defendant via WhatsApp, after ascertaining using TrueCaller that the mobile number of the defendant was the right one. the WhatsApp message being delivered and read by the defendant could be taken as receipt of service.",
+  "gold": {
+   "agencies": [
+    "court"
+   ],
+   "instruments": [
+    "summons_court"
+   ],
+   "demands": [],
+   "payee": "none"
+  },
+  "gold_raw": {
+   "agencies": [
+    "court"
+   ],
+   "instruments": [
+    "summons_court"
+   ],
+   "demands": [],
+   "payee": "none"
+  },
+  "family": "real_lawful",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "issued summons to the defendant via WhatsApp, after ascertaining using TrueCaller that the mobile number of the defendant was the right one. the WhatsApp message being delivered and read by the defendant could be taken as receipt of service."
+ },
+ {
+  "id": "R-L36",
+  "label": 0,
+  "date": "2026-02-20",
+  "channel": "whatsapp",
+  "source": "LawWeb (Bombay High Court, Nagpur Bench), 20 Feb 2026",
+  "form": "excerpts",
+  "url": "https://www.lawweb.in/2026/02/summons-served-through-mobile-phone.html?m=1",
+  "text": "all summons served through electronic communication under sections 64 to 71 shall be considered as duly served. a copy of such electronic summons shall be attested and kept as a proof of service of summons.",
+  "gold": {
+   "agencies": [
+    "court"
+   ],
+   "instruments": [
+    "summons_court"
+   ],
+   "demands": [],
+   "payee": "none"
+  },
+  "gold_raw": {
+   "agencies": [
+    "court"
+   ],
+   "instruments": [
+    "summons_court"
+   ],
+   "demands": [],
+   "payee": "none"
+  },
+  "family": "real_lawful",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "all summons served through electronic communication under sections 64 to 71 shall be considered as duly served. a copy of such electronic summons shall be attested and kept as a proof of service of summons."
+ },
+ {
+  "id": "R-L37",
+  "label": 0,
+  "date": "2025-02-14",
+  "channel": "physical",
+  "source": "Deccan Herald, 14 Feb 2025",
+  "form": "excerpts",
+  "url": "https://www.deccanherald.com/amp/story/india%2Fmaharashtra%2Fcops-find-ranveer-allahbadias-mumbai-flat-locked-summon-him-again-3406942",
+  "text": "Mumbai Police have asked podcaster Ranveer Allahbadia to appear before them on Saturday, had been asked to remain present at the Khar police station. the police issued a second summons, asking him to appear on Friday.",
+  "gold": {
+   "agencies": [
+    "police"
+   ],
+   "instruments": [],
+   "demands": [
+    "appear_in_person"
+   ],
+   "payee": "none"
+  },
+  "gold_raw": {
+   "agencies": [
+    "police"
+   ],
+   "instruments": [
+    "summons_agency"
+   ],
+   "demands": [
+    "appear_in_person"
+   ],
+   "payee": "none"
+  },
+  "family": "real_lawful",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "Mumbai Police have asked podcaster Ranveer Allahbadia to appear before them on Saturday, had been asked to remain present at the Khar police station. the police issued a second summons, asking him to appear on Friday."
+ },
+ {
+  "id": "R-L38",
+  "label": 0,
+  "date": "2025-10-08",
+  "channel": "email",
+  "source": "Enforcement Directorate press release, 8 Oct 2025",
+  "form": "paraphrase",
+  "url": "https://enforcementdirectorate.gov.in/sites/default/files/latestnews/Press_release_fake%20summons-08.10.2025%201.pdf",
+  "text": "Summons are generated through an ED system that places a QR code and a unique passcode at the bottom. The issuing official signs and stamps the summons, which also lists an official email ID and phone number. Scan the code, which opens an ED webpage, then enter the passcode to verify the summons.",
+  "gold": {
+   "agencies": [
+    "ed"
+   ],
+   "instruments": [
+    "summons_ed"
+   ],
+   "demands": [],
+   "payee": "none",
+   "has_qr": true,
+   "qr_official": true,
+   "has_seal": true
+  },
+  "gold_raw": {
+   "agencies": [
+    "ed"
+   ],
+   "instruments": [
+    "summons_ed"
+   ],
+   "demands": [],
+   "payee": "none",
+   "has_qr": true,
+   "qr_official": true,
+   "has_seal": true
+  },
+  "family": "real_lawful",
+  "split": "real",
+  "doc": null,
+  "audio": null,
+  "video": null,
+  "transcript": "Summons are generated through an ED system that places a QR code and a unique passcode at the bottom. The issuing official signs and stamps the summons, which also lists an official email ID and phone number. Scan the code, which opens an ED webpage, then enter the passcode to verify the summons."
+ }
+]

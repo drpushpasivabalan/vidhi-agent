@@ -1,0 +1,47 @@
+{
+ "retrieval_recall_of_gold_rules": 0.9872611464968153,
+ "n_with_gold_rules": 628,
+ "grounding_precision_of_findings": 0.9803719008264463,
+ "n_with_findings": 484,
+ "extraction_test": {
+  "agencies": {
+   "precision": 0.9714532871972318,
+   "recall": 0.9859525899912204,
+   "f1": 0.9786492374727669
+  },
+  "instruments": {
+   "precision": 1.0,
+   "recall": 0.8101694915254237,
+   "f1": 0.8951310861423222
+  },
+  "demands": {
+   "precision": 0.8777292576419214,
+   "recall": 0.21003134796238246,
+   "f1": 0.3389544688026982
+  }
+ },
+ "extraction_dev": {
+  "agencies": {
+   "precision": 0.9612277867528272,
+   "recall": 1.0,
+   "f1": 0.9802306425041186
+  },
+  "instruments": {
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0
+  },
+  "demands": {
+   "precision": 0.9666666666666667,
+   "recall": 1.0,
+   "f1": 0.983050847457627
+  }
+ },
+ "doc_perception_acc": {
+  "seal": 1.0,
+  "digital_signature": 1.0,
+  "qr": 1.0,
+  "din": 1.0
+ },
+ "n_docs": 611
+}
